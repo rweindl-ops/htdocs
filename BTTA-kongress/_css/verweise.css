@@ -1,0 +1,77 @@
+/* Verweise
+----------------------------------------------------- */
+
+a:link
+{
+  background-color: ;
+  background-image: ;
+
+  margin: 0px 0px 0px 0px;
+
+  font: ;
+  font-size: 14px;
+  font-weight:bold;
+  color: #000000;
+  text-decoration:none;
+  line-height: 100%; 
+
+  width: ;
+  height: 24px;
+
+  padding: 0px 5px 0px 5px;
+
+  cursor: pointer;
+}
+
+a:visited
+{
+  background-color: ;
+  background-image: ;
+
+  margin: 0px 0px 0px 0px;
+
+  font: ;
+  font-size: 14px;
+  font-weight:bold;
+  color: #000000;
+  text-decoration:none;
+  line-height: 100%; 
+
+  width: ;
+  height: 24px;
+
+  padding: 0px 5px 0px 5px;
+
+  cursor: pointer;
+}
+
+a:hover
+{
+  background-color: #;
+  background-image: ;
+
+  margin: 0px 0px 0px 0px;
+
+  font: ;
+  font-size: 14px;
+  font-weight:bold;
+  color: red;
+  text-decoration:none;
+  line-height: 100%; 
+
+  width: ;
+  height: 24px;
+
+  padding: 0px 5px 0px 5px;
+
+
+  cursor: pointer;
+}
+
+a:active
+{
+}
+
+a:focus
+{
+}

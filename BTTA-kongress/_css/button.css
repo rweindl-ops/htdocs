@@ -1,0 +1,89 @@
+/* Button
+----------------------------------------------------- */
+
+.button{
+  background-color: #CCCCCC;
+  background-image: ;
+  border-style: outset;
+
+  margin: 0px 0px 0px 0px;
+
+  font: ;
+  font-size: ;
+  color: #000000;
+  line-height: 100%; 
+
+  width: 110px;
+  height: ;
+
+  padding: 5px 5px 5px 5px;
+
+  cursor: auto;
+}
+
+
+.button:hover{
+  background-color: #AAAAAA;
+  background-image: ;
+  border-style: outset;
+
+  margin: 0px 0px 0px 0px;
+
+  font: ;
+  font-size: ;
+  color: #000000;
+  line-height: 100%; 
+
+  width: 110px;
+  height: ;
+
+  padding: 5px 5px 5px 5px;
+
+  cursor: auto;
+}
+
+
+/* Button - AKTIV
+----------------------------------------------------- */
+
+.button_A{
+  background-color: #80FF80;
+  background-image: ;
+  border-style: inset;
+
+  margin: 0px 0px 0px 0px;
+
+  font: ;
+  font-size: ;
+  color: #000000;
+  line-height: 100%; 
+
+  width: 110px;
+  height: ;
+
+  padding: 5px 5px 5px 5px;
+
+  cursor: auto;
+}
+
+
+.button_A:hover{
+  background-color: #AAAAAA;
+  background-image: ;
+  border-style: outset;
+
+  margin: 0px 0px 0px 0px;
+
+  font: ;
+  font-size: ;
+  color: #000000;
+  line-height: 100%; 
+
+  width: 110px;
+  height: ;
+
+  padding: 5px 5px 5px 5px;
+
+  cursor: auto;
+}
+

@@ -1,0 +1,16 @@
+/* Tabelle
+----------------------------------------------------- */
+
+.table_format {
+  font-family: Verdana, Arial, sans-serif;
+  font-style: normal;
+  font-size: 10px;
+}
+
+.row_0 {
+  background-color: #FFFFFF;
+}
+
+.row_1 {
+  background-color: #DDDDDD;
+}

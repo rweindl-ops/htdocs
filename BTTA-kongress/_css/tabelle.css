@@ -1,0 +1,43 @@
+/* Tabellenformatierung
+----------------------------------------------------- */
+
+
+/* ---> Tabelle */
+table {}
+col {}
+colgroup {}
+thead {}
+tbody {}
+tfoot {}
+tr {}
+th {}
+td {}
+
+
+/* ---> Rahmen */
+.TABrahmen {
+  border-width: 6px;
+  border-color: gray;
+  border-style: solid;
+  border-radius: 0em 0em 0em 0em;
+  border-collapse: collapse;
+}
+
+
+/* ---> Text */
+.TABtext {
+  font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+  font-size: 150%;
+  font-weight: bold;
+  color: #808080;
+  text-align: center;
+}
+
+
+/* ---> Hintergrund */
+
+
+
+/* ---> Rahmen */
+
+

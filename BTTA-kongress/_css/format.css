@@ -1,0 +1,57 @@
+/* Format
+----------------------------------------------------- */
+
+.clear {
+  clear: both;
+}
+
+a img {
+  border: 0;
+}
+
+.title_praxis {
+  font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+  font-size: 150%;
+  font-weight: bold;
+  color: #EEEEEE;
+}
+
+.title_keywords {
+  font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+  font-size: 120%;
+  letter-spacing: 2px;
+  color: #000000;
+}
+
+.links {
+  float: left;
+}
+
+.rechts {
+  float: right;
+}
+
+.ta_l {
+  text-align: left;
+  color: #EEEEEE;
+}
+
+.ta_m {
+  text-align: center;
+  color: #EEEEEE;
+}
+
+.ta_r {
+  text-align: right;
+  color: #EEEEEE;
+}
+
+
+p.or {
+  padding: 0;
+  margin: 0;
+}
+
+.fett {
+  font-weight: bold;
+}
