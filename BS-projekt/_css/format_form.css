@@ -1,0 +1,20 @@
+/* Formular
+----------------------------------------------------- */
+
+.tableLine {
+  font-family: Verdana,Arial,sans-serif;
+  font-style: normal;
+  font-size: 9px;
+  BORDER-TOP: blue 2px solid; 
+  BORDER-LEFT: blue 2px solid; 
+  BORDER-BOTTOM: blue 2px solid;
+  BORDER-RIGHT: blue 2px solid;
+}
+
+.row_0 {
+  background-color: #FFFFFF;
+}
+
+.row_1 {
+  background-color: #CCCCCC;
+}

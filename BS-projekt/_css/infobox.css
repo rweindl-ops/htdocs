@@ -1,0 +1,29 @@
+/* Infobox
+----------------------------------------------------- */
+
+#InfoBox
+{
+  visibility:hidden;
+  position:absolute;
+  top:10px;
+  left:10px;
+  z-index:1;
+  width:300px;
+  background-color:#EEEEEE;
+  border:4px solid #AAAAAA;
+}
+
+
+#BoxInnen
+{
+  padding:15px;
+}
+
+
+#BoxInhalt
+{
+  font-family:Verdana,Arial,Helvetica,sans-serif;
+  font-size:11px;
+  color:#000000;
+  line-height:130%;
+}

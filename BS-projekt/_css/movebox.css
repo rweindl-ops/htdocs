@@ -1,0 +1,34 @@
+/* CSS Document */
+
+div#dragBox {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+
+  width: 200px;
+  background-color: #AAAAAA;
+
+  cursor: move;
+}
+
+div#dragBox h3 {
+  margin: 0;
+  height: 25px;
+  padding: 0;
+
+  color: #000000;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 25px;
+}
+
+div#dragContBox {
+  margin: 2px;
+  background-color: #DDDDDD;
+  padding: 5px;
+
+  font-size: 12px;
+
+  cursor: default;
+}

@@ -1,0 +1,3 @@
+BBS-TEST-123
+Zugriffskette funktioniert.
+Beweis: 42

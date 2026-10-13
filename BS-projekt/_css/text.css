@@ -1,0 +1,59 @@
+/* Text
+----------------------------------------------------- */
+
+h1 {
+  margin: 0 0 15px 0;
+  font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+  font-size: 150%;
+  font-weight: bold;
+  color: #808080;
+}
+
+h2 {
+  margin: 0 0 15px 0;
+  font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+  font-size: 140%;
+  font-weight: bold;
+  color: #808080;
+}
+
+h3 {
+  margin: 0 0 15px 0;
+  font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+  font-size: 130%;
+  font-weight: bold;
+  color: #808080;
+}
+
+h4 {
+  margin: 0 0 15px 0;
+  font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+  font-size: 120%;
+  font-weight: bold;
+  color: #808080;
+}
+
+h5 {
+  margin: 0 0 15px 0;
+  font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+  font-size: 110%;
+  font-weight: bold;
+  color: #808080;
+}
+
+h6 {
+  margin: 0 0 15px 0;
+  font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+  font-size: 100%;
+  font-weight: bold;
+  color: #808080;
+}
+
+p {
+  margin: 0 0 15px 0;
+  font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+  font-size: 100%;
+  font-weight: normal;
+  color: #808080;
+}
+

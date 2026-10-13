@@ -1,0 +1,43 @@
+/* Navigation
+----------------------------------------------------- */
+
+ul.navi {
+  font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+  font-size: 90%;
+  line-height: 180%;
+  list-style-type: none;
+  margin: 0 25px 0 0;
+  padding: 0;
+  text-align: right;
+}
+
+a.navi {
+  color: #000000;
+  text-decoration: underline;
+  padding: 0 25px 0 0;
+}
+
+a.navi:hover {
+  text-decoration: underline;
+  background: url(../img/navi_dot_hover.gif) no-repeat right;
+}
+
+a.navi_aktiv {
+  color: #1E692F;
+  text-decoration: none;
+  padding: 0 25px 0 0;
+  background: url(../img/navi_dot_aktiv.gif) no-repeat right;
+}
+
+a.navi_aktiv:hover {
+  text-decoration: underline;
+}
+
+a {
+  color: #800000;
+}
+
+a:hover {
+  text-decoration: none;
+}
+

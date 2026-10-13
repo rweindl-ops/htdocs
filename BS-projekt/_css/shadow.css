@@ -1,0 +1,17 @@
+/* Schatten
+----------------------------------------------------- */
+
+.shadow {
+zoom: 1;
+filter: progid:DXImageTransform.Microsoft.Shadow(color='#000000', Direction=0, Strength=0)
+progid:DXImageTransform.Microsoft.Shadow(color='#000000', Direction=45, Strength=0)
+progid:DXImageTransform.Microsoft.Shadow(color='#000000', Direction=90, Strength=0)
+progid:DXImageTransform.Microsoft.Shadow(color='#000000', Direction=135, Strength=0)
+progid:DXImageTransform.Microsoft.Shadow(color='#000000', Direction=180, Strength=0)
+progid:DXImageTransform.Microsoft.Shadow(color='#000000', Direction=225, Strength=0)
+progid:DXImageTransform.Microsoft.Shadow(color='#000000', Direction=260, Strength=0)
+progid:DXImageTransform.Microsoft.Shadow(color='#000000', Direction=305, Strength=0);
+-moz-box-shadow: 0 0 5px #222; /*Mozilla-basierte Browser (z.B. Firefox)*/
+-webkit-box-shadow: 0 0 5px #222; /*WebKit-basierte Browser (z.B. Safari/Chrome)*/
+box-shadow: 0 0 5px #000; /*CSS3 Standard*/
+}
