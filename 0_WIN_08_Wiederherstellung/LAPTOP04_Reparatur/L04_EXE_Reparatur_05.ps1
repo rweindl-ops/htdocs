@@ -28,7 +28,7 @@ function Write-RunLine {
 }
 
 function Get-UsersAclState {
-    param([System.Security.AccessControl.DirectorySecurity]$Acl)
+    param([System.Security.AccessControl.FileSystemSecurity]$Acl)
 
     $Allow = $false
     $Deny = $false
