@@ -1,3 +1,0 @@
-Bearbeitete Datei: C:\Programme
-C:\Programme\*: Zugriff verweigert
-1 Dateien erfolgreich verarbeitet, bei 1 Dateien ist ein Verarbeitungsfehler aufgetreten.
