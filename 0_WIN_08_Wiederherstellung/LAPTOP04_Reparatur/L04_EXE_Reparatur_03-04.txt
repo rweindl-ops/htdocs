@@ -1,0 +1,190 @@
+==========================================
+L04 - EXE-REPARATUR 03
+Datum: 20.11.2026 19:38:51,16
+==========================================
+
+ZIEL: Ausschliesslich 20 EXE-Dateien
+Keine Ordner und keine anderen Dateien
+
+==========================================
+SCHRITT 1 - ACL-SICHERUNG
+==========================================
+Sicherung: "C:\Program Files\PSPad editor\PSPad.exe"
+Zieldatei: "D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP04_Reparatur\ACL_Sicherungen\ACL\L04_EXE_03_01_PSPad_20261120_193850.acl"
+Bearbeitete Datei: C:\Program Files\PSPad editor\PSPad.exe
+1 Dateien erfolgreich verarbeitet, bei 0 Dateien ist ein Verarbeitungsfehler aufgetreten.
+Sicherung: "C:\Corel\Draw70\programs\photopnt.exe"
+Zieldatei: "D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP04_Reparatur\ACL_Sicherungen\ACL\L04_EXE_03_02_photopnt_20261120_193850.acl"
+Bearbeitete Datei: C:\Corel\Draw70\programs\photopnt.exe
+1 Dateien erfolgreich verarbeitet, bei 0 Dateien ist ein Verarbeitungsfehler aufgetreten.
+Sicherung: "C:\Program Files\PDFCreator\PDFCreator.exe"
+Zieldatei: "D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP04_Reparatur\ACL_Sicherungen\ACL\L04_EXE_03_03_PDFCreator_20261120_193850.acl"
+Bearbeitete Datei: C:\Program Files\PDFCreator\PDFCreator.exe
+1 Dateien erfolgreich verarbeitet, bei 0 Dateien ist ein Verarbeitungsfehler aufgetreten.
+Sicherung: "C:\Program Files\Mozilla Firefox\firefox.exe"
+Zieldatei: "D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP04_Reparatur\ACL_Sicherungen\ACL\L04_EXE_03_04_firefox_20261120_193850.acl"
+Bearbeitete Datei: C:\Program Files\Mozilla Firefox\firefox.exe
+1 Dateien erfolgreich verarbeitet, bei 0 Dateien ist ein Verarbeitungsfehler aufgetreten.
+Sicherung: "C:\Program Files\WinZip\WINZIP32.EXE"
+Zieldatei: "D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP04_Reparatur\ACL_Sicherungen\ACL\L04_EXE_03_05_WINZIP32_20261120_193850.acl"
+Bearbeitete Datei: C:\Program Files\WinZip\WINZIP32.EXE
+1 Dateien erfolgreich verarbeitet, bei 0 Dateien ist ein Verarbeitungsfehler aufgetreten.
+Sicherung: "C:\Program Files\WinRAR\WinRAR.exe"
+Zieldatei: "D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP04_Reparatur\ACL_Sicherungen\ACL\L04_EXE_03_06_WinRAR_20261120_193850.acl"
+Bearbeitete Datei: C:\Program Files\WinRAR\WinRAR.exe
+1 Dateien erfolgreich verarbeitet, bei 0 Dateien ist ein Verarbeitungsfehler aufgetreten.
+Sicherung: "C:\Program Files\Tools&More\Joe\Joe.exe"
+Zieldatei: "D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP04_Reparatur\ACL_Sicherungen\ACL\L04_EXE_03_07_Joe_20261120_193850.acl"
+Bearbeitete Datei: C:\Program Files\Tools&More\Joe\Joe.exe
+1 Dateien erfolgreich verarbeitet, bei 0 Dateien ist ein Verarbeitungsfehler aufgetreten.
+Sicherung: "C:\Program Files\PDF24\pdf24-Editor.exe"
+Zieldatei: "D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP04_Reparatur\ACL_Sicherungen\ACL\L04_EXE_03_08_pdf24-Editor_20261120_193850.acl"
+Bearbeitete Datei: C:\Program Files\PDF24\pdf24-Editor.exe
+1 Dateien erfolgreich verarbeitet, bei 0 Dateien ist ein Verarbeitungsfehler aufgetreten.
+Sicherung: "C:\Program Files\Mixxx\mixxx.exe"
+Zieldatei: "D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP04_Reparatur\ACL_Sicherungen\ACL\L04_EXE_03_09_mixxx_20261120_193850.acl"
+Bearbeitete Datei: C:\Program Files\Mixxx\mixxx.exe
+1 Dateien erfolgreich verarbeitet, bei 0 Dateien ist ein Verarbeitungsfehler aufgetreten.
+Sicherung: "C:\MAGIX\FSC_Media_Suite_2005\MediaSuite.exe"
+Zieldatei: "D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP04_Reparatur\ACL_Sicherungen\ACL\L04_EXE_03_10_MediaSuite_20261120_193850.acl"
+Bearbeitete Datei: C:\MAGIX\FSC_Media_Suite_2005\MediaSuite.exe
+1 Dateien erfolgreich verarbeitet, bei 0 Dateien ist ein Verarbeitungsfehler aufgetreten.
+Sicherung: "C:\Program Files\Windows Live\Photo Gallery\MovieMaker.exe"
+Zieldatei: "D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP04_Reparatur\ACL_Sicherungen\ACL\L04_EXE_03_11_MovieMaker_20261120_193850.acl"
+Bearbeitete Datei: C:\Program Files\Windows Live\Photo Gallery\MovieMaker.exe
+1 Dateien erfolgreich verarbeitet, bei 0 Dateien ist ein Verarbeitungsfehler aufgetreten.
+Sicherung: "C:\Program Files\Vertexshare\Webp Converter\WebpConverter.exe"
+Zieldatei: "D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP04_Reparatur\ACL_Sicherungen\ACL\L04_EXE_03_12_WebpConverter_20261120_193850.acl"
+Bearbeitete Datei: C:\Program Files\Vertexshare\Webp Converter\WebpConverter.exe
+1 Dateien erfolgreich verarbeitet, bei 0 Dateien ist ein Verarbeitungsfehler aufgetreten.
+Sicherung: "C:\Program Files\Microsoft Office\Office\MSACCESS.EXE"
+Zieldatei: "D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP04_Reparatur\ACL_Sicherungen\ACL\L04_EXE_03_13_MSACCESS_20261120_193850.acl"
+Bearbeitete Datei: C:\Program Files\Microsoft Office\Office\MSACCESS.EXE
+1 Dateien erfolgreich verarbeitet, bei 0 Dateien ist ein Verarbeitungsfehler aufgetreten.
+Sicherung: "C:\Program Files\Microsoft Office\Office\WINWORD.EXE"
+Zieldatei: "D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP04_Reparatur\ACL_Sicherungen\ACL\L04_EXE_03_14_WINWORD_20261120_193850.acl"
+Bearbeitete Datei: C:\Program Files\Microsoft Office\Office\WINWORD.EXE
+1 Dateien erfolgreich verarbeitet, bei 0 Dateien ist ein Verarbeitungsfehler aufgetreten.
+Sicherung: "C:\Program Files\Microsoft Office\Office\EXCEL.EXE"
+Zieldatei: "D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP04_Reparatur\ACL_Sicherungen\ACL\L04_EXE_03_15_EXCEL_20261120_193850.acl"
+Bearbeitete Datei: C:\Program Files\Microsoft Office\Office\EXCEL.EXE
+1 Dateien erfolgreich verarbeitet, bei 0 Dateien ist ein Verarbeitungsfehler aufgetreten.
+Sicherung: "C:\Program Files\Microsoft Office\Office\WINPROJ.EXE"
+Zieldatei: "D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP04_Reparatur\ACL_Sicherungen\ACL\L04_EXE_03_16_WINPROJ_20261120_193850.acl"
+Bearbeitete Datei: C:\Program Files\Microsoft Office\Office\WINPROJ.EXE
+1 Dateien erfolgreich verarbeitet, bei 0 Dateien ist ein Verarbeitungsfehler aufgetreten.
+Sicherung: "C:\Program Files\Microsoft Office\Office\OUTLOOK.EXE"
+Zieldatei: "D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP04_Reparatur\ACL_Sicherungen\ACL\L04_EXE_03_17_OUTLOOK_20261120_193850.acl"
+Bearbeitete Datei: C:\Program Files\Microsoft Office\Office\OUTLOOK.EXE
+1 Dateien erfolgreich verarbeitet, bei 0 Dateien ist ein Verarbeitungsfehler aufgetreten.
+Sicherung: "C:\Program Files\Microsoft Office\Office14\MSACCESS.EXE"
+Zieldatei: "D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP04_Reparatur\ACL_Sicherungen\ACL\L04_EXE_03_18_MSACCESS_20261120_193850.acl"
+Bearbeitete Datei: C:\Program Files\Microsoft Office\Office14\MSACCESS.EXE
+1 Dateien erfolgreich verarbeitet, bei 0 Dateien ist ein Verarbeitungsfehler aufgetreten.
+Sicherung: "C:\Program Files\Microsoft Office\Office14\EXCEL.EXE"
+Zieldatei: "D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP04_Reparatur\ACL_Sicherungen\ACL\L04_EXE_03_19_EXCEL_20261120_193850.acl"
+Bearbeitete Datei: C:\Program Files\Microsoft Office\Office14\EXCEL.EXE
+1 Dateien erfolgreich verarbeitet, bei 0 Dateien ist ein Verarbeitungsfehler aufgetreten.
+Sicherung: "C:\Program Files\Microsoft Office\Office14\POWERPNT.EXE"
+Zieldatei: "D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP04_Reparatur\ACL_Sicherungen\ACL\L04_EXE_03_20_POWERPNT_20261120_193850.acl"
+Bearbeitete Datei: C:\Program Files\Microsoft Office\Office14\POWERPNT.EXE
+1 Dateien erfolgreich verarbeitet, bei 0 Dateien ist ein Verarbeitungsfehler aufgetreten.
+
+Alle vorhandenen EXE-Dateien wurden gesichert.
+
+==========================================
+SCHRITT 2 - RECHTEPRUEFUNG
+==========================================
+
+------------------------------------------
+Pruefe: "C:\Program Files\PSPad editor\PSPad.exe"
+Leserecht bereits vorhanden
+
+------------------------------------------
+Pruefe: "C:\Corel\Draw70\programs\photopnt.exe"
+Leserecht bereits vorhanden
+
+------------------------------------------
+Pruefe: "C:\Program Files\PDFCreator\PDFCreator.exe"
+Leserecht bereits vorhanden
+
+------------------------------------------
+Pruefe: "C:\Program Files\Mozilla Firefox\firefox.exe"
+Leserecht bereits vorhanden
+
+------------------------------------------
+Pruefe: "C:\Program Files\WinZip\WINZIP32.EXE"
+Leserecht bereits vorhanden
+
+------------------------------------------
+Pruefe: "C:\Program Files\WinRAR\WinRAR.exe"
+Leserecht bereits vorhanden
+
+------------------------------------------
+Pruefe: "C:\Program Files\Tools&More\Joe\Joe.exe"
+Leserecht bereits vorhanden
+
+------------------------------------------
+Pruefe: "C:\Program Files\PDF24\pdf24-Editor.exe"
+Leserecht bereits vorhanden
+
+------------------------------------------
+Pruefe: "C:\Program Files\Mixxx\mixxx.exe"
+Leserecht bereits vorhanden
+
+------------------------------------------
+Pruefe: "C:\MAGIX\FSC_Media_Suite_2005\MediaSuite.exe"
+Leserecht bereits vorhanden
+
+------------------------------------------
+Pruefe: "C:\Program Files\Windows Live\Photo Gallery\MovieMaker.exe"
+Leserecht bereits vorhanden
+
+------------------------------------------
+Pruefe: "C:\Program Files\Vertexshare\Webp Converter\WebpConverter.exe"
+Leserecht bereits vorhanden
+
+------------------------------------------
+Pruefe: "C:\Program Files\Microsoft Office\Office\MSACCESS.EXE"
+Leserecht bereits vorhanden
+
+------------------------------------------
+Pruefe: "C:\Program Files\Microsoft Office\Office\WINWORD.EXE"
+Leserecht bereits vorhanden
+
+------------------------------------------
+Pruefe: "C:\Program Files\Microsoft Office\Office\EXCEL.EXE"
+Leserecht bereits vorhanden
+
+------------------------------------------
+Pruefe: "C:\Program Files\Microsoft Office\Office\WINPROJ.EXE"
+Leserecht bereits vorhanden
+
+------------------------------------------
+Pruefe: "C:\Program Files\Microsoft Office\Office\OUTLOOK.EXE"
+Leserecht bereits vorhanden
+
+------------------------------------------
+Pruefe: "C:\Program Files\Microsoft Office\Office14\MSACCESS.EXE"
+Leserecht bereits vorhanden
+
+------------------------------------------
+Pruefe: "C:\Program Files\Microsoft Office\Office14\EXCEL.EXE"
+Leserecht bereits vorhanden
+
+------------------------------------------
+Pruefe: "C:\Program Files\Microsoft Office\Office14\POWERPNT.EXE"
+Leserecht bereits vorhanden
+
+==========================================
+AUSWERTUNG
+==========================================
+Vorgesehene EXE-Dateien: 20
+Gepruefte Dateien:       20
+Rechte ergaenzt:         0
+Bereits ausreichend:     20
+DENY - uebersprungen:    0
+Nicht vorhanden:         0
+Fehler:                  0
+==========================================
+

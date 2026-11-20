@@ -1,0 +1,37 @@
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 L04 \u8211- EXE-Berechtigungspr\u252 ?fung und Reparatur\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Zweck\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Die Batchdatei {\f1 L04_EXE_Reparatur.bat} durchsucht rekursiv den Ordner {\f1 C:\\Programme} einschlie\u223 ?lich seiner Unterordner nach EXE-Dateien.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Bei jeder EXE-Datei pr\u252 ?ft sie die in der ACL-Ausgabe aufgef\u252 ?hrten Rechte der lokalen Gruppe {\b Benutzer} (SID {\f1 S-1-5-32-545}).\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Wenn {\b Lesen und Ausf\u252 ?hren (RX)} bereits vorhanden sind \u8211- oder \u196 ?nderungsrechte (M) bzw. Vollzugriff (F) \u8211- bleibt die Datei unver\u228 ?ndert.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Wenn diese Rechte fehlen, erg\u228 ?nzt das Skript {\b RX}.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Wenn ein ausdr\u252 ?cklicher {\b DENY}-Eintrag f\u252 ?r \u8222 ?Benutzer\u8220" erkannt wird, wird die Datei \u252 ?bersprungen und im Protokoll vermerkt. Ein DENY-Eintrag wird nicht automatisch ver\u228 ?ndert.\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Ablage\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Die Batchdatei und diese Dokumentation geh\u246 ?ren in das Hauptverzeichnis:\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 {\f1 D:\\000_Festplatte Reparatur\\0_WIN_08_Wiederherstellung\\LAPTOP04_Reparatur\\}\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Sicherungen und Protokolle werden automatisch im Unterordner {\f1 ACL_Sicherungen} abgelegt.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Ausf\u252 ?hrung\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 1.\tx360\tab Auf L04 anmelden.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 2.\tx360\tab {\f1 L04_EXE_Reparatur.bat} mit {\b Als Administrator ausf\u252 ?hren} starten.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 3.\tx360\tab Warten, bis die Pr\u252 ?fung abgeschlossen ist.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 4.\tx360\tab Die Abschlusszahlen und das Protokoll kontrollieren.\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Sicherung und Protokoll\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Vor der ersten Rechte\u228 ?nderung sichert {\f1 icacls} die ACLs des gesamten Suchbaums {\f1 C:\\Programme}.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Die Dateien werden mit Zeitstempel im Ordner {\f1 ACL_Sicherungen} abgelegt:\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\f1 ACL_vorher_JJJJMMTT_SSMMSS.txt} \u8211- ACL-Sicherung vor dem Reparaturlauf\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\f1 Reparatur_JJJJMMTT_SSMMSS.log} \u8211- Ergebnisprotokoll\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\f1 Backup_Status_JJJJMMTT_SSMMSS.txt} \u8211- Meldungen des Sicherungsvorgangs\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Die ACL-Sicherung enth\u228 ?lt Berechtigungsinformationen, keine Dateiinhalte.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Wichtige Hinweise\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Das Skript ver\u228 ?ndert ausschlie\u223 ?lich die Berechtigungen einzelner EXE-Dateien, bei denen die gepr\u252 ?ften Benutzerrechte fehlen.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Es vergibt {\b keinen Vollzugriff} und keine \u196 ?nderungsrechte, sondern nur {\b Lesen und Ausf\u252 ?hren (RX)}.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Es ver\u228 ?ndert keine Registry-Eintr\u228 ?ge und deinstalliert keine Programme.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Ein erkannter DENY-Eintrag f\u252 ?hrt zum \u220 ?berspringen der betreffenden Datei. Solche F\u228 ?lle m\u252 ?ssen separat gepr\u252 ?ft werden.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Die Routine pr\u252 ?ft die ACL-Eintr\u228 ?ge der Gruppe \u8222 ?Benutzer\u8220". Sie ist keine vollst\u228 ?ndige Berechnung aller effektiven Zugriffsrechte aus s\u228 ?mtlichen Gruppenmitgliedschaften.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Die Ursache daf\u252 ?r, dass die Rechte fehlen, wird durch diese Reparatur nicht ermittelt. Die Routine behebt nur den festgestellten Berechtigungszustand.\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Wiederherstellung\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Die Sicherung ist f\u252 ?r eine m\u246 ?gliche manuelle Wiederherstellung vorgesehen. Eine R\u252 ?cksicherung darf nicht blind \u252 ?ber den gesamten Ordner erfolgen, weil dadurch auch zwischenzeitlich gew\u252 ?nschte Berechtigungs\u228 ?nderungen zur\u252 ?ckgesetzt werden k\u246 ?nnten. Vor einer Wiederherstellung m\u252 ?ssen Sicherungsdatei und Zielumfang gepr\u252 ?ft werden.\par}
+}

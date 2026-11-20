@@ -1,0 +1,661 @@
+============================================================
+L04 - EDGE-DIENSTE / GEPLANTE AUFGABEN / REGISTRY-DIAGNOSE
+Datum: 20.11.2026   Uhrzeit: 18:40:35,41
+Rechner: LAPTOP04
+============================================================
+
+HINWEIS: Diese BAT liest nur Informationen aus.
+Es werden KEINE Einstellungen oder Dateien geaendert.
+
+------------------------------------------------------------
+1. EDGE-PROGRAMMPFAD
+------------------------------------------------------------
+
+Erwarteter Edge-Pfad:
+"C:\Program Files\Microsoft\Edge\Application\msedge.exe"
+STATUS: Edge-Datei wurde gefunden.
+
+------------------------------------------------------------
+2. EDGE-BEZOGENE DIENSTE
+------------------------------------------------------------
+
+[Dienst: edgeupdate]
+
+SERVICE_NAME: edgeupdate 
+        TYPE               : 10  WIN32_OWN_PROCESS  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+[Dienst: edgeupdatem]
+
+SERVICE_NAME: edgeupdatem 
+        TYPE               : 10  WIN32_OWN_PROCESS  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 1077  (0x435)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+[Dienst: MicrosoftEdgeElevationService]
+
+SERVICE_NAME: MicrosoftEdgeElevationService 
+        TYPE               : 10  WIN32_OWN_PROCESS  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 1077  (0x435)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+[Alle Dienste mit Edge im Namen]
+SERVICE_NAME: AeLookupSvc
+DISPLAY_NAME: Anwendungserfahrung
+SERVICE_NAME: ALG
+DISPLAY_NAME: Gatewaydienst auf Anwendungsebene
+SERVICE_NAME: AppIDSvc
+DISPLAY_NAME: AnwendungsidentitÑt
+SERVICE_NAME: Appinfo
+DISPLAY_NAME: Anwendungsinformationen
+SERVICE_NAME: AppMgmt
+DISPLAY_NAME: Anwendungsverwaltung
+SERVICE_NAME: AppReadiness
+DISPLAY_NAME: App-Vorbereitung
+SERVICE_NAME: AppXSvc
+DISPLAY_NAME: AppX-Bereitstellungsdienst (AppXSVC)
+SERVICE_NAME: AudioEndpointBuilder
+DISPLAY_NAME: Windows-Audio-Endpunkterstellung
+SERVICE_NAME: Audiosrv
+DISPLAY_NAME: Windows-Audio
+SERVICE_NAME: AviraFallbackUpdater
+DISPLAY_NAME: Avira Fallback Updater
+SERVICE_NAME: AviraOptimizerHost
+DISPLAY_NAME: Avira Optimizer Host
+SERVICE_NAME: AviraPhantomVPN
+DISPLAY_NAME: Avira Phantom VPN
+SERVICE_NAME: AviraSecurity
+DISPLAY_NAME: Avira Security
+SERVICE_NAME: AviraSecurityUpdater
+DISPLAY_NAME: Avira Security Updater
+SERVICE_NAME: AxInstSV
+DISPLAY_NAME: ActiveX-Installer (AxInstSV)
+SERVICE_NAME: BDESVC
+DISPLAY_NAME: BitLocker-LaufwerkverschlÅsselungsdienst
+SERVICE_NAME: BFE
+DISPLAY_NAME: Basisfiltermodul
+SERVICE_NAME: BITS
+DISPLAY_NAME: Intelligenter HintergrundÅbertragungsdienst
+SERVICE_NAME: BrokerInfrastructure
+DISPLAY_NAME: Infrastrukturdienst fÅr Hintergrundaufgaben
+SERVICE_NAME: Browser
+DISPLAY_NAME: Computerbrowser
+SERVICE_NAME: BthHFSrv
+DISPLAY_NAME: Bluetooth-Freisprechdienst
+SERVICE_NAME: bthserv
+DISPLAY_NAME: Bluetooth-UnterstÅtzungsdienst
+SERVICE_NAME: CCleanerPerformanceOptimizerService
+DISPLAY_NAME: CCleaner Performance Optimizer Service
+SERVICE_NAME: CertPropSvc
+DISPLAY_NAME: Zertifikatverteilung
+SERVICE_NAME: COMSysApp
+DISPLAY_NAME: COM+-Systemanwendung
+SERVICE_NAME: cphs
+DISPLAY_NAME: Intel(R) Content Protection HECI Service
+SERVICE_NAME: CryptSvc
+DISPLAY_NAME: Kryptografiedienste
+SERVICE_NAME: CscService
+DISPLAY_NAME: Offlinedateien
+SERVICE_NAME: DcomLaunch
+DISPLAY_NAME: DCOM-Server-Prozessstart
+SERVICE_NAME: defragsvc
+DISPLAY_NAME: Laufwerke optimieren
+SERVICE_NAME: DeviceAssociationService
+DISPLAY_NAME: GerÑtezuordnungsdienst
+SERVICE_NAME: DeviceInstall
+DISPLAY_NAME: GerÑteinstallationsdienst
+SERVICE_NAME: Dhcp
+DISPLAY_NAME: DHCP-Client
+SERVICE_NAME: DiagTrack
+DISPLAY_NAME: Diagnostics Tracking Service
+SERVICE_NAME: DigitalWave.Update.Service
+DISPLAY_NAME: Digital Wave Update Service
+SERVICE_NAME: Dnscache
+DISPLAY_NAME: DNS-Client
+SERVICE_NAME: dot3svc
+DISPLAY_NAME: Automatische Konfiguration (verkabelt)
+SERVICE_NAME: DPS
+DISPLAY_NAME: Diagnoserichtliniendienst
+SERVICE_NAME: DsmSvc
+DISPLAY_NAME: GerÑteinstallations-Manager
+SERVICE_NAME: EapHost
+DISPLAY_NAME: Extensible Authentication-Protokoll
+SERVICE_NAME: edgeupdate
+DISPLAY_NAME: Microsoft Edge-Update-Dienst (edgeupdate)
+SERVICE_NAME: edgeupdatem
+DISPLAY_NAME: Microsoft Edge-Update-Dienst (edgeupdatem)
+SERVICE_NAME: EFS
+DISPLAY_NAME: VerschlÅsselndes Dateisystem (EFS)
+SERVICE_NAME: EventLog
+DISPLAY_NAME: Windows-Ereignisprotokoll
+SERVICE_NAME: EventSystem
+DISPLAY_NAME: COM+-Ereignissystem
+SERVICE_NAME: Fax
+DISPLAY_NAME: Fax
+SERVICE_NAME: fdPHost
+DISPLAY_NAME: Funktionssuchanbieter-Host
+SERVICE_NAME: FDResPub
+DISPLAY_NAME: Funktionssuche-Ressourcenverîffentlichung
+SERVICE_NAME: fhsvc
+DISPLAY_NAME: Dateiversionsverlauf-Dienst
+SERVICE_NAME: FontCache
+DISPLAY_NAME: Windows-Dienst fÅr Schriftartencache
+SERVICE_NAME: FontCache3.0.0.0
+DISPLAY_NAME: Windows Presentation Foundation-Schriftartcache 3.0.0.0
+SERVICE_NAME: GoogleChromeElevationService
+DISPLAY_NAME: Google Chrome Elevation Service (GoogleChromeElevationService)
+SERVICE_NAME: gpsvc
+DISPLAY_NAME: Gruppenrichtlinienclient
+SERVICE_NAME: gupdate
+DISPLAY_NAME: Google Update-Dienst (gupdate)
+SERVICE_NAME: gupdatem
+DISPLAY_NAME: Google Update-Dienst (gupdatem)
+SERVICE_NAME: hidserv
+DISPLAY_NAME: EingabegerÑtedienst
+SERVICE_NAME: hkmsvc
+DISPLAY_NAME: IntegritÑtsschlÅssel- und Zertifikatverwaltung
+SERVICE_NAME: HomeGroupProvider
+DISPLAY_NAME: Heimnetzgruppen-Anbieter
+SERVICE_NAME: hpqcxs08
+DISPLAY_NAME: hpqcxs08
+SERVICE_NAME: hpqddsvc
+DISPLAY_NAME: HP CUE DeviceDiscovery Service
+SERVICE_NAME: HPSLPSVC
+DISPLAY_NAME: HP Network Devices Support
+SERVICE_NAME: HPSupportSolutionsFrameworkService
+DISPLAY_NAME: HP Support Solutions Framework Service
+SERVICE_NAME: IEEtwCollectorService
+DISPLAY_NAME: Internet Explorer ETW-Sammlungsdienst
+SERVICE_NAME: igfxCUIService1.0.0.0
+DISPLAY_NAME: Intel(R) HD Graphics Control Panel Service
+SERVICE_NAME: IKEEXT
+DISPLAY_NAME: IKE- und AuthIP IPsec-SchlÅsselerstellungsmodule
+SERVICE_NAME: iphlpsvc
+DISPLAY_NAME: IP-Hilfsdienst
+SERVICE_NAME: KeyIso
+DISPLAY_NAME: CNG-SchlÅsselisolation
+SERVICE_NAME: KtmRm
+DISPLAY_NAME: KtmRm fÅr Distributed Transaction Coordinator
+SERVICE_NAME: LanmanServer
+DISPLAY_NAME: Server
+SERVICE_NAME: LanmanWorkstation
+DISPLAY_NAME: Arbeitsstationsdienst
+SERVICE_NAME: lfsvc
+DISPLAY_NAME: Windows-Positionsframeworkdienst
+SERVICE_NAME: lltdsvc
+DISPLAY_NAME: Verbindungsschicht-Topologieerkennungs-Zuordnungsprogramm
+SERVICE_NAME: lmhosts
+DISPLAY_NAME: TCP/IP-NetBIOS-Hilfsdienst
+SERVICE_NAME: LSM
+DISPLAY_NAME: Lokaler Sitzungs-Manager
+SERVICE_NAME: Microsoft SharePoint Workspace Audit Service
+DISPLAY_NAME: Microsoft SharePoint Workspace Audit Service
+SERVICE_NAME: MicrosoftEdgeElevationService
+DISPLAY_NAME: Microsoft Edge Elevation Service (MicrosoftEdgeElevationService)
+SERVICE_NAME: MMCSS
+DISPLAY_NAME: Multimediaklassenplaner
+SERVICE_NAME: MozillaMaintenance
+DISPLAY_NAME: Mozilla Maintenance Service
+SERVICE_NAME: MpsSvc
+DISPLAY_NAME: Windows-Firewall
+SERVICE_NAME: MSDTC
+DISPLAY_NAME: Distributed Transaction Coordinator
+SERVICE_NAME: MSiSCSI
+DISPLAY_NAME: Microsoft iSCSI-Initiator-Dienst
+SERVICE_NAME: msiserver
+DISPLAY_NAME: Windows Installer
+SERVICE_NAME: MsKeyboardFilter
+DISPLAY_NAME: Microsoft Keyboard Filter
+SERVICE_NAME: napagent
+DISPLAY_NAME: NAP-Agent (Network Access Protection)
+SERVICE_NAME: NcaSvc
+DISPLAY_NAME: NetzwerkkonnektivitÑts-Assistent
+SERVICE_NAME: NcbService
+DISPLAY_NAME: Netzwerkverbindungsbroker
+SERVICE_NAME: NcdAutoSetup
+DISPLAY_NAME: Autom. Setup von GerÑten, die mit dem Netzwerk verbunden sind
+SERVICE_NAME: Net Driver HPZ12
+DISPLAY_NAME: Net Driver HPZ12
+SERVICE_NAME: Netlogon
+DISPLAY_NAME: Anmeldedienst
+SERVICE_NAME: Netman
+DISPLAY_NAME: Netzwerkverbindungen
+SERVICE_NAME: netprofm
+DISPLAY_NAME: Netzwerklistendienst
+SERVICE_NAME: NetTcpPortSharing
+DISPLAY_NAME: NetTcpPortSharing
+SERVICE_NAME: NlaSvc
+DISPLAY_NAME: NLA (Network Location Awareness)
+SERVICE_NAME: nsi
+DISPLAY_NAME: Netzwerkspeicher-Schnittstellendienst
+SERVICE_NAME: NVDisplay.ContainerLocalSystem
+DISPLAY_NAME: NVIDIA Display Container LS
+SERVICE_NAME: ose
+DISPLAY_NAME: Office  Source Engine
+SERVICE_NAME: osppsvc
+DISPLAY_NAME: Office Software Protection Platform
+SERVICE_NAME: p2pimsvc
+DISPLAY_NAME: PeernetzwerkidentitÑts-Manager
+SERVICE_NAME: p2psvc
+DISPLAY_NAME: Peernetzwerk-Gruppenzuordnung
+SERVICE_NAME: PcaSvc
+DISPLAY_NAME: ProgrammkompatibilitÑts-Assistent-Dienst
+SERVICE_NAME: PeerDistSvc
+DISPLAY_NAME: BranchCache
+SERVICE_NAME: pla
+DISPLAY_NAME: Leistungsprotokolle und -warnungen
+SERVICE_NAME: PlugPlay
+DISPLAY_NAME: Plug & Play
+SERVICE_NAME: Pml Driver HPZ12
+DISPLAY_NAME: Pml Driver HPZ12
+SERVICE_NAME: PNRPAutoReg
+DISPLAY_NAME: PNRP-Computernamenverîffentlichungs-Dienst
+SERVICE_NAME: PNRPsvc
+DISPLAY_NAME: Peer Name Resolution-Protokoll
+SERVICE_NAME: PolicyAgent
+DISPLAY_NAME: IPsec-Richtlinien-Agent
+SERVICE_NAME: Power
+DISPLAY_NAME: Stromversorgung
+SERVICE_NAME: PrintNotify
+DISPLAY_NAME: Druckererweiterungen und -benachrichtigungen
+SERVICE_NAME: ProfSvc
+DISPLAY_NAME: Benutzerprofildienst
+SERVICE_NAME: PSI_SVC_2
+DISPLAY_NAME: Protexis Licensing V2
+SERVICE_NAME: QWAVE
+DISPLAY_NAME: Verbessertes Windows-Audio/Video-Streaming
+SERVICE_NAME: RasAuto
+DISPLAY_NAME: Verwaltung fÅr automatische RAS-Verbindung
+SERVICE_NAME: RasMan
+DISPLAY_NAME: RAS-Verbindungsverwaltung
+SERVICE_NAME: RemoteAccess
+DISPLAY_NAME: Routing und RAS
+SERVICE_NAME: RemoteRegistry
+DISPLAY_NAME: Remoteregistrierung
+SERVICE_NAME: RpcEptMapper
+DISPLAY_NAME: RPC-Endpunktzuordnung
+SERVICE_NAME: RpcLocator
+DISPLAY_NAME: RPC-Locator
+SERVICE_NAME: RpcSs
+DISPLAY_NAME: Remoteprozeduraufruf (RPC)
+SERVICE_NAME: SamSs
+DISPLAY_NAME: Sicherheitskonto-Manager
+SERVICE_NAME: SCardSvr
+DISPLAY_NAME: Smartcard
+SERVICE_NAME: ScDeviceEnum
+DISPLAY_NAME: Smartcard-GerÑteaufzÑhlungsdienst
+SERVICE_NAME: Schedule
+DISPLAY_NAME: Aufgabenplanung
+SERVICE_NAME: SCPolicySvc
+DISPLAY_NAME: Richtlinie zum Entfernen der Scmartcard
+SERVICE_NAME: seclogon
+DISPLAY_NAME: SekundÑre Anmeldung
+SERVICE_NAME: SENS
+DISPLAY_NAME: Benachrichtigungsdienst fÅr Systemereignisse
+SERVICE_NAME: SensrSvc
+DISPLAY_NAME: SensorÅberwachungsdienst
+SERVICE_NAME: SessionEnv
+DISPLAY_NAME: Konfiguration fÅr Remotedesktops
+SERVICE_NAME: SharedAccess
+DISPLAY_NAME: Gemeinsame Nutzung der Internetverbindung
+SERVICE_NAME: ShellHWDetection
+DISPLAY_NAME: Shellhardwareerkennung
+SERVICE_NAME: smphost
+DISPLAY_NAME: Microsoft-SMP fÅr SpeicherplÑtze
+SERVICE_NAME: SNMPTRAP
+DISPLAY_NAME: SNMP-Trap
+SERVICE_NAME: Spooler
+DISPLAY_NAME: Druckwarteschlange
+SERVICE_NAME: sppsvc
+DISPLAY_NAME: Software Protection
+SERVICE_NAME: SSDPSRV
+DISPLAY_NAME: SSDP-Suche
+SERVICE_NAME: SstpSvc
+DISPLAY_NAME: SSTP-Dienst
+SERVICE_NAME: StiSvc
+DISPLAY_NAME: Windows-Bilderfassung (WIA)
+SERVICE_NAME: StorSvc
+DISPLAY_NAME: Speicherdienst
+SERVICE_NAME: svsvc
+DISPLAY_NAME: Echtzeit-DatentrÑgerprÅfung
+SERVICE_NAME: swprv
+DISPLAY_NAME: Microsoft-Softwareschattenkopie-Anbieter
+SERVICE_NAME: SysMain
+DISPLAY_NAME: Superfetch
+SERVICE_NAME: SystemEventsBroker
+DISPLAY_NAME: Systemereignissebroker
+SERVICE_NAME: TabletInputService
+DISPLAY_NAME: Dienst fÅr Bildschirmtastatur und Schreibbereich
+SERVICE_NAME: TapiSrv
+DISPLAY_NAME: Telefonie
+SERVICE_NAME: TermService
+DISPLAY_NAME: Remotedesktopdienste
+SERVICE_NAME: Themes
+DISPLAY_NAME: Designs
+SERVICE_NAME: THREADORDER
+DISPLAY_NAME: Server fÅr Threadsortierung
+SERVICE_NAME: TimeBroker
+DISPLAY_NAME: Zeitbroker
+SERVICE_NAME: TrkWks
+DISPLAY_NAME: öberwachung verteilter VerknÅpfungen (Client)
+SERVICE_NAME: TrustedInstaller
+DISPLAY_NAME: Windows Modules Installer
+SERVICE_NAME: UI0Detect
+DISPLAY_NAME: Erkennung interaktiver Dienste
+SERVICE_NAME: UmRdpService
+DISPLAY_NAME: Anschlussumleitung fÅr Remotedesktopdienst im Benutzermodus
+SERVICE_NAME: upnphost
+DISPLAY_NAME: UPnP-GerÑtehost
+SERVICE_NAME: VaultSvc
+DISPLAY_NAME: Anmeldeinformationsverwaltung
+SERVICE_NAME: vds
+DISPLAY_NAME: Virtueller DatentrÑger
+SERVICE_NAME: vmicguestinterface
+DISPLAY_NAME: Hyper-V-Gastdienstschnittstelle
+SERVICE_NAME: vmicheartbeat
+DISPLAY_NAME: Hyper-V-Taktdienst
+SERVICE_NAME: vmickvpexchange
+DISPLAY_NAME: Hyper-V-Datenaustauschdienst
+SERVICE_NAME: vmicrdv
+DISPLAY_NAME: Hyper-V-Remotedesktopvirtualisierungsdienst
+SERVICE_NAME: vmicshutdown
+DISPLAY_NAME: Hyper-V-Dienst zum Herunterfahren des Gasts
+SERVICE_NAME: vmictimesync
+DISPLAY_NAME: Hyper-V-Dienst fÅr Zeitsynchronisierung
+SERVICE_NAME: vmicvss
+DISPLAY_NAME: Hyper-V-Volumeschattenkopie-Anforderer
+SERVICE_NAME: VSS
+DISPLAY_NAME: Volumeschattenkopie
+SERVICE_NAME: W32Time
+DISPLAY_NAME: Windows-Zeitgeber
+SERVICE_NAME: wbengine
+DISPLAY_NAME: Blockebenen-Sicherungsmodul
+SERVICE_NAME: WbioSrvc
+DISPLAY_NAME: Windows-Biometriedienst
+SERVICE_NAME: Wcmsvc
+DISPLAY_NAME: Windows-Verbindungs-Manager
+SERVICE_NAME: wcncsvc
+DISPLAY_NAME: Windows-Sofortverbindung - Konfigurationsregistrierungsstelle
+SERVICE_NAME: WcsPlugInService
+DISPLAY_NAME: Windows-Farbsystem
+SERVICE_NAME: WdiServiceHost
+DISPLAY_NAME: Diagnosediensthost
+SERVICE_NAME: WdiSystemHost
+DISPLAY_NAME: Diagnosesystemhost
+SERVICE_NAME: WdNisSvc
+DISPLAY_NAME: Windows Defender-Netzwerkinspektionsdienst
+SERVICE_NAME: WebClient
+DISPLAY_NAME: WebClient
+SERVICE_NAME: Wecsvc
+DISPLAY_NAME: Windows-Ereignissammlung
+SERVICE_NAME: WEPHOSTSVC
+DISPLAY_NAME: Hostdienst fÅr Windows Encryption Provider
+SERVICE_NAME: wercplsupport
+DISPLAY_NAME: UnterstÅtzung in der Systemsteuerung unter Lîsungen fÅr Probleme
+SERVICE_NAME: WerSvc
+DISPLAY_NAME: Windows-Fehlerberichterstattungsdienst
+SERVICE_NAME: WiaRpc
+DISPLAY_NAME: Ereignisse zum Abrufen von Standbildern
+SERVICE_NAME: WinDefend
+DISPLAY_NAME: Windows Defender-Dienst
+SERVICE_NAME: WinHttpAutoProxySvc
+DISPLAY_NAME: WinHTTP-Web Proxy Auto-Discovery-Dienst
+SERVICE_NAME: winmgmt
+DISPLAY_NAME: Windows-Verwaltungsinstrumentation
+SERVICE_NAME: WinRM
+DISPLAY_NAME: Windows-Remoteverwaltung (WS-Verwaltung)
+SERVICE_NAME: WlanSvc
+DISPLAY_NAME: Automatische WLAN-Konfiguration
+SERVICE_NAME: wlidsvc
+DISPLAY_NAME: Anmelde-Assistent fÅr Microsoft-Konten
+SERVICE_NAME: wmiApSrv
+DISPLAY_NAME: WMI-Leistungsadapter
+SERVICE_NAME: WMPNetworkSvc
+DISPLAY_NAME: Windows Media Player-Netzwerkfreigabedienst
+SERVICE_NAME: workfolderssvc
+DISPLAY_NAME: Arbeitsordner
+SERVICE_NAME: WPCSvc
+DISPLAY_NAME: Family Safety
+SERVICE_NAME: WPDBusEnum
+DISPLAY_NAME: Enumeratordienst fÅr tragbare GerÑte
+SERVICE_NAME: wscsvc
+DISPLAY_NAME: Sicherheitscenter
+SERVICE_NAME: WSearch
+DISPLAY_NAME: Windows Search
+SERVICE_NAME: WSService
+DISPLAY_NAME: Windows Store-Dienst (WSService)
+SERVICE_NAME: wuauserv
+DISPLAY_NAME: Windows Update
+SERVICE_NAME: wudfsvc
+DISPLAY_NAME: Windows Driver Foundation - Benutzermodus-Treiberframework
+SERVICE_NAME: WwanSvc
+DISPLAY_NAME: WWAN - automatische Konfiguration
+
+------------------------------------------------------------
+3. GEPLANTE AUFGABEN MIT EDGE-BEZUG
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+4. REGISTRY - EDGE UPDATE UND EDGE
+------------------------------------------------------------
+
+[HKLM - EdgeUpdate]
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\EdgeUpdate
+    path    REG_SZ    C:\Program Files\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe
+    UninstallCmdLine    REG_SZ    "C:\Program Files\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe" /uninstall
+    edgeupdate_task_name_c    REG_SZ    MicrosoftEdgeUpdateTaskMachineCore{0D1D302E-A50F-40F0-90AB-7F35A78205A7}
+    edgeupdate_task_name_ua    REG_SZ    MicrosoftEdgeUpdateTaskMachineUA{93905322-6AFD-4771-B10C-10B41C925090}
+    LastOSVersion    REG_BINARY    1C01000006000000030000008025000002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010100
+    LastOSVersionPatchNumber    REG_DWORD    0x512a
+    version    REG_SZ    1.3.319.41
+    LastECSETag    REG_SZ    "I0Eahb6vIPpgGgsEo5/z7CmIlO3qcEVrRky9oP2+WOE="
+    ECSExpiryConfig    REG_SZ    https://config.edge.skype.com/config/v1/EdgeUpdate/1.3.269.9?clientId=s:CABE20F5-8417-49E1-AEE5-153DDE757350&appBrandCode_webview=GGLS&appChannel_webview=5&appCohort_webview=rrf@0.94&appConsentState_webview=0&appDayOfInstall_webview=6727&appInactivityBadgeApplied_webview=0&appInactivityBadgeCleared_webview=0&appInactivityBadgeDuration_webview=0&appInstallTimeDiffSec_webview=41212800&appIsPinnedSystem_webview=false&appLastLaunchCount_webview=1&appLastLaunchTime_webview=13433708101968747&appLastLaunchTimeJson_webview=2026-09-12t17:35:01.968z&appLastLaunchTimeDaysAgo_webview=22&appUpdateCheckIsUpdateDisabled_webview=false&appUpdatesAllowedForMeteredNetworks_webview=false&appVersion_webview=109.0.1518.140&hwDiskType=0&hwHasSsse3=true&hwLogicalCpus=4&hwPhysmemory=3&isCTADevice=false&isMsftDomainJoined=false&oemProductManufacturer=Medion&oemProductName=Akoya%20P7817&osArch=x86&osIsDefaultNetworkConnectionMetered=false&osIsInLockdownMode=false&osIsWIP=false&osPlatform=win&osProductType=48&osVersion=6.3.9600.20778&requestCheckPeriodSec=-1&requestDomainJoined=false&requestInstallSource=scheduler&requestIsMachine=true&requestOmahaShellVersion=1.3.225.7&requestOmahaVersion=1.3.269.9&experimentationmode=2
+    ECSExpiryTime    REG_DWORD    0x6ac2c1bb
+    ConsecutiveCheckFailures    REG_DWORD    0x0
+    FirstStartedAUPostOOBE    REG_DWORD    0x68423ddf
+    LastStartedAU    REG_DWORD    0x6b007bfe
+    ExternalAppCohort    REG_SZ    c2tpcDo0
+    RetryAfter    REG_DWORD    0x6ae62d41
+    CopilotUpdatePath    REG_SZ    C:\Program Files\Microsoft\EdgeUpdate\CopilotUpdate.exe
+    SharedRolloutBucketV1    REG_DWORD    0x5e
+    WindowsUpdateVersion    REG_SZ    1.3.141.59
+    LastChecked    REG_DWORD    0x6b001994
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\EdgeUpdate\Clients
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}
+    name    REG_SZ    Microsoft Edge
+    location    REG_SZ    C:\Program Files\Microsoft\Edge\Application
+    pv    REG_SZ    88.0.705.81
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\on-os-upgrade
+    CommandLine    REG_SZ    "C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Installer\setup.exe" --on-os-upgrade --msedge --system-level --verbose-logging
+    AutoRunOnOSUpgrade    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\EdgeUpdate\Clients\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}
+    name    REG_SZ    Microsoft Edge WebView2-Laufzeit
+    location    REG_SZ    C:\Program Files\Microsoft\EdgeWebView\Application
+    pv    REG_SZ    109.0.1518.140
+    SilentUninstall    REG_SZ    "C:\Program Files\Microsoft\EdgeWebView\Application\109.0.1518.140\Installer\setup.exe" --force-uninstall --uninstall --msedgewebview --system-level --verbose-logging
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\EdgeUpdate\Clients\{F3C4FE00-EFD5-403B-9569-398A20F1BA4A}
+    pv    REG_SZ    1.3.319.41
+    name    REG_SZ    Microsoft Edge-Update
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\EdgeUpdate\ClientState
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\EdgeUpdate\ClientState\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}
+    LatestRecommendedVersion    REG_SZ    88.0.705.81
+    InstallSource    REG_SZ    windowsupdate
+    ping_freshness    REG_SZ    {7595F98D-D7B7-4C0E-937F-D52F94B493F9}
+    eulaaccepted    REG_DWORD    0x0
+    brand    REG_SZ    WULS
+    InstallTime    REG_DWORD    0x6afff6bd
+    DayOfInstall    REG_DWORD    0xffffffff
+    DayOfLastActivity    REG_DWORD    0xffffffff
+    DayOfLastRollCall    REG_DWORD    0xffffffff
+    UninstallString    REG_SZ    C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Installer\setup.exe
+    UninstallArguments    REG_SZ     --uninstall --msedge --system-level --verbose-logging
+    LastInstallerResult    REG_DWORD    0x0
+    LastInstallerError    REG_DWORD    0x0
+    LastInstallerExtraCode1    REG_DWORD    0x30000
+    LastInstallerSuccessLaunchCmdLine    REG_SZ    "C:\Program Files\Microsoft\Edge\Application\msedge.exe"
+    pv    REG_SZ    88.0.705.81
+    LastCheckSuccess    REG_DWORD    0x6afff6e7
+    dcatap    REG_SZ    
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\EdgeUpdate\ClientState\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\CurrentState
+    StateValue    REG_DWORD    0x11
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\EdgeUpdate\ClientState\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}
+    ping_freshness    REG_SZ    {9DD7C521-36E5-4C0D-B190-8C5A4CEF2DDF}
+    LatestRecommendedVersion    REG_SZ    
+    InstallSource    REG_SZ    otherinstallcmd
+    brand    REG_SZ    GGLS
+    InstallTime    REG_DWORD    0x68423ccc
+    DayOfInstall    REG_DWORD    0x1a4b
+    DayOfLastActivity    REG_DWORD    0x1c1a
+    DayOfLastRollCall    REG_DWORD    0x1c5f
+    UninstallString    REG_SZ    C:\Program Files\Microsoft\EdgeWebView\Application\109.0.1518.140\Installer\setup.exe
+    UninstallArguments    REG_SZ     --uninstall --msedgewebview --system-level --verbose-logging
+    EBWebView    REG_SZ    C:\Program Files\Microsoft\EdgeWebView\Application\109.0.1518.140
+    InstallerRepeatedFailureCount    REG_DWORD    0x0
+    LastInstallerResult    REG_DWORD    0x0
+    LastInstallerError    REG_DWORD    0x0
+    LastInstallerExtraCode1    REG_DWORD    0x30000
+    LastInstallerSuccessLaunchCmdLine    REG_SZ    "C:\Program Files\Microsoft\EdgeWebView\Application\msedge.exe" --from-installer
+    pv    REG_SZ    109.0.1518.140
+    LastCheckSuccess    REG_DWORD    0x6b001994
+    RollCallDayStartSec    REG_DWORD    0x6aff8d80
+    ActivePingDayStartSec    REG_DWORD    0x6aa49600
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\EdgeUpdate\ClientState\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}\cohort
+    (Standard)    REG_SZ    rrf@0.94
+    hint    REG_SZ    
+    name    REG_SZ    
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\EdgeUpdate\ClientState\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}\CurrentState
+    StateValue    REG_DWORD    0x10
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\EdgeUpdate\ClientState\{F3C4FE00-EFD5-403B-9569-398A20F1BA4A}
+    pv    REG_SZ    1.3.319.41
+    brand    REG_SZ    GGLS
+    InstallTime    REG_DWORD    0x68423ca3
+    DayOfInstall    REG_DWORD    0x1a4b
+    DayOfLastActivity    REG_DWORD    0xffffffff
+    DayOfLastRollCall    REG_DWORD    0x1c5f
+    InstallSource    REG_SZ    windowsupdate
+    RollCallDayStartSec    REG_DWORD    0x6aff8d80
+    ping_freshness    REG_SZ    {1A8ACC20-6FE0-4AD4-83A2-50A585D2FC03}
+    LatestRecommendedVersion    REG_SZ    
+    LastCheckSuccess    REG_DWORD    0x6b001994
+    UpdateTime    REG_DWORD    0x6b001863
+    experiment_control_labels    REG_SZ    
+    reactivationbrand    REG_SZ    WULS
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\EdgeUpdate\ClientState\{F3C4FE00-EFD5-403B-9569-398A20F1BA4A}\cohort
+    (Standard)    REG_SZ    rrf@0.78
+    hint    REG_SZ    
+    name    REG_SZ    
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\EdgeUpdate\ClientState\{F3C4FE00-EFD5-403B-9569-398A20F1BA4A}\CurrentState
+    StateValue    REG_DWORD    0x10
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\EdgeUpdate\ClientStateMedium
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\EdgeUpdate\ClientStateMedium\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\EdgeUpdate\ClientStateMedium\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\FirstNotDefault
+    S-1-5-21-681825281-3767286365-1090229183-1000    REG_QWORD    0x2fbf48e79b5c6b
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\EdgeUpdate\ClientStateMedium\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}
+    usagestats    REG_DWORD    0x0
+    urlstats    REG_DWORD    0x0
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\EdgeUpdate\PersistedPings
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\EdgeUpdate\proxy
+    source    REG_SZ    auto
+
+
+[HKLM - WOW6432Node - EdgeUpdate]
+FEHLER: Der angegebene RegistrierungsschlÅssel bzw. Wert wurde nicht gefunden.
+
+[HKLM - Microsoft Edge Uninstall]
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge
+    DisplayName    REG_SZ    Microsoft Edge
+    ModifyPath    REG_SZ    "C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Installer\setup.exe" --modify --msedge --system-level --verbose-logging
+    UninstallString    REG_SZ    "C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Installer\setup.exe" --uninstall --msedge --system-level --verbose-logging
+    InstallLocation    REG_SZ    C:\Program Files\Microsoft\Edge\Application
+    DisplayIcon    REG_SZ    C:\Program Files\Microsoft\Edge\Application\msedge.exe,0
+    NoRepair    REG_DWORD    0x1
+    Publisher    REG_SZ    Microsoft Corporation
+    Version    REG_SZ    88.0.705.81
+    DisplayVersion    REG_SZ    88.0.705.81
+    InstallDate    REG_SZ    20261120
+    VersionMajor    REG_DWORD    0x2c1
+    VersionMinor    REG_DWORD    0x51
+
+
+[HKLM - WOW6432Node - Microsoft Edge Uninstall]
+FEHLER: Der angegebene RegistrierungsschlÅssel bzw. Wert wurde nicht gefunden.
+
+[HKCU - EdgeUpdate]
+
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\EdgeUpdate
+    LastLogonTime-Machine    REG_QWORD    0x1dd790c5e6cc635
+
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\EdgeUpdate\Clients
+
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}
+
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands
+
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\on-logon-autolaunch
+    Enabled    REG_DWORD    0x0
+
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\EdgeUpdate\ClientState
+
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\EdgeUpdate\ClientState\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}
+    dr    REG_SZ    1
+    metricsid    REG_SZ    68832c1b-a2ce-4d83-9562-304d1cb6fc9d
+    metricsid_installdate    REG_SZ    1672243756
+    metricsid_enableddate    REG_SZ    0
+    lastrun    REG_SZ    13341916794174127
+
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\EdgeUpdate\ClientState\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}
+    dr    REG_SZ    0
+    lastrun    REG_SZ    13433708101968747
+    metricsid    REG_SZ    6c5ad356-8470-4e42-9be4-5539a8a520ae
+    metricsid_installdate    REG_SZ    1742043157
+    metricsid_enableddate    REG_SZ    0
+
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\EdgeUpdate\proxy
+    source    REG_SZ    IEWPAD
+
+
+------------------------------------------------------------
+5. EDGE-UPDATE-DATEIEN / PROGRAMMPFADE
+------------------------------------------------------------
+
+EdgeUpdate-Datei gefunden unter:
+"C:\Program Files\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe"
+
+============================================================
+ENDE DER DIAGNOSE
+============================================================

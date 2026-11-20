@@ -1,0 +1,58 @@
+============================================================
+L04 - EDGE DIENSTE UND AUFGABEN - DIAGNOSE 02
+Datum: 20.11.2026 18:52:07,02
+Rechner: LAPTOP04
+Ausgabedatei: D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP04_Reparatur\L04_Edge_Dienste_Aufgaben_02-01.txt
+============================================================
+
+------------------------------------------------------------
+1. EDGE-DIENSTE
+------------------------------------------------------------
+
+[edgeupdate]
+
+SERVICE_NAME: edgeupdate 
+        TYPE               : 10  WIN32_OWN_PROCESS  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+[edgeupdatem]
+
+SERVICE_NAME: edgeupdatem 
+        TYPE               : 10  WIN32_OWN_PROCESS  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 1077  (0x435)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+[MicrosoftEdgeElevationService]
+
+SERVICE_NAME: MicrosoftEdgeElevationService 
+        TYPE               : 10  WIN32_OWN_PROCESS  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 1077  (0x435)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+------------------------------------------------------------
+2. EDGE-UPDATE-AUFGABE: MACHINE CORE
+------------------------------------------------------------
+FEHLER: Das System kann die angegebene Datei nicht finden.
+
+------------------------------------------------------------
+3. EDGE-UPDATE-AUFGABE: MACHINE UA
+------------------------------------------------------------
+FEHLER: Das System kann die angegebene Datei nicht finden.
+
+------------------------------------------------------------
+4. ZUSAETZLICHE SUCHE NACH EDGE-UPDATE-AUFGABEN
+------------------------------------------------------------
+
+============================================================
+ENDE DER DIAGNOSE
+============================================================

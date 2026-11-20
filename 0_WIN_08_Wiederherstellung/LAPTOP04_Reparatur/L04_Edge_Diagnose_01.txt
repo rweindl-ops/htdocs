@@ -1,0 +1,1934 @@
+==== L04 EDGE DIAGNOSE ==== 
+Datum: 20.11.2026 17:48:17,76 
+==== REGISTEREINTRAEGE ==== 
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge
+    DisplayName    REG_SZ    Microsoft Edge
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge Update
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView
+    DisplayName    REG_SZ    Microsoft Edge WebView2-Laufzeit
+
+Suchvorgang abgeschlossen: 5 Åbereinstimmende Zeichenfolge(n) gefunden.
+FEHLER: Der angegebene RegistrierungsschlÅssel bzw. Wert wurde nicht gefunden.
+==== PROGRAMMPFAD ==== 
+INFORMATION: Es konnten keine Dateien mit dem angegebenen
+Muster gefunden werden.
+==== EDGE DATEIEN ==== 
+Das System kann die angegebene Datei nicht finden.
+C:\Program Files\Microsoft\Edge\Application
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81
+C:\Program Files\Microsoft\Edge\Application\msedge.exe
+C:\Program Files\Microsoft\Edge\Application\msedge.VisualElementsManifest.xml
+C:\Program Files\Microsoft\Edge\Application\msedge_proxy.exe
+C:\Program Files\Microsoft\Edge\Application\pwahelper.exe
+C:\Program Files\Microsoft\Edge\Application\SetupMetrics
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\88.0.705.81.manifest
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\BHO
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\concrt140.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\cookie_exporter.exe
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\d3dcompiler_47.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\dual_engine_adapter_x64.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\dual_engine_adapter_x86.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\EBWebView
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Edge.dat
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\EdgeWebView.dat
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\elevation_service.exe
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\eventlog_provider.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Extensions
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\icudtl.dat
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\identity_helper.exe
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\identity_helper.exe.manifest
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\identity_proxy
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Installer
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\learning_tools.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\libEGL.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\libGLESv2.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\libsmartscreen.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\MEIPreload
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\microsoft_apis.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\microsoft_shell_integration.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\mip_core.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\mip_protection_sdk.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\MLModels
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\mojo_core.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\msedge.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\msedge.dll.sig
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\msedge.EtwManifest.man
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\msedge.exe
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\msedge.exe.sig
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\msedgewebview2.exe
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\msedgewebview2.exe.sig
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\msedge_100_percent.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\msedge_200_percent.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\msedge_elf.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\msedge_proxy.exe
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\msedge_pwa_launcher.exe
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\msvcp140.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\nacl64.exe
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\nacl_irt_x86_32.nexe
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\nacl_irt_x86_64.nexe
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Notifications
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\notification_helper.exe
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\notification_helper.exe.manifest
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\oneauth.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\oneds.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\onnxruntime.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\onramp.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\PlayReadyCdm
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\pwahelper.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\pwahelper.exe
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\resources.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\show_third_party_software_licenses.bat
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\swiftshader
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\telclient.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Trust Protection Lists
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\v8_context_snapshot.bin
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\vccorlib140.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\vcruntime140.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\VisualElements
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\WidevineCdm
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\wns_push_client.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\BHO\ie_to_edge_bho.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\BHO\ie_to_edge_bho_64.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\BHO\ie_to_edge_stub.exe
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\EBWebView\x86
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\EBWebView\x86\EmbeddedBrowserWebView.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Extensions\external_extensions.json
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\identity_proxy\beta.identity_helper.exe.manifest
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\identity_proxy\canary.identity_helper.exe.manifest
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\identity_proxy\dev.identity_helper.exe.manifest
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\identity_proxy\identity_helper.Sparse.Beta.msix
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\identity_proxy\identity_helper.Sparse.Canary.msix
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\identity_proxy\identity_helper.Sparse.Dev.msix
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\identity_proxy\identity_helper.Sparse.Internal.msix
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\identity_proxy\identity_helper.Sparse.Stable.msix
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\identity_proxy\internal.identity_helper.exe.manifest
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\identity_proxy\resources.pri
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\identity_proxy\stable.identity_helper.exe.manifest
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Installer\msedge_7z.data
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Installer\setup.exe
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\af.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\am.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\ar.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\as.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\az.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\bg.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\bn-IN.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\bs.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\ca-Es-VALENCIA.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\ca.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\cs.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\cy.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\da.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\de.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\devtools
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\el.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\en-GB.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\en-US.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\es-419.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\es.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\et.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\eu.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\fa.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\fi.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\fil.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\fr-CA.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\fr.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\ga.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\gd.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\gl.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\gu.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\he.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\hi.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\hr.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\hu.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\id.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\is.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\it.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\ja.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\ka.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\kk.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\km.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\kn.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\ko.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\kok.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\lb.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\lo.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\lt.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\lv.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\mi.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\mk.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\ml.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\mr.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\ms.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\mt.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\nb.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\ne.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\nl.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\nn.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\or.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\pa.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\pl.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\pt-BR.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\pt-PT.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\qu.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\ro.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\ru.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\sk.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\sl.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\sq.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\sr-Cyrl-BA.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\sr-Latn-RS.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\sr.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\sv.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\ta.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\te.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\th.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\tr.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\tt.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\ug.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\uk.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\ur.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\vi.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\zh-CN.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\zh-TW.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\devtools\de.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\devtools\es.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\devtools\fr.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\devtools\it.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\devtools\ja.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\devtools\ko.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\devtools\pt-BR.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\devtools\ru.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\devtools\zh-CN.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Locales\devtools\zh-TW.pak
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\MEIPreload\manifest.json
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\MEIPreload\preloaded_data.pb
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\MLModels\autofill_labeling.ort
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\MLModels\autofill_labeling_email.ort
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\MLModels\autofill_labeling_features.txt
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\MLModels\autofill_labeling_features_email.txt
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\MLModels\nexturl.ort
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Notifications\SoftLandingAssetDark.gif
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Notifications\SoftLandingAssetLight.gif
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\PlayReadyCdm\_platform_specific
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\PlayReadyCdm\_platform_specific\win_x86
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\PlayReadyCdm\_platform_specific\win_x86\playreadycdm.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Edge.dat.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\EdgeWebView.dat.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Extensions
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\icudtl.dat.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\identity_proxy
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\MEIPreload
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\MLModels
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\msedge.dll.sig.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\msedge.exe.sig.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\msedgewebview2.exe.sig.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\msedge_100_percent.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\msedge_200_percent.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\nacl_irt_x86_32.nexe.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\nacl_irt_x86_64.nexe.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Notifications
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\resources.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Trust Protection Lists
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\v8_context_snapshot.bin.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\VisualElements
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\WidevineCdm
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Extensions\external_extensions.json.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\identity_proxy\identity_helper.Sparse.Beta.msix.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\identity_proxy\identity_helper.Sparse.Canary.msix.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\identity_proxy\identity_helper.Sparse.Dev.msix.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\identity_proxy\identity_helper.Sparse.Internal.msix.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\identity_proxy\identity_helper.Sparse.Stable.msix.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\identity_proxy\resources.pri.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\af.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\am.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\ar.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\as.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\az.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\bg.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\bn-IN.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\bs.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\ca-Es-VALENCIA.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\ca.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\cs.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\cy.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\da.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\de.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\devtools
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\el.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\en-GB.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\en-US.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\es-419.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\es.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\et.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\eu.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\fa.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\fi.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\fil.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\fr-CA.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\fr.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\ga.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\gd.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\gl.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\gu.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\he.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\hi.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\hr.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\hu.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\id.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\is.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\it.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\ja.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\ka.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\kk.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\km.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\kn.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\ko.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\kok.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\lb.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\lo.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\lt.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\lv.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\mi.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\mk.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\ml.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\mr.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\ms.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\mt.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\nb.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\ne.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\nl.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\nn.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\or.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\pa.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\pl.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\pt-BR.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\pt-PT.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\qu.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\ro.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\ru.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\sk.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\sl.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\sq.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\sr-Cyrl-BA.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\sr-Latn-RS.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\sr.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\sv.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\ta.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\te.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\th.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\tr.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\tt.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\ug.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\uk.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\ur.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\vi.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\zh-CN.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\zh-TW.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\devtools\de.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\devtools\es.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\devtools\fr.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\devtools\it.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\devtools\ja.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\devtools\ko.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\devtools\pt-BR.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\devtools\ru.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\devtools\zh-CN.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Locales\devtools\zh-TW.pak.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\MEIPreload\manifest.json.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\MEIPreload\preloaded_data.pb.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\MLModels\autofill_labeling.ort.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\MLModels\autofill_labeling_email.ort.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\MLModels\autofill_labeling_features.txt.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\MLModels\autofill_labeling_features_email.txt.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\MLModels\nexturl.ort.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Notifications\SoftLandingAssetDark.gif.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Notifications\SoftLandingAssetLight.gif.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Trust Protection Lists\manifest.json.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Trust Protection Lists\Mu
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Trust Protection Lists\Sigma
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Trust Protection Lists\Mu\Advertising.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Trust Protection Lists\Mu\Analytics.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Trust Protection Lists\Mu\CompatExceptions.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Trust Protection Lists\Mu\Content.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Trust Protection Lists\Mu\Cryptomining.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Trust Protection Lists\Mu\Entities.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Trust Protection Lists\Mu\Fingerprinting.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Trust Protection Lists\Mu\LICENSE.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Trust Protection Lists\Mu\Other.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Trust Protection Lists\Mu\Social.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Trust Protection Lists\Sigma\Advertising.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Trust Protection Lists\Sigma\Analytics.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Trust Protection Lists\Sigma\Content.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Trust Protection Lists\Sigma\Cryptomining.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Trust Protection Lists\Sigma\Entities.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Trust Protection Lists\Sigma\Fingerprinting.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Trust Protection Lists\Sigma\LICENSE.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Trust Protection Lists\Sigma\Other.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Trust Protection Lists\Sigma\Social.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\Trust Protection Lists\Sigma\Staging.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\VisualElements\Logo.png.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\VisualElements\LogoBeta.png.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\VisualElements\LogoCanary.png.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\VisualElements\LogoDev.png.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\VisualElements\SmallLogo.png.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\VisualElements\SmallLogoBeta.png.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\VisualElements\SmallLogoCanary.png.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\VisualElements\SmallLogoDev.png.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\WidevineCdm\manifest.json.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\WidevineCdm\_platform_specific
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\WidevineCdm\_platform_specific\win_x86
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\ResiliencyLinks\WidevineCdm\_platform_specific\win_x86\widevinecdm.dll.sig.DATA
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\swiftshader\libEGL.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\swiftshader\libGLESv2.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Trust Protection Lists\manifest.json
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Trust Protection Lists\Mu
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Trust Protection Lists\Sigma
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Trust Protection Lists\Mu\Advertising
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Trust Protection Lists\Mu\Analytics
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Trust Protection Lists\Mu\CompatExceptions
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Trust Protection Lists\Mu\Content
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Trust Protection Lists\Mu\Cryptomining
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Trust Protection Lists\Mu\Entities
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Trust Protection Lists\Mu\Fingerprinting
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Trust Protection Lists\Mu\LICENSE
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Trust Protection Lists\Mu\Other
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Trust Protection Lists\Mu\Social
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Trust Protection Lists\Sigma\Advertising
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Trust Protection Lists\Sigma\Analytics
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Trust Protection Lists\Sigma\Content
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Trust Protection Lists\Sigma\Cryptomining
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Trust Protection Lists\Sigma\Entities
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Trust Protection Lists\Sigma\Fingerprinting
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Trust Protection Lists\Sigma\LICENSE
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Trust Protection Lists\Sigma\Other
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Trust Protection Lists\Sigma\Social
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Trust Protection Lists\Sigma\Staging
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\VisualElements\Logo.png
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\VisualElements\LogoBeta.png
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\VisualElements\LogoCanary.png
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\VisualElements\LogoDev.png
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\VisualElements\SmallLogo.png
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\VisualElements\SmallLogoBeta.png
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\VisualElements\SmallLogoCanary.png
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\VisualElements\SmallLogoDev.png
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\WidevineCdm\manifest.json
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\WidevineCdm\_platform_specific
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\WidevineCdm\_platform_specific\win_x86
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\WidevineCdm\_platform_specific\win_x86\widevinecdm.dll
+C:\Program Files\Microsoft\Edge\Application\88.0.705.81\WidevineCdm\_platform_specific\win_x86\widevinecdm.dll.sig
+C:\Program Files\Microsoft\Edge\Application\SetupMetrics\20261120082943.pma
+==== WINDOWS UPDATE ==== 
+Event[0]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-20T13:58:36.693
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[1]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-20T13:57:26.479
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[2]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-20T13:57:26.479
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[3]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-20T13:57:26.479
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[4]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-20T13:57:21.482
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[5]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-20T13:57:21.482
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[6]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-20T13:57:21.482
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[7]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-20T13:53:42.808
+  Event ID: 40
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Status‰nderung
+  Keyword: Nach Updates suchen
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Es wurde ein Update gefunden.
+
+Event[8]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-20T13:53:42.808
+  Event ID: 40
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Status‰nderung
+  Keyword: Nach Updates suchen
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Es wurde ein Update gefunden.
+
+Event[9]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-20T13:53:42.808
+  Event ID: 40
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Status‰nderung
+  Keyword: Nach Updates suchen
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Es wurde ein Update gefunden.
+
+Event[10]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-20T13:53:42.808
+  Event ID: 40
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Status‰nderung
+  Keyword: Nach Updates suchen
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Es wurde ein Update gefunden.
+
+Event[11]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-20T13:53:35.859
+  Event ID: 40
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Status‰nderung
+  Keyword: Nach Updates suchen
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Es wurde ein Update gefunden.
+
+Event[12]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-20T13:53:35.859
+  Event ID: 40
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Status‰nderung
+  Keyword: Nach Updates suchen
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Es wurde ein Update gefunden.
+
+Event[13]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-20T13:53:35.859
+  Event ID: 40
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Status‰nderung
+  Keyword: Nach Updates suchen
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Es wurde ein Update gefunden.
+
+Event[14]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-20T13:53:35.859
+  Event ID: 40
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Status‰nderung
+  Keyword: Nach Updates suchen
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Es wurde ein Update gefunden.
+
+Event[15]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-20T13:53:35.859
+  Event ID: 40
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Status‰nderung
+  Keyword: Nach Updates suchen
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Es wurde ein Update gefunden.
+
+Event[16]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-20T13:53:35.859
+  Event ID: 40
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Status‰nderung
+  Keyword: Nach Updates suchen
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Es wurde ein Update gefunden.
+
+Event[17]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-20T13:53:35.859
+  Event ID: 40
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Status‰nderung
+  Keyword: Nach Updates suchen
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Es wurde ein Update gefunden.
+
+Event[18]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-20T13:53:35.859
+  Event ID: 40
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Status‰nderung
+  Keyword: Nach Updates suchen
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Es wurde ein Update gefunden.
+
+Event[19]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-20T13:53:35.859
+  Event ID: 40
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Status‰nderung
+  Keyword: Nach Updates suchen
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Es wurde ein Update gefunden.
+
+Event[20]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-20T13:53:35.859
+  Event ID: 26
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Nach Updates suchen
+  Keyword: Nach Updates suchen,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Es wurden 13 Updates gefunden.
+
+Event[21]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-20T08:47:50.718
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[22]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-20T08:47:45.710
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[23]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-20T02:35:42.863
+  Event ID: 26
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Nach Updates suchen
+  Keyword: Nach Updates suchen,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Es wurden 0 Updates gefunden.
+
+Event[24]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:20:52.609
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[25]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:20:52.609
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[26]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:20:52.609
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[27]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:20:47.492
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[28]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:20:47.492
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[29]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:20:47.492
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[30]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:20:47.492
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[31]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:17:06.410
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[32]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:17:06.410
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[33]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:17:01.420
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[34]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:17:01.420
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[35]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:17:01.420
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[36]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:17:01.420
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[37]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:17:01.420
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[38]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:17:01.420
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[39]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:17:01.420
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[40]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:14:06.708
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[41]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:14:01.770
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[42]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:14:01.770
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[43]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:14:01.770
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[44]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:14:01.770
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[45]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:14:01.770
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[46]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:14:01.770
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[47]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:14:01.770
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[48]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:14:01.770
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[49]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:14:01.770
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[50]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:14:01.770
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[51]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:14:01.769
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[52]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:14:01.769
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[53]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:14:01.769
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[54]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:14:01.769
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[55]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:13:16.983
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[56]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:13:16.983
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[57]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:13:16.955
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[58]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:13:16.955
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[59]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:13:16.955
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[60]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:13:16.955
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[61]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:13:16.955
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[62]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:13:16.955
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[63]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:13:16.955
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[64]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:13:16.955
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[65]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:13:16.955
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[66]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:13:16.955
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[67]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:13:16.955
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[68]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:13:16.955
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[69]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:13:16.955
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[70]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:13:16.955
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[71]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:13:16.955
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[72]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:13:16.955
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[73]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:13:16.955
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[74]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:13:16.955
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[75]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:11:49.242
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[76]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:11:49.242
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[77]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:11:49.242
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[78]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:11:49.240
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[79]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:11:49.240
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[80]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:11:49.240
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[81]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:11:49.240
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[82]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T19:11:49.240
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[83]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T18:52:23.338
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[84]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T18:52:23.338
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[85]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T18:52:18.541
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[86]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T18:52:18.541
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[87]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T18:52:18.541
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[88]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T18:52:18.541
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[89]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T18:52:18.541
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[90]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T18:52:18.541
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[91]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T18:52:18.541
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[92]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T18:52:18.541
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[93]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T18:52:18.541
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[94]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T18:52:18.541
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[95]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T18:52:18.541
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[96]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T18:52:18.541
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[97]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T18:52:18.541
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[98]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T18:52:18.541
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+Event[99]:
+  Log Name: Microsoft-Windows-WindowsUpdateClient/Operational
+  Source: Microsoft-Windows-WindowsUpdateClient
+  Date: 2026-11-19T18:52:18.541
+  Event ID: 41
+  Task: Windows Update-Agent
+  Level: Informationen
+  Opcode: Download
+  Keyword: Download,Erfolgreich
+  User: S-1-5-18
+  User Name: NT-AUTORITƒT\SYSTEM
+  Computer: LAPTOP04
+  Description: 
+Ein Update wurde heruntergeladen.
+
+==== EDGE DIENSTE ==== 
+SERVICE_NAME: edgeupdate
+DISPLAY_NAME: Microsoft Edge-Update-Dienst (edgeupdate)
+SERVICE_NAME: edgeupdatem
+DISPLAY_NAME: Microsoft Edge-Update-Dienst (edgeupdatem)
+SERVICE_NAME: MicrosoftEdgeElevationService
+DISPLAY_NAME: Microsoft Edge Elevation Service (MicrosoftEdgeElevationService)
