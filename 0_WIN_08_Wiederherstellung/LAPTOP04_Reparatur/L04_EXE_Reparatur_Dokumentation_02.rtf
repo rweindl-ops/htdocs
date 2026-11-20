@@ -1,0 +1,61 @@
+{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fswiss Arial;}{\f1\fmodern Courier New;}}\viewkind4\uc1
+\pard\sa240\b\fs32 L04 - EXE-Berechtigungspruefung und Reparatur\b0\fs22\par
+\pard\sa100 Version 02 - Dokumentation zur Skriptversion 05\par
+\pard\sa120\par
+\pard\sa180\b\fs26 Zweck und Ziel\b0\fs22\par
+\pard\sa100 Die Version 05 untersucht EXE-Dateien in C:\\Program Files und, sofern vorhanden, C:\\Program Files (x86). Ziel ist, der lokalen Gruppe BUILTIN\\Users (SID S-1-5-32-545) bei Bedarf ausschliesslich das Recht Lesen und Ausfuehren (RX) zu ergaenzen.\par
+\pard\sa120\par
+\pard\sa180\b\fs26 Grundsaetze der Version 05\b0\fs22\par
+\pard\sa100 - Vorhandene Berechtigungseintraege werden nicht pauschal entfernt.\par
+\pard\sa100 - Die Vererbung wird nicht deaktiviert oder umgestellt.\par
+\pard\sa100 - Der Besitzer einer Datei wird nicht veraendert.\par
+\pard\sa100 - Es werden keine Dateiinhalte, Registry-Eintraege oder Programme veraendert.\par
+\pard\sa100 - Ein vorhandener DENY-Eintrag fuer BUILTIN\\Users fuehrt zum Ueberspringen der Datei.\par
+\pard\sa100 - Nicht aufloesbare Identitaeten fuehren vorsichtshalber zum Ueberspringen, sofern RX nicht bereits eindeutig vorhanden ist.\par
+\pard\sa100 - Lesen, Setzen und Verifizieren werden getrennt protokolliert.\par
+\pard\sa120\par
+\pard\sa180\b\fs26 Dateien dieser Version\b0\fs22\par
+\pard\sa100 L04_EXE_Reparatur_05.bat - Startdatei. Diese Datei startet die PowerShell-Arbeitsdatei.\par
+\pard\sa100 L04_EXE_Reparatur_05.ps1 - Pruef- und Reparaturlogik.\par
+\pard\sa100 L04_EXE_Reparatur_Dokumentation_02.rtf - Diese Dokumentation.\par
+\pard\sa120\par
+\pard\sa180\b\fs26 Ablage\b0\fs22\par
+\pard\sa100 Alle drei Dateien gehoeren in das Hauptverzeichnis:\par
+\pard\sa100 D:\\000_Festplatte Reparatur\\0_WIN_08_Wiederherstellung\\LAPTOP04_Reparatur\\\par
+\pard\sa100 Sicherungen und Protokolle werden in ACL_Sicherungen\\ACL, ACL_Sicherungen\\TXT und ACL_Sicherungen\\LOG abgelegt.\par
+\pard\sa120\par
+\pard\sa180\b\fs26 Ausfuehrung\b0\fs22\par
+\pard\sa100 1. Auf LAPTOP04 anmelden.\par
+\pard\sa100 2. L04_EXE_Reparatur_05.bat mit Als Administrator ausfuehren starten.\par
+\pard\sa100 3. Vor der Pruefung werden die ACLs von Program Files und - falls vorhanden - Program Files (x86) gesichert.\par
+\pard\sa100 4. Danach erscheint eine Auswahl:\par
+\pard\sa100 P = Nur pruefen. Es werden keine Berechtigungen veraendert.\par
+\pard\sa100 R = Fehlendes RX gezielt ergaenzen.\par
+\pard\sa100 A = Abbrechen. Es werden keine Berechtigungen veraendert.\par
+\pard\sa100 5. Bericht und Protokoll nach Abschluss pruefen.\par
+\pard\sa120\par
+\pard\sa180\b\fs26 Sicherungen und Protokolle\b0\fs22\par
+\pard\sa100 Jeder Lauf erhaelt einen Zeitstempel. Vorhandene Dateien werden nicht ueberschrieben.\par
+\pard\sa100 ACL-Sicherungen: ACL_Sicherungen\\ACL\\ProgramFiles_05_Zeitstempel.acl und gegebenenfalls ProgramFiles_x86_05_Zeitstempel.acl.\par
+\pard\sa100 Sicherungsstatus: ACL_Sicherungen\\TXT\\Backup_Status_..._05_Zeitstempel.txt.\par
+\pard\sa100 Auswertungsbericht: L04_EXE_Reparatur_05_Zeitstempel.txt im Hauptverzeichnis.\par
+\pard\sa100 Reparaturprotokoll: ACL_Sicherungen\\LOG\\Reparatur_05_Zeitstempel.log.\par
+\pard\sa120\par
+\pard\sa180\b\fs26 Bewertung der Ergebnisse\b0\fs22\par
+\pard\sa100 Bereits ausreichende Rechte werden als BEREITS_AUSREICHEND protokolliert.\par
+\pard\sa100 Ein vorhandener DENY-Eintrag wird als UEBERSPRUNGEN_DENY protokolliert.\par
+\pard\sa100 Nicht aufloesbare Identitaeten werden als UEBERSPRUNGEN_UNGEKLAERTE_IDENTITAETEN protokolliert.\par
+\pard\sa100 Im Pruefmodus werden fehlende Rechte nur als WUERDE_RX_ERGAENZEN ausgewiesen.\par
+\pard\sa100 Im Reparaturmodus wird ein fehlender RX-Allow-Eintrag ergaenzt. Anschliessend erfolgt eine separate Verifikation.\par
+\pard\sa100 FEHLER_BEIM_LESEN, FEHLER_BEIM_SETZEN und Fehler bei der Verifikation sind unterschiedliche Fehlerstufen und muessen getrennt bewertet werden.\par
+\pard\sa120\par
+\pard\sa180\b\fs26 Wichtige Hinweise\b0\fs22\par
+\pard\sa100 Die ACL-Sicherung enthaelt Berechtigungsinformationen, keine Dateiinhalte.\par
+\pard\sa100 Die Version 05 fuehrt keine Symbolcache-Aktualisierung aus. Diese Nebenfunktion ist bewusst vom Berechtigungsprozess getrennt.\par
+\pard\sa100 Die erste Ausfuehrung sollte im Modus P (Nur pruefen) erfolgen. Erst nach Auswertung des Pruefberichts soll ueber einen Reparaturlauf im Modus R entschieden werden.\par
+\pard\sa100 Die Skriptversion 04 und alle bisherigen Berichte, Protokolle und Sicherungen bleiben unveraendert erhalten.\par
+\pard\sa120\par
+\pard\sa180\b\fs26 Versionshistorie\b0\fs22\par
+\pard\sa100 Version 01: Urspruengliche Dokumentation des EXE-Berechtigungspruefverfahrens.\par
+\pard\sa100 Version 02: Dokumentation zur Version 05; beschreibt die vorsichtige ACL-Behandlung, getrennte Fehlerstufen und den vorgeschalteten Pruefmodus.\par
+}
