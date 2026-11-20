@@ -1,0 +1,97 @@
+==== HKLM RUN ====
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+    PDFPrint    REG_SZ    C:\Program Files\PDF24\pdf24.exe
+    BCSSync    REG_SZ    "C:\Program Files\Microsoft Office\Office14\BCSSync.exe" /DelayServices
+    YouCam Service9    REG_SZ    "C:\Program Files\CyberLink\YouCam9\YouCamService9.exe" /s
+    RtHDVCpl    REG_SZ    C:\Program Files\Realtek\Audio\HDA\RtHDVCpl.exe -s
+    RtHDVBg_Dolby    REG_SZ    "C:\Program Files\Realtek\Audio\HDA\RtHDVBg.exe" /FORPCEE4
+    Adobe Reader Speed Launcher    REG_SZ    "C:\Program Files\Adobe\Reader 9.0\Reader\Reader_sl.exe"
+    Adobe ARM    REG_SZ    "C:\Program Files\Common Files\Adobe\ARM\1.0\AdobeARM.exe"
+    HP Software Update    REG_SZ    C:\Program Files\HP\HP Software Update\HPWuSchd2.exe
+    (Standard)    REG_SZ    
+    APSDaemon    REG_SZ    "C:\Program Files\Common Files\Apple\Apple Application Support\APSDaemon.exe"
+    QuickTime Task    REG_SZ    "C:\Program Files\QuickTime\QTTask.exe" -atboottime
+    VDownloader    REG_SZ    C:\Program Files\VDownloader\VDownloader.exe
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\OptionalComponents
+    (Standard)    REG_SZ    
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\OptionalComponents\IMAIL
+    (Standard)    REG_SZ    
+    Installed    REG_SZ    1
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\OptionalComponents\MAPI
+    (Standard)    REG_SZ    
+    Installed    REG_SZ    1
+    NoChange    REG_SZ    1
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\OptionalComponents\MSFS
+    (Standard)    REG_SZ    
+    Installed    REG_SZ    1
+
+==== HKCU RUN ====
+
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+    GoogleDriveFS    REG_SZ    "C:\Program Files\Google\Drive File Stream\79.0.2.0\GoogleDriveFS.exe" --startup_mode
+    CCleaner Smart Cleaning    REG_SZ    "C:\Program Files\CCleaner\ccleaner.exe" /MONITOR
+    HP Officejet 7500 E910 (NET)    REG_SZ    "C:\Program Files\HP\HP Officejet 7500 E910\Bin\ScanToPCActivationApp.exe" -deviceID "MY37G3106N05JB:NW" -scfn "HP Officejet 7500 E910 (NET)" -AutoStart 1
+    Speech Recognition    REG_SZ    "C:\WINDOWS\Speech\Common\sapisvr.exe" -SpeechUX -Startup
+    (Standard)    REG_SZ    
+    5KPlayer    REG_SZ    "C:\Program Files\DearMob\5KPlayer\5KPlayer.exe" -auto
+
+==== WINLOGON ====
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
+    Userinit    REG_SZ    C:\Windows\system32\userinit.exe,
+    LegalNoticeText    REG_SZ    
+    LegalNoticeCaption    REG_SZ    
+    DebugServerCommand    REG_SZ    no
+    ForceUnlockLogon    REG_DWORD    0x0
+    Shell    REG_SZ    explorer.exe
+    VMApplet    REG_SZ    SystemPropertiesPerformance.exe /pagefile
+    AutoRestartShell    REG_DWORD    0x1
+    PowerdownAfterShutdown    REG_SZ    0
+    ShutdownWithoutLogon    REG_SZ    0
+    ReportBootOk    REG_SZ    1
+    Background    REG_SZ    0 0 0
+    PasswordExpiryWarning    REG_DWORD    0x5
+    CachedLogonsCount    REG_SZ    10
+    PreCreateKnownFolders    REG_SZ    {A520A1A4-1780-4FF6-BD18-167343C5AF16}
+    WinStationsDisabled    REG_SZ    0
+    scremoveoption    REG_SZ    0
+    DisableCAD    REG_DWORD    0x1
+    ShutdownFlags    REG_DWORD    0x80000027
+    EnableFirstLogonAnimation    REG_DWORD    0x1
+    AutoLogonSID    REG_SZ    S-1-5-21-681825281-3767286365-1090229183-1000
+    LastUsedUsername    REG_SZ    t-projekt
+    AutoAdminLogon    REG_SZ    0
+    DefaultUserName    REG_SZ    t-projekt
+    allocatecdroms    REG_SZ    0
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\AlternateShells
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\GPExtensions
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\AutoLogonChecked
+==== APPINIT ====
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows
+    (Standard)    REG_SZ    mnmsrvc
+    Spooler    REG_SZ    yes
+    DeviceNotSelectedTimeout    REG_SZ    15
+    TransmissionRetryTimeout    REG_SZ    90
+    EnableDwmInputProcessing    REG_DWORD    0x7
+    ShutdownWarningDialogTimeout    REG_DWORD    0xffffffff
+    USERProcessHandleQuota    REG_DWORD    0x2710
+    LoadAppInit_DLLs    REG_DWORD    0x1
+    IconServiceLib    REG_SZ    IconCodecService.dll
+    DesktopHeapLogging    REG_DWORD    0x1
+    DdeSendTimeout    REG_DWORD    0x0
+    DwmInputUsesIoCompletionPort    REG_DWORD    0x1
+    USERPostMessageLimit    REG_DWORD    0x2710
+    USERNestedWindowLimit    REG_DWORD    0x32
+    AppInit_DLLs    REG_SZ    C:\WINDOWS\system32\nvinit.dll
+    NaturalInputHandler    REG_SZ    Ninput.dll
+    ThreadUnresponsiveLogTimeout    REG_DWORD    0x1f4
+    GDIProcessHandleQuota    REG_DWORD    0x2710
+    Win32kLastWriteTime    REG_SZ    1D91CDEB3C2F142
+
