@@ -1,0 +1,7 @@
+﻿L04 - EXE-Berechtigungsreparatur 06
+Start: 11/21/2026 00:09:27
+Zielgruppe: BUILTIN\Users (S-1-5-32-545)
+Zielrecht: Lesen und Ausfuehren (RX)
+Verfahren: Nur fehlendes RX ergaenzen; vorhandene ACEs und Vererbung erhalten.
+Es werden keine Dateiinhalte veraendert.
+
