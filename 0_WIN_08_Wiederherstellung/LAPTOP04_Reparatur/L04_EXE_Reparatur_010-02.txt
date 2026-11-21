@@ -1,0 +1,12 @@
+﻿L04 - EXE-Berechtigungsreparatur 010
+Start: 11/21/2026 20:52:00
+Zielgruppe: BUILTIN\Users (S-1-5-32-545)
+Zielrecht: Lesen und Ausfuehren (RX)
+Nur fehlendes RX ergaenzen; vorhandene ACEs und Vererbung erhalten.
+ACL-Sicherung muss vor jeder Rechteaenderung erfolgreich sein.
+
+EXE_INVENTUR: 1339 EXE-Dateien; CSV=D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP04_Reparatur\ACL_Sicherungen\CSV\EXE_Inventur_20261121_205200.csv
+REGISTRY_INVENTUR: 277 Eintraege aus HKLM 64/32 und HKCU
+REGISTRY_LESFEHLER: 0
+INVENTUR_SUCHFEHLER: 0
+FEHLER: Sicherung Program Files NICHT bestaetigt. ExitCode=; Fehlertext=True; ACL-Bytes=18286232
