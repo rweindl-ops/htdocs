@@ -16,12 +16,12 @@ Sicherheitsablauf
 
 Wichtige Einschraenkung
 Die EXE-Suche verwendet weiterhin die Rekursion aus Version 07. Zugriffsfehler werden im Bericht festgehalten; Junctions/Reparse-Points sind noch nicht gesondert aufgeloest. Die Inventur ist daher erst nach Auswertung der Suchfehler als vollstaendig zu bewerten.
-Die bekannten Fehler bei der rekursiven ACL-Sicherung von Program Files sind nicht behoben. Die segmentierten Tests aus Version 08 sind keine freigegebene Wiederherstellungssicherung. Solange die ACL-Sicherung nicht zweifelsfrei erfolgreich ist, kann Version 09 keine Reparatur ausfuehren.
+Die bekannten Fehler bei der rekursiven ACL-Sicherung von Program Files sind nicht behoben. Die segmentierten Tests aus Version 08 sind keine freigegebene Wiederherstellungssicherung. Solange die ACL-Sicherung nicht zweifelsfrei erfolgreich ist, darf der Reparaturpfad von Version 09 nicht freigegeben werden.
 
 Dateien
-L04_EXE_Reparatur_09.ps1 - Inventur und Reparatur auf Basis von Version 07.
+L04_EXE_Reparatur_09.ps1 - Inventurstandard mit separat gesperrtem Reparaturpfad; Basis ist Version 07.
 L04_EXE_Reparatur_09.bat - Startdatei.
-L04_EXE_Reparatur_Dokumentation_07.txt - diese Dokumentation.
+L04_EXE_Reparatur_Dokumentation_06.txt - diese Dokumentation.
 
 
 Inventurtest in Version 09
