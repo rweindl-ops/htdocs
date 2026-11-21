@@ -1,0 +1,33 @@
+{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fswiss Arial;}}\viewkind4\uc1
+\pard\sa240\b\fs32 L04 - EXE-Berechtigungspruefung und Reparatur\b0\fs22\par
+\pard\sa100 Version 05 - Dokumentation zur Skriptversion 08\par
+\pard\sa180\b\fs26 Zweck\b0\fs22\par
+\pard\sa100 Version 07 brach die Gesamtbaumsicherung von C:\\Program Files ab. icacls meldete im rekursiven Elternaufruf den Unterpfad "Gemeinsame Dateien" mit "Zugriff verweigert". Separate manuelle Tests fuer C:\\Program Files\\Common Files und C:\\Program Files\\Common Files\\* endeten dagegen mit ExitCode 0. Die Ursache ist noch nicht abschliessend geklaert.\par
+\pard\sa100 Version 08 ist deshalb eine reine Diagnose- und Sicherungsversion. Sie sichert die Wurzel und anschliessend jeden direkten Eintrag einzeln. So laesst sich das fehlerhafte Segment eingrenzen.\par
+\pard\sa100 \b WICHTIG: \b0 Das Skript aendert keinerlei Berechtigungen. Es gibt keine Reparaturauswahl und keine Set-Acl-Aufrufe.\par
+\pard\sa180\b\fs26 Dateien\b0\fs22\par
+\pard\sa100 L04_EXE_Reparatur_08.bat - Startdatei.\par
+\pard\sa100 L04_EXE_Reparatur_08.ps1 - Segmentierte ACL-Diagnosesicherung.\par
+\pard\sa100 L04_EXE_Reparatur_Dokumentation_05.rtf - Diese Dokumentation.\par
+\pard\sa180\b\fs26 Ablauf\b0\fs22\par
+\pard\sa100 1. Administratorrechte und vorhandene Sicherungsordner werden geprueft.\par
+\pard\sa100 2. Unter ACL_Sicherungen\\ACL wird ein neuer zeitgestempelter Ordner V08 angelegt. Vorhandene Dateien werden nicht ueberschrieben.\par
+\pard\sa100 3. Program Files und, falls vorhanden, Program Files (x86) werden jeweils in Wurzel und direkte Eintraege zerlegt. Jeder direkte Eintrag wird separat mit icacls /save /T gesichert.\par
+\pard\sa100 4. ExitCode, Fehlertexte und Dateigroesse werden je Segment protokolliert. stdout und stderr bleiben als temporaere Dateien erhalten.\par
+\pard\sa100 5. Nach einem Fehler werden weitere Segmente zur Diagnose noch geprueft. Das Gesamtergebnis bleibt dennoch FEHLER.\par
+\pard\sa100 6. Das Skript beendet sich ohne Rechteaenderungen.\par
+\pard\sa180\b\fs26 Ausgaben\b0\fs22\par
+\pard\sa100 Bericht: L04_EXE_Reparatur_08-Zeitstempel.txt im Skriptordner.\par
+\pard\sa100 Log: ACL_Sicherungen\\LOG\\Diagnose_V08_Zeitstempel.log.\par
+\pard\sa100 ACL-Segmente: ACL_Sicherungen\\ACL\\V08_Zeitstempel.\par
+\pard\sa100 Zu Segmenten koennen .stdout.tmp- und .stderr.tmp-Dateien entstehen. Alles zusammen aufbewahren.\par
+\pard\sa180\b\fs26 Grenzen und Sicherheit\b0\fs22\par
+\pard\sa100 ExitCode 0 und eine nichtleere ACL-Datei sind nur Basisindikatoren. Die Segmentdateien dienen zunaechst der Fehlerlokalisierung. Sie sind bis zur gesonderten Pruefung der vollstaendigen Abdeckung und der Restore-Pfade NICHT als freigegebene Wiederherstellungssicherung anzusehen.\par
+\pard\sa100 Es werden weder /C noch /reset, /grant, /deny, /inheritance oder Set-Acl verwendet. Dateiinhalte und Berechtigungen werden nicht veraendert.\par
+\pard\sa180\b\fs26 Versionshistorie\b0\fs22\par
+\pard\sa100 Version 01: Urspruengliche Dokumentation.\par
+\pard\sa100 Version 02: Dokumentation zur Skriptversion 05.\par
+\pard\sa100 Version 03: Dokumentation zur Skriptversion 06.\par
+\pard\sa100 Version 04: Dokumentation zur Skriptversion 07.\par
+\pard\sa100 Version 05: Dokumentation zur Skriptversion 08; segmentierte Diagnose ohne Rechteaenderung.\par
+}
