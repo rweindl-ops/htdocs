@@ -471,11 +471,11 @@ leer                                                                            
 leer                                                                              0,000 KB  20.11.2026 19:32:04  D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP06_Reparatur\ACL_Sicherungen\TXT\leer                                                                                                    
 leer                                                                              0,000 KB  20.11.2026 18:30:52  D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP06_Reparatur\ACL_Sicherungen\leer                                                                                                        
 leer                                                                              0,000 KB  20.11.2026 18:29:10  D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP06_Reparatur\leer                                                                                                                        
-Dateiliste.txt                                                                  157,524 KB  21.11.2026 11:30:39  D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\Dateiliste.txt                                                                                                                                 
+Dateiliste.txt                                                                  145,909 KB  21.11.2026 11:30:39  D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\Dateiliste.txt                                                                                                                                 
 GitHub_Download.bat                                                               0,000 KB  21.11.2026 07:16:07  D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\GitHub_Download.bat                                                                                                                            
 Thumbs.db                                                                         7,000 KB  18.11.2026 09:44:43  D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\Thumbs.db                                                                                                                                      
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-474 Dateien; 531,755 MB
+474 Dateien; 531,744 MB
 
 
 Erstellt mit dem Dateilisten Schreiber - sttmedia.de/dateilistenschreiber.
