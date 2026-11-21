@@ -10,7 +10,7 @@ if not exist "%PS1%" (
 powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File "%PS1%"
 set "RC=%ERRORLEVEL%"
 echo.
-if "%RC%"=="0" (echo Version 09 ohne kritische Fehler beendet.) else (echo Version 09 mit Rueckgabecode %RC% beendet.)
+if "%RC%"=="0" (echo Inventurtest Version 09 ohne kritische Fehler beendet.) else (echo Inventurtest Version 09 mit Rueckgabecode %RC% beendet.)
 echo.
 pause
 exit /b %RC%
