@@ -1,7 +1,7 @@
 #requires -Version 3.0
 param([switch]$EnableRepair)
 # L04 - EXE-Berechtigungsreparatur 010 (Zusammenfuehrung 005/006/007/009)
-# ACL-Sicherung mit Status-Heartbeat. Keine Rechteaenderung vor erfolgreicher Sicherung.
+# EXE-DACL-Sicherung aus der Inventur. Keine Rechteaenderung vor vollstaendiger Sicherung.
 
 $ErrorActionPreference='Stop'
 $Base=$PSScriptRoot
@@ -87,9 +87,8 @@ New-Item -ItemType File -Path $createPaths -ErrorAction Stop | Out-Null
 $header=@('L04 - EXE-Berechtigungsreparatur 010',('Start: '+(Get-Date)),'Zielgruppe: BUILTIN\Users (S-1-5-32-545)','Zielrecht: Lesen und Ausfuehren (RX)','Nur fehlendes RX ergaenzen; vorhandene ACEs und Vererbung erhalten.','ACL-Sicherung muss vor jeder Rechteaenderung erfolgreich sein.','')
 foreach ($l in $header) { Add-Content -LiteralPath $ReportPath -Value $l -Encoding UTF8; Add-Content -LiteralPath $LogPath -Value $l -Encoding UTF8 }
 
-# icacls wird separat gestartet. Die Statusdatei wird waehrend des Laufs
-# alle 15 Sekunden aktualisiert; stdout/stderr werden danach vollstaendig
-# angehaengt und bleiben zusaetzlich als temporaere Beweisdateien erhalten.
+# Die Sicherung betrifft nur die EXE-Dateien, deren Berechtigungen spaeter
+# geprueft oder geaendert werden. Jeder einzelne DACL-Eintrag muss lesbar sein.
 function Invoke-ExeAclBackup {
  param([string]$InventoryCsv,[string]$BackupFile,[string]$StatusFile)
  $exeRows=@(Import-Csv -LiteralPath $InventoryCsv | Where-Object {$_.RecordType -eq 'ExeFile'})
