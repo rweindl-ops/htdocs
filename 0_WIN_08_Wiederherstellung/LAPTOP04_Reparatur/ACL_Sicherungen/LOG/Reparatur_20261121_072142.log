@@ -1,0 +1,9 @@
+﻿L04 - EXE-Berechtigungsreparatur 07
+Start: 11/21/2026 07:21:42
+Zielgruppe: BUILTIN\Users (S-1-5-32-545)
+Zielrecht: Lesen und Ausfuehren (RX)
+Nur fehlendes RX ergaenzen; vorhandene ACEs und Vererbung erhalten.
+ACL-Sicherung muss vor jeder Rechteaenderung erfolgreich sein.
+
+FEHLER: Sicherung Program Files NICHT bestaetigt. ExitCode=; Fehlertext=True; ACL-Bytes=18286232
+ABBRUCH: Program-Files-Backup nicht zweifelsfrei erfolgreich. Keine Rechte geaendert.
