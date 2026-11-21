@@ -1,0 +1,8 @@
+﻿Start: 11/21/2026 21:20:27
+Sicherungsumfang: ausschliesslich die in der EXE-Inventur aufgefuehrten EXE-Dateien.
+Inventur-EXE-Anzahl: 1339
+Gesichert wird jeweils die DACL (Access Control List) der einzelnen EXE-Datei.
+Ende: 11/21/2026 21:20:28
+Ergebnis: ERFOLGREICH
+Gesicherte EXE-DACLs: 1339
+Dateigroesse: 195978 Bytes
