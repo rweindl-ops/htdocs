@@ -1,0 +1,38 @@
+{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fswiss Arial;}}\viewkind4\uc1
+\pard\sa240\b\fs32 L04 - EXE-Berechtigungspruefung und Reparatur\b0\fs22\par
+\pard\sa100 Version 04 - Dokumentation zur Skriptversion 07\par
+\pard\sa180\b\fs26 Zweck und Schutzgrundsaetze\b0\fs22\par
+\pard\sa100 Version 07 prueft EXE-Dateien in C:\Program Files und, falls vorhanden und nicht leer, C:\Program Files (x86). Zielgruppe ist BUILTIN\Users (SID S-1-5-32-545), Zielrecht Lesen und Ausfuehren (RX).\par
+\pard\sa100 Vorhandene ACEs, Vererbung und Besitzer werden nicht pauschal veraendert. DENY-Eintraege und nicht aufloesbare Identitaeten fuehren zum Ueberspringen. Dateiinhalte werden nicht veraendert.\par
+\pard\sa180\b\fs26 Dateien dieser Version\b0\fs22\par
+\pard\sa100 L04_EXE_Reparatur_07.bat - Startdatei.\par
+\pard\sa100 L04_EXE_Reparatur_07.ps1 - Sicherungs-, Pruef- und Reparaturlogik.\par
+\pard\sa100 L04_EXE_Reparatur_Dokumentation_04.rtf - Diese Dokumentation.\par
+\pard\sa180\b\fs26 Wesentliche Aenderungen gegenueber Version 06\b0\fs22\par
+\pard\sa100 1. icacls wird als eigener Prozess gestartet. stdout und stderr werden in getrennte temporaere Dateien umgeleitet.\par
+\pard\sa100 2. Alle 15 Sekunden schreibt das Skript Laufzeit, ACL-Dateigroesse sowie Groesse der Prozessausgaben in die Statusdatei und zeigt den Status im Fenster an. Die Statusdatei bleibt waehrend der Sicherung nicht leer.\par
+\pard\sa100 3. Nach Prozessende werden stdout und stderr in die Statusdatei uebernommen. Die temporaeren Ausgabedateien bleiben als Pruefmaterial erhalten.\par
+\pard\sa100 4. /C wird nicht verwendet. Damit soll icacls bei einem Sicherungsfehler nicht absichtlich ueber diesen Fehler hinweg fortfahren.\par
+\pard\sa100 5. Rueckgabecode, erkannte Fehlertexte und eine nichtleere ACL-Datei werden geprueft. Bei Zweifeln bricht das Skript vor jeder Rechteaenderung ab.\par
+\pard\sa100 6. Ein leerer Ordner Program Files (x86) wird erkannt und ausgelassen.\par
+\pard\sa100 7. Der Ergebnisbericht wird automatisch als 07-01, 07-02 usw. angelegt. Vorhandene Dateien werden nicht ueberschrieben.\par
+\pard\sa180\b\fs26 Ausfuehrung und erster Test\b0\fs22\par
+\pard\sa100 Die BAT-Datei als Administrator starten. Die ACL-Sicherungen laufen zuerst. Erst nach erfolgreicher Sicherung erscheint die Auswahl P / R / A.\par
+\pard\sa100 P = Nur pruefen, keine Berechtigungen aendern.\par
+\pard\sa100 R = Fehlendes RX gezielt ergaenzen.\par
+\pard\sa100 A = Abbrechen.\par
+\pard\sa100 Der erste Lauf ist ausschliesslich mit P durchzufuehren. Vor Auswertung des Berichts darf kein Reparaturlauf mit R erfolgen.\par
+\pard\sa180\b\fs26 Ausgabedateien\b0\fs22\par
+\pard\sa100 ACL-Dateien: ProgramFiles_Zeitstempel.acl und gegebenenfalls ProgramFiles_x86_Zeitstempel.acl.\par
+\pard\sa100 Statusdateien: Backup_Status_ProgramFiles_Zeitstempel.txt und Backup_Status_ProgramFiles_x86_Zeitstempel.txt.\par
+\pard\sa100 Prozessausgaben bleiben als jeweilige .stdout.tmp- und .stderr.tmp-Dateien erhalten.\par
+\pard\sa100 Bericht: L04_EXE_Reparatur_07-01.txt, bei weiteren Laeufen fortlaufend nummeriert. Log: Reparatur_Zeitstempel.log.\par
+\pard\sa180\b\fs26 Grenzen der Sicherungspruefung\b0\fs22\par
+\pard\sa100 Exitcode 0 und eine nichtleere ACL-Datei sind notwendige Basispruefungen, aber kein mathematischer Beweis fuer vollstaendige Wiederherstellbarkeit. Statusausgabe, Fehlertexte und Dateigroesse muessen gemeinsam beurteilt werden. Eine unvollstaendige oder nicht eindeutig gepruefte ACL-Datei darf nicht zur Wiederherstellung verwendet werden.\par
+\pard\sa100 Ein Abbruch waehrend der Sicherung kann eine unvollstaendige ACL-Datei hinterlassen. Diese bleibt als Fehlerartefakt erhalten und ist kein gueltiges Backup.\par
+\pard\sa180\b\fs26 Versionshistorie\b0\fs22\par
+\pard\sa100 Version 01: Urspruengliche Dokumentation.\par
+\pard\sa100 Version 02: Dokumentation zur Skriptversion 05.\par
+\pard\sa100 Version 03: Dokumentation zur Skriptversion 06.\par
+\pard\sa100 Version 04: Dokumentation zur Skriptversion 07; Status-Heartbeat, Prozessausgaben, Abbruch bei Sicherungszweifeln und fortlaufende Berichtsnummerierung.\par
+}
