@@ -99,7 +99,7 @@ function Invoke-AclBackup {
  }
  $bytes=0
  if (Test-Path -LiteralPath $AclFile) {$bytes=(Get-Item -LiteralPath $AclFile).Length}
- $bad=[regex]::IsMatch($output,'(?im)(Zugriff verweigert|Access is denied|Fehler beim Verarbeiten|Failed processing|error:|Fehler:)')
+ $bad=[regex]::IsMatch($output,'(?im)(Zugriff verweigert|Access is denied|Fehler beim Verarbeiten von [1-9][0-9]*|Failed processing [1-9][0-9]*|error:|Fehler:)')
  $seconds=[math]::Round(((Get-Date)-$start).TotalSeconds,1)
  Add-Content -LiteralPath $StatusFile -Encoding UTF8 -Value @('',('Ende: '+(Get-Date)),('Laufzeit: '+$seconds+' Sekunden'),('icacls ExitCode: '+$rc),('ACL-Dateigroesse: '+$bytes+' Bytes'),('Fehlermuster erkannt: '+$bad))
  if ($null -eq $proc -or $rc -ne 0 -or $bad -or $bytes -le 0) {
