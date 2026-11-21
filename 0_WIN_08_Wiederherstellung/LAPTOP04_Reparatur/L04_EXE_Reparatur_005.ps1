@@ -1,5 +1,5 @@
 #requires -Version 3.0
-# L04 - EXE-Berechtigungsreparatur 06
+# L04 - EXE-Berechtigungsreparatur 05
 # Ziel: Fehlendes Lesen/Ausfuehren (RX) fuer BUILTIN\Users
 #       gezielt ergaenzen, ohne vorhandene ACL-Strukturen zu zerstoeren.
 # WICHTIG: Keine Vererbungsumstellung, kein PurgeAccessRules,
@@ -103,12 +103,12 @@ if (-not (Test-Path -LiteralPath $Root1 -PathType Container)) {
 }
 
 $Stamp = Get-Date -Format 'yyyyMMdd_HHmmss'
-$ReportPath = Join-Path $Base ('L04_EXE_Reparatur_06-01.txt')
-$LogPath = Join-Path $LogDir ('Reparatur_' + $Stamp + '.log')
-$AclFile1 = Join-Path $AclDir ('ProgramFiles_' + $Stamp + '.acl')
-$AclFile2 = Join-Path $AclDir ('ProgramFiles_x86_' + $Stamp + '.acl')
-$Status1 = Join-Path $TxtDir ('Backup_Status_ProgramFiles_' + $Stamp + '.txt')
-$Status2 = Join-Path $TxtDir ('Backup_Status_ProgramFiles_x86_' + $Stamp + '.txt')
+$ReportPath = Join-Path $Base ('L04_EXE_Reparatur_05_' + $Stamp + '.txt')
+$LogPath = Join-Path $LogDir ('Reparatur_05_' + $Stamp + '.log')
+$AclFile1 = Join-Path $AclDir ('ProgramFiles_05_' + $Stamp + '.acl')
+$AclFile2 = Join-Path $AclDir ('ProgramFiles_x86_05_' + $Stamp + '.acl')
+$Status1 = Join-Path $TxtDir ('Backup_Status_ProgramFiles_05_' + $Stamp + '.txt')
+$Status2 = Join-Path $TxtDir ('Backup_Status_ProgramFiles_x86_05_' + $Stamp + '.txt')
 
 $OutputPaths = @($ReportPath, $LogPath, $AclFile1, $AclFile2, $Status1, $Status2)
 foreach ($Path in $OutputPaths) {
@@ -123,7 +123,7 @@ New-Item -ItemType File -Path $Status1 -ErrorAction Stop | Out-Null
 New-Item -ItemType File -Path $Status2 -ErrorAction Stop | Out-Null
 
 $Header = @(
-    'L04 - EXE-Berechtigungsreparatur 06'
+    'L04 - EXE-Berechtigungsreparatur 05'
     ('Start: ' + (Get-Date))
     'Zielgruppe: BUILTIN\Users (S-1-5-32-545)'
     'Zielrecht: Lesen und Ausfuehren (RX)'
@@ -143,70 +143,23 @@ foreach ($Line in $Header) {
 Write-Host ''
 Write-Host 'Sichere zuerst die ACLs der Programmverzeichnisse ...'
 
-function Invoke-AclBackup {
-    param(
-        [string]$Root,
-        [string]$AclFile,
-        [string]$StatusFile,
-        [string]$Label
-    )
-
-    # Windows PowerShell kann native stderr-Ausgaben als NativeCommandError
-    # behandeln. Fuer den icacls-Aufruf wird deshalb temporaer Continue
-    # verwendet und stderr explizit in den Statusbericht umgeleitet.
-    $PreviousErrorActionPreference = $ErrorActionPreference
-    $BackupOutput = @()
-    $BackupExitCode = -1
-    $InvocationFailure = $null
-
-    try {
-        $ErrorActionPreference = 'Continue'
-        $BackupOutput = @(& icacls.exe $Root /save $AclFile /T /C 2>&1)
-        $BackupExitCode = $LASTEXITCODE
-    } catch {
-        $InvocationFailure = $_.Exception.Message
-    } finally {
-        $ErrorActionPreference = $PreviousErrorActionPreference
-    }
-
-    $NativeErrorRecords = @($BackupOutput | Where-Object {
-        $_ -is [System.Management.Automation.ErrorRecord]
-    })
-
-    $StatusLines = @()
-    foreach ($OutputLine in $BackupOutput) {
-        $StatusLines += [string]$OutputLine
-    }
-    if ($InvocationFailure) {
-        $StatusLines += ('PowerShell-Aufruffehler: ' + $InvocationFailure)
-    }
-    $StatusLines | Out-File -LiteralPath $StatusFile -Encoding UTF8
-
-    $AclExists = Test-Path -LiteralPath $AclFile -PathType Leaf
-    $AclHasContent = $false
-    if ($AclExists) {
-        $AclHasContent = ((Get-Item -LiteralPath $AclFile).Length -gt 0)
-    }
-
-    if ($BackupExitCode -ne 0 -or $NativeErrorRecords.Count -gt 0 -or
-        $InvocationFailure -or -not $AclExists -or -not $AclHasContent) {
-        Write-RunLine ('FEHLER: ACL-Sicherung ' + $Label + ' nicht zweifelsfrei erfolgreich. icacls-Rueckgabecode: ' + $BackupExitCode + '; native Fehlerausgaben: ' + $NativeErrorRecords.Count) $StatusFile
-        return $false
-    }
-
-    Write-RunLine ('ACL-Sicherung ' + $Label + ' erfolgreich; icacls-Rueckgabecode: 0.') $StatusFile
-    return $true
+& icacls.exe $Root1 /save $AclFile1 /T /C *> $Status1
+$BackupCode1 = $LASTEXITCODE
+if ($BackupCode1 -ne 0 -or -not (Test-Path -LiteralPath $AclFile1) -or (Get-Item -LiteralPath $AclFile1).Length -eq 0) {
+    Write-RunLine ('FEHLER: ACL-Sicherung Program Files fehlgeschlagen. icacls-Rueckgabecode: ' + $BackupCode1) $Status1
+    Stop-WithMessage 'ABBRUCH: Die ACL-Sicherung von Program Files war nicht erfolgreich. Es wurden keine Rechte geaendert.'
 }
-
-if (-not (Invoke-AclBackup -Root $Root1 -AclFile $AclFile1 -StatusFile $Status1 -Label 'Program Files')) {
-    Stop-WithMessage 'ABBRUCH: Die ACL-Sicherung von Program Files war nicht zweifelsfrei erfolgreich. Es wurden keine Rechte geaendert.'
-}
+Write-RunLine 'ACL-Sicherung Program Files erfolgreich.' $Status1
 
 $Roots = @($Root1)
 if (Test-Path -LiteralPath $Root2 -PathType Container) {
-    if (-not (Invoke-AclBackup -Root $Root2 -AclFile $AclFile2 -StatusFile $Status2 -Label 'Program Files (x86)')) {
-        Stop-WithMessage 'ABBRUCH: Die ACL-Sicherung von Program Files (x86) war nicht zweifelsfrei erfolgreich. Es wurden keine Rechte geaendert.'
+    & icacls.exe $Root2 /save $AclFile2 /T /C *> $Status2
+    $BackupCode2 = $LASTEXITCODE
+    if ($BackupCode2 -ne 0 -or -not (Test-Path -LiteralPath $AclFile2) -or (Get-Item -LiteralPath $AclFile2).Length -eq 0) {
+        Write-RunLine ('FEHLER: ACL-Sicherung Program Files (x86) fehlgeschlagen. icacls-Rueckgabecode: ' + $BackupCode2) $Status2
+        Stop-WithMessage 'ABBRUCH: Die ACL-Sicherung von Program Files (x86) war nicht erfolgreich. Es wurden keine Rechte geaendert.'
     }
+    Write-RunLine 'ACL-Sicherung Program Files (x86) erfolgreich.' $Status2
     $Roots += $Root2
 } else {
     Write-RunLine 'Program Files (x86) ist nicht vorhanden; dieser Bereich wird ausgelassen.' $Status2
@@ -379,7 +332,7 @@ foreach ($Line in $Summary) {
 }
 
 Write-Host ''
-Write-Host 'Version 06 abgeschlossen.'
+Write-Host 'Version 005 abgeschlossen.'
 Write-Host ('Bericht: ' + $ReportPath)
 Write-Host ('Protokoll: ' + $LogPath)
 Write-Host ''

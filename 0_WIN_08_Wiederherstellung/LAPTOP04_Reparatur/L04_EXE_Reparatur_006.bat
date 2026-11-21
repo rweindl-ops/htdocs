@@ -8,7 +8,7 @@ REM Die eigentliche Verarbeitung erfolgt in der
 REM gleichnamigen PowerShell-Datei.
 REM ==================================================
 
-set "PS1=%~dp0L04_EXE_Reparatur_06.ps1"
+set "PS1=%~dp0L04_EXE_Reparatur_006.ps1"
 
 if not exist "%PS1%" (
     echo FEHLER: Die PowerShell-Datei wurde nicht gefunden:
@@ -23,9 +23,9 @@ set "RC=%ERRORLEVEL%"
 
 echo.
 if "%RC%"=="0" (
-    echo Version 06 wurde ohne kritische Fehler beendet.
+    echo Version 006 wurde ohne kritische Fehler beendet.
 ) else (
-    echo Version 06 wurde mit Rueckgabecode %RC% beendet.
+    echo Version 006 wurde mit Rueckgabecode %RC% beendet.
 )
 echo.
 pause

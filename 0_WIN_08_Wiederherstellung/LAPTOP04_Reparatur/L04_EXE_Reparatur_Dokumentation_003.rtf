@@ -1,9 +1,9 @@
 {\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fswiss Arial;}{\f1\fmodern Courier New;}}\viewkind4\uc1
 \pard\sa240\b\fs32 L04 - EXE-Berechtigungspruefung und Reparatur\b0\fs22\par
-\pard\sa100 Version 03 - Dokumentation zur Skriptversion 06\par
+\pard\sa100 Version 003 - Dokumentation zur Skriptversion 06\par
 \pard\sa120\par
 \pard\sa180\b\fs26 Zweck und Ziel\b0\fs22\par
-\pard\sa100 Version 06 untersucht EXE-Dateien in C:\\Program Files und, sofern vorhanden, C:\\Program Files (x86). Ziel ist, der lokalen Gruppe BUILTIN\\Users (SID S-1-5-32-545) bei Bedarf ausschliesslich das Recht Lesen und Ausfuehren (RX) zu ergaenzen.\par
+\pard\sa100 Version 006 untersucht EXE-Dateien in C:\\Program Files und, sofern vorhanden, C:\\Program Files (x86). Ziel ist, der lokalen Gruppe BUILTIN\\Users (SID S-1-5-32-545) bei Bedarf ausschliesslich das Recht Lesen und Ausfuehren (RX) zu ergaenzen.\par
 \pard\sa120\par
 \pard\sa180\b\fs26 Grundsaetze\b0\fs22\par
 \pard\sa100 - Vorhandene Berechtigungseintraege werden nicht pauschal entfernt.\par
@@ -15,9 +15,9 @@
 \pard\sa100 - Lesen, Setzen und Verifizieren werden getrennt protokolliert.\par
 \pard\sa120\par
 \pard\sa180\b\fs26 Dateien dieser Version\b0\fs22\par
-\pard\sa100 L04_EXE_Reparatur_06.bat - Startdatei; startet die PowerShell-Datei.\par
-\pard\sa100 L04_EXE_Reparatur_06.ps1 - Pruef- und Reparaturlogik.\par
-\pard\sa100 L04_EXE_Reparatur_Dokumentation_03.rtf - Diese Dokumentation.\par
+\pard\sa100 L04_EXE_Reparatur_006.bat - Startdatei; startet die PowerShell-Datei.\par
+\pard\sa100 L04_EXE_Reparatur_006.ps1 - Pruef- und Reparaturlogik.\par
+\pard\sa100 L04_EXE_Reparatur_Dokumentation_003.rtf - Diese Dokumentation.\par
 \pard\sa120\par
 \pard\sa180\b\fs26 Ablage\b0\fs22\par
 \pard\sa100 Alle drei Dateien gehoeren in das Hauptverzeichnis:\par
@@ -26,7 +26,7 @@
 \pard\sa120\par
 \pard\sa180\b\fs26 Ausfuehrung\b0\fs22\par
 \pard\sa100 1. Auf LAPTOP04 anmelden.\par
-\pard\sa100 2. L04_EXE_Reparatur_06.bat mit Als Administrator ausfuehren starten.\par
+\pard\sa100 2. L04_EXE_Reparatur_006.bat mit Als Administrator ausfuehren starten.\par
 \pard\sa100 3. Vor jeder Rechtepruefung werden die ACLs der vorhandenen Programmverzeichnisse mit icacls gesichert.\par
 \pard\sa100 4. Der Sicherungsschritt gilt nur dann als erfolgreich, wenn der icacls-Prozess den Rueckgabecode 0 liefert, keine nativen Fehlerausgaben gemeldet werden und eine nichtleere ACL-Datei vorliegt. Bei Zweifeln bricht das Skript vor jeder Berechtigungsaenderung ab.\par
 \pard\sa100 5. Danach erscheint eine Auswahl:\par
@@ -39,7 +39,7 @@
 \pard\sa100 Jeder Lauf erhaelt einen Zeitstempel. Vorhandene Dateien werden nicht ueberschrieben.\par
 \pard\sa100 ACL-Sicherungen: ACL_Sicherungen\\ACL\\ProgramFiles_Zeitstempel.acl und gegebenenfalls ProgramFiles_x86_Zeitstempel.acl.\par
 \pard\sa100 Sicherungsstatus: ACL_Sicherungen\\TXT\\Backup_Status_ProgramFiles_Zeitstempel.txt und gegebenenfalls Backup_Status_ProgramFiles_x86_Zeitstempel.txt.\par
-\pard\sa100 Auswertungsbericht: L04_EXE_Reparatur_06-01.txt im Hauptverzeichnis.\par
+\pard\sa100 Auswertungsbericht: L04_EXE_Reparatur_006-01.txt im Hauptverzeichnis.\par
 \pard\sa100 Reparaturprotokoll: ACL_Sicherungen\\LOG\\Reparatur_Zeitstempel.log.\par
 \pard\sa120\par
 \pard\sa180\b\fs26 Bewertung der Ergebnisse\b0\fs22\par
@@ -52,12 +52,12 @@
 \pard\sa120\par
 \pard\sa180\b\fs26 Wichtige Hinweise\b0\fs22\par
 \pard\sa100 Die ACL-Sicherung enthaelt Berechtigungsinformationen, keine Dateiinhalte. Eine bei Fehlern erzeugte unvollstaendige ACL-Datei ist keine gueltige Wiederherstellungssicherung und darf nicht zur Wiederherstellung verwendet werden.\par
-\pard\sa100 Die Version 06 fuehrt keine Symbolcache-Aktualisierung aus. Diese Nebenfunktion bleibt vom Berechtigungsprozess getrennt.\par
+\pard\sa100 Die Version 006 fuehrt keine Symbolcache-Aktualisierung aus. Diese Nebenfunktion bleibt vom Berechtigungsprozess getrennt.\par
 \pard\sa100 Die erste Ausfuehrung muss im Modus P (Nur pruefen) erfolgen. Erst nach Auswertung des Pruefberichts soll ueber einen Reparaturlauf im Modus R entschieden werden.\par
-\pard\sa100 Version 05 und alle bisherigen Berichte, Protokolle und Sicherungen bleiben unveraendert erhalten.\par
+\pard\sa100 Version 005 und alle bisherigen Berichte, Protokolle und Sicherungen bleiben unveraendert erhalten.\par
 \pard\sa120\par
 \pard\sa180\b\fs26 Versionshistorie\b0\fs22\par
-\pard\sa100 Version 01: Urspruengliche Dokumentation des EXE-Berechtigungspruefverfahrens.\par
-\pard\sa100 Version 02: Dokumentation zur Skriptversion 05.\par
-\pard\sa100 Version 03: Dokumentation zur Skriptversion 06; korrigierte Fehlerbehandlung beim ACL-Backup und eindeutige Dateibenennung.\par
+\pard\sa100 Version 001: Urspruengliche Dokumentation des EXE-Berechtigungspruefverfahrens.\par
+\pard\sa100 Version 002: Dokumentation zur Skriptversion 05.\par
+\pard\sa100 Version 003: Dokumentation zur Skriptversion 06; korrigierte Fehlerbehandlung beim ACL-Backup und eindeutige Dateibenennung.\par
 }

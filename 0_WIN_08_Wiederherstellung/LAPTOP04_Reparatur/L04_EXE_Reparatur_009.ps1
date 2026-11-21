@@ -1,5 +1,6 @@
 #requires -Version 3.0
-# L04 - EXE-Berechtigungsreparatur 07
+param([switch]$EnableRepair)
+# L04 - EXE-Berechtigungsreparatur 09 (Basis: Version 007)
 # ACL-Sicherung mit Status-Heartbeat. Keine Rechteaenderung vor erfolgreicher Sicherung.
 
 $ErrorActionPreference='Stop'
@@ -8,6 +9,7 @@ $Root1='C:\Program Files'
 $Root2='C:\Program Files (x86)'
 $AclDir=Join-Path $Base 'ACL_Sicherungen\ACL'
 $TxtDir=Join-Path $Base 'ACL_Sicherungen\TXT'
+$CsvDir=Join-Path $Base 'ACL_Sicherungen\CSV'
 $LogDir=Join-Path $Base 'ACL_Sicherungen\LOG'
 $UsersSid=New-Object System.Security.Principal.SecurityIdentifier('S-1-5-32-545')
 $Rx=[int][System.Security.AccessControl.FileSystemRights]::ReadAndExecute
@@ -23,7 +25,7 @@ function Stop-WithMessage([string]$Message) {
 }
 function Get-UniqueReportPath {
  $i=1
- do { $p=Join-Path $Base ('L04_EXE_Reparatur_07-{0:D2}.txt' -f $i); $i++ } while (Test-Path -LiteralPath $p)
+ do { $p=Join-Path $Base ('L04_EXE_Reparatur_009-{0:D2}.txt' -f $i); $i++ } while (Test-Path -LiteralPath $p)
  return $p
 }
 function Get-UsersAclState([System.Security.AccessControl.FileSystemSecurity]$Acl) {
@@ -41,8 +43,30 @@ function Get-UsersAclState([System.Security.AccessControl.FileSystemSecurity]$Ac
  return [pscustomobject]@{Allow=$allow;Deny=$deny;Unresolved=$unknown}
 }
 
+function Get-RegistryProgramRows {
+ $rows=New-Object System.Collections.ArrayList
+ $keys=@(
+  @{Root='HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall';Hive='HKLM';View='64/Native'},
+  @{Root='HKLM:\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall';Hive='HKLM';View='32'},
+  @{Root='HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall';Hive='HKCU';View='Current'}
+ )
+ foreach($k in $keys) {
+  if(Test-Path -LiteralPath $k.Root) {
+   foreach($sub in @(Get-ChildItem -LiteralPath $k.Root -ErrorAction SilentlyContinue)) {
+    try { $p=Get-ItemProperty -LiteralPath $sub.PSPath -ErrorAction Stop; if($p.DisplayName -or $p.InstallLocation -or $p.DisplayIcon) {
+     $null=$rows.Add([pscustomobject]@{RecordType='RegistryApp';Path='';DisplayName=[string]$p.DisplayName;InstallLocation=[string]$p.InstallLocation;DisplayIcon=[string]$p.DisplayIcon;RegistryHive=$k.Hive;RegistryView=$k.View;RegistryKey=$sub.PSChildName})
+    }} catch { Write-RunLine ('REGISTRY_LESEN_FEHLER - '+$sub.Name+' - '+$_.Exception.Message) }
+   }
+  }
+ }
+ return @($rows)
+}
+
 # Voraussetzungen
-foreach ($d in @($AclDir,$TxtDir,$LogDir)) { if (-not (Test-Path -LiteralPath $d -PathType Container)) { Stop-WithMessage ('Sicherungsverzeichnis fehlt: '+$d) } }
+# Im reinen Inventurmodus werden nur TXT- und LOG-Ausgabeordner benoetigt.
+# Der ACL-Ordner ist ausschliesslich fuer den ausdruecklich aktivierten Reparaturpfad erforderlich.
+$requiredDirs=if($EnableRepair){@($AclDir,$TxtDir,$CsvDir,$LogDir)}else{@($TxtDir,$CsvDir,$LogDir)}
+foreach ($d in $requiredDirs) { if (-not (Test-Path -LiteralPath $d -PathType Container)) { Stop-WithMessage ('Ausgabeverzeichnis fehlt: '+$d) } }
 $admin=New-Object Security.Principal.WindowsPrincipal([Security.Principal.WindowsIdentity]::GetCurrent())
 if (-not $admin.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) { Stop-WithMessage 'Bitte die BAT-Datei als Administrator starten.' }
 if (-not (Test-Path -LiteralPath $Root1 -PathType Container)) { Stop-WithMessage 'C:\Program Files wurde nicht gefunden.' }
@@ -54,9 +78,13 @@ $Acl1=Join-Path $AclDir ('ProgramFiles_'+$stamp+'.acl')
 $Acl2=Join-Path $AclDir ('ProgramFiles_x86_'+$stamp+'.acl')
 $Status1=Join-Path $TxtDir ('Backup_Status_ProgramFiles_'+$stamp+'.txt')
 $Status2=Join-Path $TxtDir ('Backup_Status_ProgramFiles_x86_'+$stamp+'.txt')
-foreach ($p in @($LogPath,$Acl1,$Acl2,$Status1,$Status2)) { if (Test-Path -LiteralPath $p) { Stop-WithMessage ('Ausgabedatei existiert bereits; nichts ueberschrieben: '+$p) } }
-New-Item -ItemType File -Path $ReportPath,$LogPath,$Status1,$Status2 -ErrorAction Stop | Out-Null
-$header=@('L04 - EXE-Berechtigungsreparatur 07',('Start: '+(Get-Date)),'Zielgruppe: BUILTIN\Users (S-1-5-32-545)','Zielrecht: Lesen und Ausfuehren (RX)','Nur fehlendes RX ergaenzen; vorhandene ACEs und Vererbung erhalten.','ACL-Sicherung muss vor jeder Rechteaenderung erfolgreich sein.','')
+$checkPaths=@($LogPath)
+if($EnableRepair){$checkPaths+=@($Acl1,$Acl2,$Status1,$Status2)}
+foreach ($p in $checkPaths) { if (Test-Path -LiteralPath $p) { Stop-WithMessage ('Ausgabedatei existiert bereits; nichts ueberschrieben: '+$p) } }
+$createPaths=@($ReportPath,$LogPath)
+if($EnableRepair){$createPaths+=@($Status1,$Status2)}
+New-Item -ItemType File -Path $createPaths -ErrorAction Stop | Out-Null
+$header=@('L04 - EXE-Berechtigungsreparatur 09',('Start: '+(Get-Date)),'Zielgruppe: BUILTIN\Users (S-1-5-32-545)','Zielrecht: Lesen und Ausfuehren (RX)','Nur fehlendes RX ergaenzen; vorhandene ACEs und Vererbung erhalten.','ACL-Sicherung muss vor jeder Rechteaenderung erfolgreich sein.','')
 foreach ($l in $header) { Add-Content -LiteralPath $ReportPath -Value $l -Encoding UTF8; Add-Content -LiteralPath $LogPath -Value $l -Encoding UTF8 }
 
 # icacls wird separat gestartet. Die Statusdatei wird waehrend des Laufs
@@ -108,6 +136,38 @@ function Invoke-AclBackup {
  }
  Write-RunLine ('Sicherung '+$Label+' beendet. ExitCode=0; ACL-Bytes='+$bytes+'; Laufzeit='+$seconds+' s.')
  return $true
+}
+
+# PHASE 0: lesende EXE- und Registry-Inventur vor der ACL-Sicherung
+$InventoryPath=Join-Path $CsvDir ('EXE_Inventur_'+$stamp+'.csv')
+if(Test-Path -LiteralPath $InventoryPath){Stop-WithMessage ('Inventurdatei existiert bereits: '+$InventoryPath)}
+$inventoryRows=New-Object System.Collections.ArrayList
+$regRows=@(Get-RegistryProgramRows)
+foreach($row in $regRows){$null=$inventoryRows.Add($row)}
+foreach($scanRoot in @($Root1,$Root2)){
+ if(Test-Path -LiteralPath $scanRoot -PathType Container){
+  $scanErrors=@()
+  $exeFiles=@(Get-ChildItem -LiteralPath $scanRoot -Filter '*.exe' -Recurse -File -ErrorAction SilentlyContinue -ErrorVariable scanErrors)
+  foreach($e in $exeFiles){$null=$inventoryRows.Add([pscustomobject]@{RecordType='ExeFile';Path=$e.FullName;DisplayName='';InstallLocation='';DisplayIcon='';RegistryHive='';RegistryView='';RegistryKey=''})}
+  foreach($err in $scanErrors){Write-RunLine ('INVENTUR_SUCHFEHLER - '+$err.Exception.Message)}
+  if($scanErrors.Count -gt 0){Write-RunLine ('INVENTUR_SUCHFEHLER_ANZAHL '+$scanRoot+': '+$scanErrors.Count)}
+ }
+}
+$inventoryRows | Export-Csv -LiteralPath $InventoryPath -NoTypeInformation -Encoding UTF8
+$exeCount=@($inventoryRows | Where-Object {$_.RecordType -eq 'ExeFile'}).Count
+Write-RunLine ('EXE_INVENTUR: '+$exeCount+' EXE-Dateien; CSV='+$InventoryPath)
+Write-RunLine ('REGISTRY_INVENTUR: '+$regRows.Count+' Eintraege aus HKLM 64/32 und HKCU')
+Write-Host ('Inventur abgeschlossen: '+$exeCount+' EXE-Dateien; '+$regRows.Count+' Registry-Eintraege')
+Write-Host ('CSV: '+$InventoryPath)
+
+if (-not $EnableRepair) {
+ Write-RunLine 'INVENTURTEST (Standardmodus): abgeschlossen. ACL-Sicherung und Berechtigungspruefung/-aenderung wurden bewusst nicht gestartet.'
+ Write-Host ''
+ Write-Host 'INVENTURTEST (Standardmodus) abgeschlossen. Es wurden keine ACL-Sicherungen gestartet und keine Berechtigungen geaendert.' -ForegroundColor Green
+ Write-Host ('Bericht: '+$ReportPath)
+ Write-Host ('Log: '+$LogPath)
+ Write-Host ('Inventur-CSV: '+$InventoryPath)
+ exit 0
 }
 
 Write-Host ''
@@ -165,6 +225,7 @@ $summary=@('','================ AUSWERTUNG ================',('Gefundene EXE-Dat
 foreach ($line in $summary) {Write-RunLine $line}
 Write-Host ''
 Write-Host ('Bericht: '+$ReportPath)
+Write-Host ('Inventur-CSV: '+$InventoryPath)
 Write-Host ('EXE: '+$total+' | Bereits RX: '+$already+' | Aenderungen: '+$changed)
 Write-Host ('Fehler Lesen/Setzen/Verifikation/Suche: '+($readErr+$setErr+$verifyErr+$enumErr))
 if (($readErr+$setErr+$verifyErr+$enumErr) -gt 0) {exit 2}

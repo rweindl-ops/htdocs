@@ -13,7 +13,7 @@ $stamp=Get-Date -Format 'yyyyMMdd_HHmmss'
 $RunDir=Join-Path $AclBase ('ProgramFiles_'+$stamp)
 New-Item -ItemType Directory -Path $RunDir -ErrorAction Stop|Out-Null
 $Log=Join-Path $LogDir ('Diagnose_V08_'+$stamp+'.log')
-$Report=Join-Path $Base ('L04_EXE_Reparatur_08-'+$stamp+'.txt')
+$Report=Join-Path $Base ('L04_EXE_Reparatur_008-'+$stamp+'.txt')
 New-Item -ItemType File -Path $Log,$Report -ErrorAction Stop|Out-Null
 function LogLine([string]$s){Add-Content -LiteralPath $Log -Value $s -Encoding UTF8;Add-Content -LiteralPath $Report -Value $s -Encoding UTF8}
 function RunSegment([string]$target,[string]$file,[string]$label,[bool]$recursive){

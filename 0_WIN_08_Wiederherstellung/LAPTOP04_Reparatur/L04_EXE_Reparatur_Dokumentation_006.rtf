@@ -1,37 +1,37 @@
 {\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fswiss Arial;}}\viewkind4\uc1
 \f0\fs22
 \pard\sa100 L04 - EXE-Berechtigungspruefung und Reparatur\par
-\pard\sa100 Version 06 - Dokumentation zur Skriptversion 09\par
+\pard\sa100 Version 006 - Dokumentation zur Skriptversion 09\par
 \pard\sa100\par
-\pard\sa100 Version 09 wird aus L04_EXE_Reparatur_07.ps1 weiterentwickelt. Die ACL-Sicherungspruefung, Benutzerentscheidung P/R/A und gezielte Reparaturlogik aus Version 07 bleiben im ausdruecklich gesperrten Reparaturpfad erhalten. Version 08 ist nicht die Entwicklungsbasis.\par
+\pard\sa100 Version 009 wird aus L04_EXE_Reparatur_007.ps1 weiterentwickelt. Die ACL-Sicherungspruefung, Benutzerentscheidung P/R/A und gezielte Reparaturlogik aus Version 007 bleiben im ausdruecklich gesperrten Reparaturpfad erhalten. Version 008 ist nicht die Entwicklungsbasis.\par
 \pard\sa100\par
 \pard\sa100 Der normale Start ohne Parameter ist ausschliesslich ein lesender Inventurmodus. Er startet weder ACL-Sicherungen noch die Benutzerentscheidung P/R/A und benoetigt deshalb auch keinen ACL-Ausgabeordner. Der Reparaturpfad ist nur durch den ausdruecklichen Parameter -EnableRepair erreichbar und ist fuer den aktuellen Test nicht freigegeben.\par
 \pard\sa100\par
 \pard\sa100 Inventur\par
-\pard\sa100 Vor der ACL-Sicherung erstellt Version 09 eine lesende CSV-Inventur. Sie enthaelt EXE-Dateien aus C:\\Program Files und C:\\Program Files (x86) sowie separate Metadatensaetze aus den Uninstall-Registrierungseintraegen von HKLM (64-Bit- und 32-Bit-Zweig) und HKCU.\par
+\pard\sa100 Vor der ACL-Sicherung erstellt Version 009 eine lesende CSV-Inventur. Sie enthaelt EXE-Dateien aus C:\\Program Files und C:\\Program Files (x86) sowie separate Metadatensaetze aus den Uninstall-Registrierungseintraegen von HKLM (64-Bit- und 32-Bit-Zweig) und HKCU.\par
 \pard\sa100 Die Registry-Daten dienen der Erfassung installierter Programme. Sie begrenzen die Dateisuche nicht und werden nicht ausgefuehrt. Die CSV kennzeichnet EXE-Dateien und Registry-Eintraege durch RecordType, damit keine unbewiesene Zuordnung zwischen Programm und EXE behauptet wird.\par
 \pard\sa100\par
 \pard\sa100 Sicherheitsablauf des ausdruecklich aktivierten Reparaturpfads\par
 \pard\sa100 Die folgenden Schritte beschreiben ausschliesslich den gesperrten Reparaturpfad. Sie werden beim normalen Inventurtest nicht ausgefuehrt.\par
 \pard\sa100 1. Die Inventur laeuft lesend vor der ACL-Sicherung.\par
-\pard\sa100 2. Danach bleibt die ACL-Sicherungsphase aus Version 07 vorgeschaltet.\par
+\pard\sa100 2. Danach bleibt die ACL-Sicherungsphase aus Version 007 vorgeschaltet.\par
 \pard\sa100 3. Scheitert die ACL-Sicherung, bricht das Skript vor jeder Berechtigungsaenderung ab.\par
 \pard\sa100 4. Erst nach erfolgreicher Sicherung ist P (nur pruefen), R (fehlendes RX ergaenzen) oder A (abbrechen) moeglich.\par
 \pard\sa100 5. DENY-Eintraege und ungeklaerte Identitaeten werden weiterhin nicht automatisch veraendert.\par
 \pard\sa100\par
 \pard\sa100 Wichtige Einschraenkung\par
-\pard\sa100 Die EXE-Suche verwendet weiterhin die Rekursion aus Version 07. Zugriffsfehler werden im Bericht festgehalten; Junctions/Reparse-Points sind noch nicht gesondert aufgeloest. Die Inventur ist daher erst nach Auswertung der Suchfehler als vollstaendig zu bewerten.\par
-\pard\sa100 Die bekannten Fehler bei der rekursiven ACL-Sicherung von Program Files sind nicht behoben. Die segmentierten Tests aus Version 08 sind keine freigegebene Wiederherstellungssicherung. Solange die ACL-Sicherung nicht zweifelsfrei erfolgreich ist, darf der Reparaturpfad von Version 09 nicht freigegeben werden.\par
+\pard\sa100 Die EXE-Suche verwendet weiterhin die Rekursion aus Version 007. Zugriffsfehler werden im Bericht festgehalten; Junctions/Reparse-Points sind noch nicht gesondert aufgeloest. Die Inventur ist daher erst nach Auswertung der Suchfehler als vollstaendig zu bewerten.\par
+\pard\sa100 Die bekannten Fehler bei der rekursiven ACL-Sicherung von Program Files sind nicht behoben. Die segmentierten Tests aus Version 008 sind keine freigegebene Wiederherstellungssicherung. Solange die ACL-Sicherung nicht zweifelsfrei erfolgreich ist, darf der Reparaturpfad von Version 009 nicht freigegeben werden.\par
 \pard\sa100\par
 \pard\sa100 Dateien\par
-\pard\sa100 L04_EXE_Reparatur_09.ps1 - Inventurstandard mit separat gesperrtem Reparaturpfad; Basis ist Version 07.\par
-\pard\sa100 L04_EXE_Reparatur_09.bat - Startdatei.\par
+\pard\sa100 L04_EXE_Reparatur_009.ps1 - Inventurstandard mit separat gesperrtem Reparaturpfad; Basis ist Version 007.\par
+\pard\sa100 L04_EXE_Reparatur_009.bat - Startdatei.\par
 \pard\sa100 L04_EXE_Reparatur_Dokumentation_06.txt - diese Dokumentation.\par
 \pard\sa100\par
 \pard\sa100\par
-\pard\sa100 Inventurtest in Version 09\par
+\pard\sa100 Inventurtest in Version 009\par
 \pard\sa100 Die mitgelieferte BAT-Datei startet die PowerShell-Datei ausdruecklich mit dem Standardmodus ohne Reparaturfreigabe. Der Standardstart ist damit sicher begrenzt. Er benoetigt nur die vorhandenen TXT- und LOG-Ausgabeordner, nicht den ACL-Sicherungsordner. Nach erfolgreicher Pruefung der Voraussetzungen erstellt das Skript ausschliesslich die EXE- und Registry-Inventur sowie Bericht, Log und CSV-Datei. Danach beendet sich das Skript mit ExitCode 0. Die ACL-Sicherungsphase und die anschliessende P/R/A-Abfrage werden bei diesem Startweg nicht erreicht. Es werden keine Berechtigungen geaendert.\par
 \pard\sa100\par
-\pard\sa100 Wichtig: Fuer den ersten Test L04_EXE_Reparatur_09.bat verwenden. Auch ein direkter Start der PS1-Datei ohne Parameter bleibt im Inventurmodus. Diese Version ist fuer den kontrollierten Inventurtest vorgesehen. Der Reparaturpfad wird nur durch den ausdruecklichen Parameter -EnableRepair freigegeben. Dieser Parameter darf beim Inventurtest keinesfalls verwendet werden; eine Reparaturfreigabe erfolgt erst nach Auswertung und separater Abstimmung.\par
+\pard\sa100 Wichtig: Fuer den ersten Test L04_EXE_Reparatur_009.bat verwenden. Auch ein direkter Start der PS1-Datei ohne Parameter bleibt im Inventurmodus. Diese Version ist fuer den kontrollierten Inventurtest vorgesehen. Der Reparaturpfad wird nur durch den ausdruecklichen Parameter -EnableRepair freigegeben. Dieser Parameter darf beim Inventurtest keinesfalls verwendet werden; eine Reparaturfreigabe erfolgt erst nach Auswertung und separater Abstimmung.\par
 \pard\sa100\par
 }

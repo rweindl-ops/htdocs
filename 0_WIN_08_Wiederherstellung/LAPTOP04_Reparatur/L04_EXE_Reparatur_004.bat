@@ -17,7 +17,7 @@ set "ACL_DIR=%BACKUP%\ACL"
 set "TXT_DIR=%BACKUP%\TXT"
 set "LOG_DIR=%BACKUP%\LOG"
 
-set "REPORT=%BASE%\L04_EXE_Reparatur_04-01.txt"
+set "REPORT=%BASE%\L04_EXE_Reparatur_004-01.txt"
 
 REM ==================================================
 REM VORAUSSETZUNGEN PRUEFEN

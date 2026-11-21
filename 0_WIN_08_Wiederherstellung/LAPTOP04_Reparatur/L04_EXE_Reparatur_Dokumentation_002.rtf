@@ -1,11 +1,11 @@
 {\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fswiss Arial;}{\f1\fmodern Courier New;}}\viewkind4\uc1
 \pard\sa240\b\fs32 L04 - EXE-Berechtigungspruefung und Reparatur\b0\fs22\par
-\pard\sa100 Version 02 - Dokumentation zur Skriptversion 05\par
+\pard\sa100 Version 002 - Dokumentation zur Skriptversion 05\par
 \pard\sa120\par
 \pard\sa180\b\fs26 Zweck und Ziel\b0\fs22\par
-\pard\sa100 Die Version 05 untersucht EXE-Dateien in C:\\Program Files und, sofern vorhanden, C:\\Program Files (x86). Ziel ist, der lokalen Gruppe BUILTIN\\Users (SID S-1-5-32-545) bei Bedarf ausschliesslich das Recht Lesen und Ausfuehren (RX) zu ergaenzen.\par
+\pard\sa100 Die Version 005 untersucht EXE-Dateien in C:\\Program Files und, sofern vorhanden, C:\\Program Files (x86). Ziel ist, der lokalen Gruppe BUILTIN\\Users (SID S-1-5-32-545) bei Bedarf ausschliesslich das Recht Lesen und Ausfuehren (RX) zu ergaenzen.\par
 \pard\sa120\par
-\pard\sa180\b\fs26 Grundsaetze der Version 05\b0\fs22\par
+\pard\sa180\b\fs26 Grundsaetze der Version 005\b0\fs22\par
 \pard\sa100 - Vorhandene Berechtigungseintraege werden nicht pauschal entfernt.\par
 \pard\sa100 - Die Vererbung wird nicht deaktiviert oder umgestellt.\par
 \pard\sa100 - Der Besitzer einer Datei wird nicht veraendert.\par
@@ -15,9 +15,9 @@
 \pard\sa100 - Lesen, Setzen und Verifizieren werden getrennt protokolliert.\par
 \pard\sa120\par
 \pard\sa180\b\fs26 Dateien dieser Version\b0\fs22\par
-\pard\sa100 L04_EXE_Reparatur_05.bat - Startdatei. Diese Datei startet die PowerShell-Arbeitsdatei.\par
-\pard\sa100 L04_EXE_Reparatur_05.ps1 - Pruef- und Reparaturlogik.\par
-\pard\sa100 L04_EXE_Reparatur_Dokumentation_02.rtf - Diese Dokumentation.\par
+\pard\sa100 L04_EXE_Reparatur_005.bat - Startdatei. Diese Datei startet die PowerShell-Arbeitsdatei.\par
+\pard\sa100 L04_EXE_Reparatur_005.ps1 - Pruef- und Reparaturlogik.\par
+\pard\sa100 L04_EXE_Reparatur_Dokumentation_002.rtf - Diese Dokumentation.\par
 \pard\sa120\par
 \pard\sa180\b\fs26 Ablage\b0\fs22\par
 \pard\sa100 Alle drei Dateien gehoeren in das Hauptverzeichnis:\par
@@ -26,7 +26,7 @@
 \pard\sa120\par
 \pard\sa180\b\fs26 Ausfuehrung\b0\fs22\par
 \pard\sa100 1. Auf LAPTOP04 anmelden.\par
-\pard\sa100 2. L04_EXE_Reparatur_05.bat mit Als Administrator ausfuehren starten.\par
+\pard\sa100 2. L04_EXE_Reparatur_005.bat mit Als Administrator ausfuehren starten.\par
 \pard\sa100 3. Vor der Pruefung werden die ACLs von Program Files und - falls vorhanden - Program Files (x86) gesichert.\par
 \pard\sa100 4. Danach erscheint eine Auswahl:\par
 \pard\sa100 P = Nur pruefen. Es werden keine Berechtigungen veraendert.\par
@@ -51,11 +51,11 @@
 \pard\sa120\par
 \pard\sa180\b\fs26 Wichtige Hinweise\b0\fs22\par
 \pard\sa100 Die ACL-Sicherung enthaelt Berechtigungsinformationen, keine Dateiinhalte.\par
-\pard\sa100 Die Version 05 fuehrt keine Symbolcache-Aktualisierung aus. Diese Nebenfunktion ist bewusst vom Berechtigungsprozess getrennt.\par
+\pard\sa100 Die Version 005 fuehrt keine Symbolcache-Aktualisierung aus. Diese Nebenfunktion ist bewusst vom Berechtigungsprozess getrennt.\par
 \pard\sa100 Die erste Ausfuehrung sollte im Modus P (Nur pruefen) erfolgen. Erst nach Auswertung des Pruefberichts soll ueber einen Reparaturlauf im Modus R entschieden werden.\par
 \pard\sa100 Die Skriptversion 04 und alle bisherigen Berichte, Protokolle und Sicherungen bleiben unveraendert erhalten.\par
 \pard\sa120\par
 \pard\sa180\b\fs26 Versionshistorie\b0\fs22\par
-\pard\sa100 Version 01: Urspruengliche Dokumentation des EXE-Berechtigungspruefverfahrens.\par
-\pard\sa100 Version 02: Dokumentation zur Version 05; beschreibt die vorsichtige ACL-Behandlung, getrennte Fehlerstufen und den vorgeschalteten Pruefmodus.\par
+\pard\sa100 Version 001: Urspruengliche Dokumentation des EXE-Berechtigungspruefverfahrens.\par
+\pard\sa100 Version 002: Dokumentation zur Version 005; beschreibt die vorsichtige ACL-Behandlung, getrennte Fehlerstufen und den vorgeschalteten Pruefmodus.\par
 }

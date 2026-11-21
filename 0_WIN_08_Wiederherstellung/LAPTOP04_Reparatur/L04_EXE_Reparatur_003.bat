@@ -28,12 +28,12 @@ if %NR% LSS 10 (
     set "NUM=%NR%"
 )
 
-if exist "%BASE%L04_EXE_Reparatur_03-%NUM%.txt" (
+if exist "%BASE%L04_EXE_Reparatur_003-%NUM%.txt" (
     set /a NR+=1
     goto MAKELOG
 )
 
-set "OUT=%BASE%L04_EXE_Reparatur_03-%NUM%.txt"
+set "OUT=%BASE%L04_EXE_Reparatur_003-%NUM%.txt"
 
 call :MAIN > "%OUT%" 2>&1
 
