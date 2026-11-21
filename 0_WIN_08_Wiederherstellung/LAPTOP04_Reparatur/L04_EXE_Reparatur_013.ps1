@@ -49,15 +49,21 @@ foreach ($headerName in $requiredHeaders) {
 
 # Leeres wars_aktiv gilt vorerst als aktiv. Explizite 0/Nein/Falsch-Werte deaktivieren.
 $inactiveValues=@('0','NEIN','NO','FALSE','INAKTIV','OFF')
-$eligibleRows=@()
+$eligibleRows=New-Object System.Collections.ArrayList
 foreach ($row in $allConfig) {
  $rowComputer=([string]$row.wars_rechner).Trim()
  if ([string]::IsNullOrWhiteSpace($rowComputer)) {
   Stop-WithMessage 'Ein Datensatz in WARS_Stamm.csv hat keinen wars_rechner-Eintrag.'
  }
  $activeValue=([string]$row.wars_aktiv).Trim().ToUpperInvariant()
- if ($inactiveValues -notcontains $activeValue) { $eligibleRows+=,$row }
+ if ($inactiveValues -contains $activeValue) {
+  Write-Host ('Datensatz deaktiviert: '+$rowComputer+' (wars_aktiv='+$activeValue+')') -ForegroundColor Yellow
+  continue
+ }
+ [void]$eligibleRows.Add($row)
 }
+Write-Host ('Eingelesene Stammdatei: '+$StammCsv)
+Write-Host ('Datensaetze in CSV: '+$allConfig.Count+' | Aktive Rechner: '+$eligibleRows.Count)
 if ($eligibleRows.Count -eq 0) {
  Stop-WithMessage 'In WARS_Stamm.csv gibt es keinen aktiven Rechner zur Auswahl.'
 }
