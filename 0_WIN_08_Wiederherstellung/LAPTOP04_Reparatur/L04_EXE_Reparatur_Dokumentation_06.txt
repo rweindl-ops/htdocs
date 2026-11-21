@@ -1,13 +1,16 @@
 L04 - EXE-Berechtigungspruefung und Reparatur
 Version 06 - Dokumentation zur Skriptversion 09
 
-Version 09 wird aus L04_EXE_Reparatur_07.ps1 weiterentwickelt. Die ACL-Sicherungspruefung, Benutzerentscheidung P/R/A und gezielte Reparaturlogik aus Version 07 bleiben erhalten. Version 08 ist nicht die Entwicklungsbasis.
+Version 09 wird aus L04_EXE_Reparatur_07.ps1 weiterentwickelt. Die ACL-Sicherungspruefung, Benutzerentscheidung P/R/A und gezielte Reparaturlogik aus Version 07 bleiben im ausdruecklich gesperrten Reparaturpfad erhalten. Version 08 ist nicht die Entwicklungsbasis.
+
+Der normale Start ohne Parameter ist ausschliesslich ein lesender Inventurmodus. Er startet weder ACL-Sicherungen noch die Benutzerentscheidung P/R/A und benoetigt deshalb auch keinen ACL-Ausgabeordner. Der Reparaturpfad ist nur durch den ausdruecklichen Parameter -EnableRepair erreichbar und ist fuer den aktuellen Test nicht freigegeben.
 
 Inventur
 Vor der ACL-Sicherung erstellt Version 09 eine lesende CSV-Inventur. Sie enthaelt EXE-Dateien aus C:\Program Files und C:\Program Files (x86) sowie separate Metadatensaetze aus den Uninstall-Registrierungseintraegen von HKLM (64-Bit- und 32-Bit-Zweig) und HKCU.
 Die Registry-Daten dienen der Erfassung installierter Programme. Sie begrenzen die Dateisuche nicht und werden nicht ausgefuehrt. Die CSV kennzeichnet EXE-Dateien und Registry-Eintraege durch RecordType, damit keine unbewiesene Zuordnung zwischen Programm und EXE behauptet wird.
 
-Sicherheitsablauf
+Sicherheitsablauf des ausdruecklich aktivierten Reparaturpfads
+Die folgenden Schritte beschreiben ausschliesslich den gesperrten Reparaturpfad. Sie werden beim normalen Inventurtest nicht ausgefuehrt.
 1. Die Inventur laeuft lesend vor der ACL-Sicherung.
 2. Danach bleibt die ACL-Sicherungsphase aus Version 07 vorgeschaltet.
 3. Scheitert die ACL-Sicherung, bricht das Skript vor jeder Berechtigungsaenderung ab.
@@ -25,6 +28,6 @@ L04_EXE_Reparatur_Dokumentation_06.txt - diese Dokumentation.
 
 
 Inventurtest in Version 09
-Die mitgelieferte BAT-Datei startet die PowerShell-Datei ausdruecklich mit dem Standardmodus ohne Reparaturfreigabe. Der Standardstart ist damit sicher begrenzt. Nach erfolgreicher Pruefung der Voraussetzungen erstellt das Skript ausschliesslich die EXE- und Registry-Inventur sowie Bericht, Log und CSV-Datei. Danach beendet sich das Skript mit ExitCode 0. Die ACL-Sicherungsphase und die anschliessende P/R/A-Abfrage werden bei diesem Startweg nicht erreicht. Es werden keine Berechtigungen geaendert.
+Die mitgelieferte BAT-Datei startet die PowerShell-Datei ausdruecklich mit dem Standardmodus ohne Reparaturfreigabe. Der Standardstart ist damit sicher begrenzt. Er benoetigt nur die vorhandenen TXT- und LOG-Ausgabeordner, nicht den ACL-Sicherungsordner. Nach erfolgreicher Pruefung der Voraussetzungen erstellt das Skript ausschliesslich die EXE- und Registry-Inventur sowie Bericht, Log und CSV-Datei. Danach beendet sich das Skript mit ExitCode 0. Die ACL-Sicherungsphase und die anschliessende P/R/A-Abfrage werden bei diesem Startweg nicht erreicht. Es werden keine Berechtigungen geaendert.
 
 Wichtig: Fuer den ersten Test L04_EXE_Reparatur_09.bat verwenden. Auch ein direkter Start der PS1-Datei ohne Parameter bleibt im Inventurmodus. Diese Version ist fuer den kontrollierten Inventurtest vorgesehen. Der Reparaturpfad wird nur durch den ausdruecklichen Parameter -EnableRepair freigegeben. Dieser Parameter darf beim Inventurtest keinesfalls verwendet werden; eine Reparaturfreigabe erfolgt erst nach Auswertung und separater Abstimmung.
