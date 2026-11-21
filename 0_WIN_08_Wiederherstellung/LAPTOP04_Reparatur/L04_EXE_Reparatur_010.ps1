@@ -1,6 +1,6 @@
 #requires -Version 3.0
 param([switch]$EnableRepair)
-# L04 - EXE-Berechtigungsreparatur 10 (Basis: Version 007)
+# L04 - EXE-Berechtigungsreparatur 010 (Zusammenfuehrung 005/006/007/009)
 # ACL-Sicherung mit Status-Heartbeat. Keine Rechteaenderung vor erfolgreicher Sicherung.
 
 $ErrorActionPreference='Stop'
@@ -86,7 +86,7 @@ foreach ($p in $checkPaths) { if (Test-Path -LiteralPath $p) { Stop-WithMessage 
 $createPaths=@($ReportPath,$LogPath)
 if($EnableRepair){$createPaths+=@($Status1,$Status2)}
 New-Item -ItemType File -Path $createPaths -ErrorAction Stop | Out-Null
-$header=@('L04 - EXE-Berechtigungsreparatur 10',('Start: '+(Get-Date)),'Zielgruppe: BUILTIN\Users (S-1-5-32-545)','Zielrecht: Lesen und Ausfuehren (RX)','Nur fehlendes RX ergaenzen; vorhandene ACEs und Vererbung erhalten.','ACL-Sicherung muss vor jeder Rechteaenderung erfolgreich sein.','')
+$header=@('L04 - EXE-Berechtigungsreparatur 010',('Start: '+(Get-Date)),'Zielgruppe: BUILTIN\Users (S-1-5-32-545)','Zielrecht: Lesen und Ausfuehren (RX)','Nur fehlendes RX ergaenzen; vorhandene ACEs und Vererbung erhalten.','ACL-Sicherung muss vor jeder Rechteaenderung erfolgreich sein.','')
 foreach ($l in $header) { Add-Content -LiteralPath $ReportPath -Value $l -Encoding UTF8; Add-Content -LiteralPath $LogPath -Value $l -Encoding UTF8 }
 
 # icacls wird separat gestartet. Die Statusdatei wird waehrend des Laufs
