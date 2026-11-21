@@ -44,9 +44,9 @@ function Get-UsersAclState([System.Security.AccessControl.FileSystemSecurity]$Ac
 function Get-RegistryProgramRows {
  $rows=New-Object System.Collections.ArrayList
  $keys=@(
-  @{Root='HKLM:\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall';Hive='HKLM';View='64/Native'},
-  @{Root='HKLM:\\Software\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall';Hive='HKLM';View='32'},
-  @{Root='HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall';Hive='HKCU';View='Current'}
+  @{Root='HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall';Hive='HKLM';View='64/Native'},
+  @{Root='HKLM:\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall';Hive='HKLM';View='32'},
+  @{Root='HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall';Hive='HKCU';View='Current'}
  )
  foreach($k in $keys) {
   if(Test-Path -LiteralPath $k.Root) {
@@ -141,6 +141,7 @@ foreach($scanRoot in @($Root1,$Root2)){
   $exeFiles=@(Get-ChildItem -LiteralPath $scanRoot -Filter '*.exe' -Recurse -File -ErrorAction SilentlyContinue -ErrorVariable scanErrors)
   foreach($e in $exeFiles){$null=$inventoryRows.Add([pscustomobject]@{RecordType='ExeFile';Path=$e.FullName;DisplayName='';InstallLocation='';DisplayIcon='';RegistryHive='';RegistryView='';RegistryKey=''})}
   foreach($err in $scanErrors){Write-RunLine ('INVENTUR_SUCHFEHLER - '+$err.Exception.Message)}
+  if($scanErrors.Count -gt 0){Write-RunLine ('INVENTUR_SUCHFEHLER_ANZAHL '+$scanRoot+': '+$scanErrors.Count)}
  }
 }
 $inventoryRows | Export-Csv -LiteralPath $InventoryPath -NoTypeInformation -Encoding UTF8
