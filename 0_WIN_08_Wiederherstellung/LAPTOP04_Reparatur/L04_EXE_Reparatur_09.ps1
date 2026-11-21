@@ -62,7 +62,10 @@ function Get-RegistryProgramRows {
 }
 
 # Voraussetzungen
-foreach ($d in @($AclDir,$TxtDir,$LogDir)) { if (-not (Test-Path -LiteralPath $d -PathType Container)) { Stop-WithMessage ('Sicherungsverzeichnis fehlt: '+$d) } }
+# Im reinen Inventurmodus werden nur TXT- und LOG-Ausgabeordner benoetigt.
+# Der ACL-Ordner ist ausschliesslich fuer den ausdruecklich aktivierten Reparaturpfad erforderlich.
+$requiredDirs=if($EnableRepair){@($AclDir,$TxtDir,$LogDir)}else{@($TxtDir,$LogDir)}
+foreach ($d in $requiredDirs) { if (-not (Test-Path -LiteralPath $d -PathType Container)) { Stop-WithMessage ('Ausgabeverzeichnis fehlt: '+$d) } }
 $admin=New-Object Security.Principal.WindowsPrincipal([Security.Principal.WindowsIdentity]::GetCurrent())
 if (-not $admin.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) { Stop-WithMessage 'Bitte die BAT-Datei als Administrator starten.' }
 if (-not (Test-Path -LiteralPath $Root1 -PathType Container)) { Stop-WithMessage 'C:\Program Files wurde nicht gefunden.' }
@@ -74,8 +77,12 @@ $Acl1=Join-Path $AclDir ('ProgramFiles_'+$stamp+'.acl')
 $Acl2=Join-Path $AclDir ('ProgramFiles_x86_'+$stamp+'.acl')
 $Status1=Join-Path $TxtDir ('Backup_Status_ProgramFiles_'+$stamp+'.txt')
 $Status2=Join-Path $TxtDir ('Backup_Status_ProgramFiles_x86_'+$stamp+'.txt')
-foreach ($p in @($LogPath,$Acl1,$Acl2,$Status1,$Status2)) { if (Test-Path -LiteralPath $p) { Stop-WithMessage ('Ausgabedatei existiert bereits; nichts ueberschrieben: '+$p) } }
-New-Item -ItemType File -Path $ReportPath,$LogPath,$Status1,$Status2 -ErrorAction Stop | Out-Null
+$checkPaths=@($LogPath)
+if($EnableRepair){$checkPaths+=@($Acl1,$Acl2,$Status1,$Status2)}
+foreach ($p in $checkPaths) { if (Test-Path -LiteralPath $p) { Stop-WithMessage ('Ausgabedatei existiert bereits; nichts ueberschrieben: '+$p) } }
+$createPaths=@($ReportPath,$LogPath)
+if($EnableRepair){$createPaths+=@($Status1,$Status2)}
+New-Item -ItemType File -Path $createPaths -ErrorAction Stop | Out-Null
 $header=@('L04 - EXE-Berechtigungsreparatur 09',('Start: '+(Get-Date)),'Zielgruppe: BUILTIN\Users (S-1-5-32-545)','Zielrecht: Lesen und Ausfuehren (RX)','Nur fehlendes RX ergaenzen; vorhandene ACEs und Vererbung erhalten.','ACL-Sicherung muss vor jeder Rechteaenderung erfolgreich sein.','')
 foreach ($l in $header) { Add-Content -LiteralPath $ReportPath -Value $l -Encoding UTF8; Add-Content -LiteralPath $LogPath -Value $l -Encoding UTF8 }
 
