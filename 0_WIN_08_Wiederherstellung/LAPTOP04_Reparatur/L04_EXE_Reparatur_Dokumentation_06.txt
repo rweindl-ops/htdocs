@@ -1,5 +1,5 @@
 L04 - EXE-Berechtigungspruefung und Reparatur
-Version 07 - Dokumentation zur Skriptversion 09
+Version 06 - Dokumentation zur Skriptversion 09
 
 Version 09 wird aus L04_EXE_Reparatur_07.ps1 weiterentwickelt. Die ACL-Sicherungspruefung, Benutzerentscheidung P/R/A und gezielte Reparaturlogik aus Version 07 bleiben erhalten. Version 08 ist nicht die Entwicklungsbasis.
 
