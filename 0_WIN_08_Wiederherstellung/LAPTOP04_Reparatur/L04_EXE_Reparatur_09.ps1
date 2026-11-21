@@ -9,6 +9,7 @@ $Root1='C:\Program Files'
 $Root2='C:\Program Files (x86)'
 $AclDir=Join-Path $Base 'ACL_Sicherungen\ACL'
 $TxtDir=Join-Path $Base 'ACL_Sicherungen\TXT'
+$CsvDir=Join-Path $Base 'ACL_Sicherungen\CSV'
 $LogDir=Join-Path $Base 'ACL_Sicherungen\LOG'
 $UsersSid=New-Object System.Security.Principal.SecurityIdentifier('S-1-5-32-545')
 $Rx=[int][System.Security.AccessControl.FileSystemRights]::ReadAndExecute
@@ -64,7 +65,7 @@ function Get-RegistryProgramRows {
 # Voraussetzungen
 # Im reinen Inventurmodus werden nur TXT- und LOG-Ausgabeordner benoetigt.
 # Der ACL-Ordner ist ausschliesslich fuer den ausdruecklich aktivierten Reparaturpfad erforderlich.
-$requiredDirs=if($EnableRepair){@($AclDir,$TxtDir,$LogDir)}else{@($TxtDir,$LogDir)}
+$requiredDirs=if($EnableRepair){@($AclDir,$TxtDir,$CsvDir,$LogDir)}else{@($TxtDir,$CsvDir,$LogDir)}
 foreach ($d in $requiredDirs) { if (-not (Test-Path -LiteralPath $d -PathType Container)) { Stop-WithMessage ('Ausgabeverzeichnis fehlt: '+$d) } }
 $admin=New-Object Security.Principal.WindowsPrincipal([Security.Principal.WindowsIdentity]::GetCurrent())
 if (-not $admin.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) { Stop-WithMessage 'Bitte die BAT-Datei als Administrator starten.' }
@@ -72,7 +73,7 @@ if (-not (Test-Path -LiteralPath $Root1 -PathType Container)) { Stop-WithMessage
 
 $stamp=Get-Date -Format 'yyyyMMdd_HHmmss'
 $ReportPath=Get-UniqueReportPath
-$LogPath=Join-Path $LogDir ('Reparatur_09_'+$stamp+'.log')
+$LogPath=Join-Path $LogDir ('Reparatur_'+$stamp+'.log')
 $Acl1=Join-Path $AclDir ('ProgramFiles_'+$stamp+'.acl')
 $Acl2=Join-Path $AclDir ('ProgramFiles_x86_'+$stamp+'.acl')
 $Status1=Join-Path $TxtDir ('Backup_Status_ProgramFiles_'+$stamp+'.txt')
@@ -138,7 +139,7 @@ function Invoke-AclBackup {
 }
 
 # PHASE 0: lesende EXE- und Registry-Inventur vor der ACL-Sicherung
-$InventoryPath=Join-Path $TxtDir ('EXE_Inventur_09_'+$stamp+'.csv')
+$InventoryPath=Join-Path $CsvDir ('EXE_Inventur_'+$stamp+'.csv')
 if(Test-Path -LiteralPath $InventoryPath){Stop-WithMessage ('Inventurdatei existiert bereits: '+$InventoryPath)}
 $inventoryRows=New-Object System.Collections.ArrayList
 $regRows=@(Get-RegistryProgramRows)
