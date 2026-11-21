@@ -10,7 +10,7 @@ $admin=New-Object Security.Principal.WindowsPrincipal([Security.Principal.Window
 if(-not $admin.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)){throw 'Bitte als Administrator starten.'}
 foreach($d in @($AclBase,$LogDir)){if(-not(Test-Path -LiteralPath $d -PathType Container)){throw ('Verzeichnis fehlt: '+$d)}}
 $stamp=Get-Date -Format 'yyyyMMdd_HHmmss'
-$RunDir=Join-Path $AclBase ('V08_'+$stamp)
+$RunDir=Join-Path $AclBase ('ProgramFiles_'+$stamp)
 New-Item -ItemType Directory -Path $RunDir -ErrorAction Stop|Out-Null
 $Log=Join-Path $LogDir ('Diagnose_V08_'+$stamp+'.log')
 $Report=Join-Path $Base ('L04_EXE_Reparatur_08-'+$stamp+'.txt')
