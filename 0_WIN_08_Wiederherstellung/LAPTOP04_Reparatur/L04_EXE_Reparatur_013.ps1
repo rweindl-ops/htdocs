@@ -121,13 +121,19 @@ if ($selectedComputer -ine $computerName) {
  Write-Host 'FALSCHE RECHNERAUSWAHL!' -ForegroundColor Red
  Write-Host $popupMessage -ForegroundColor Red
  try {
-  Add-Type -AssemblyName System.Windows.Forms -ErrorAction Stop
-  [void][System.Windows.Forms.MessageBox]::Show(
-   $popupMessage,
-   $popupTitle,
-   [System.Windows.Forms.MessageBoxButtons]::OK,
-   [System.Windows.Forms.MessageBoxIcon]::Error
-  )
+  # Win32-MessageBox mit MB_SETFOREGROUND und MB_TOPMOST:
+  # Das Fenster wird in den Vordergrund geholt und bleibt ueber der Konsole.
+  $nativeMessageBox=@'
+using System;
+using System.Runtime.InteropServices;
+public static class WARSForegroundMessageBox {
+    [DllImport("user32.dll", CharSet=CharSet.Unicode, EntryPoint="MessageBoxW")]
+    public static extern int Show(IntPtr hWnd, string text, string caption, uint type);
+}
+'@
+  Add-Type -TypeDefinition $nativeMessageBox -Language CSharp -ErrorAction Stop
+  $messageBoxFlags=[uint32](0x00000010 -bor 0x00010000 -bor 0x00040000)
+  [void][WARSForegroundMessageBox]::Show([IntPtr]::Zero,$popupMessage,$popupTitle,$messageBoxFlags)
  } catch {
   Write-Host 'Das Windows-Meldungsfenster konnte nicht angezeigt werden.' -ForegroundColor Yellow
   Write-Host $_.Exception.Message -ForegroundColor Yellow
