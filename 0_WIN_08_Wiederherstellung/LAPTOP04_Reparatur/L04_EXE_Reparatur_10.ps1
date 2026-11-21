@@ -1,5 +1,5 @@
 #requires -Version 3.0
-param([switch]$InventoryOnly)
+param([switch]$EnableRepair)
 # L04 - EXE-Berechtigungsreparatur 10 (Basis: Version 07)
 # ACL-Sicherung mit Status-Heartbeat. Keine Rechteaenderung vor erfolgreicher Sicherung.
 
@@ -152,10 +152,10 @@ Write-RunLine ('REGISTRY_INVENTUR: '+$regRows.Count+' Eintraege aus HKLM 64/32 u
 Write-Host ('Inventur abgeschlossen: '+$exeCount+' EXE-Dateien; '+$regRows.Count+' Registry-Eintraege')
 Write-Host ('CSV: '+$InventoryPath)
 
-if ($InventoryOnly) {
- Write-RunLine 'INVENTURTEST: abgeschlossen. ACL-Sicherung und Berechtigungspruefung/-aenderung wurden bewusst nicht gestartet.'
+if (-not $EnableRepair) {
+ Write-RunLine 'INVENTURTEST (Standardmodus): abgeschlossen. ACL-Sicherung und Berechtigungspruefung/-aenderung wurden bewusst nicht gestartet.'
  Write-Host ''
- Write-Host 'INVENTURTEST abgeschlossen. Es wurden keine ACL-Sicherungen gestartet und keine Berechtigungen geaendert.' -ForegroundColor Green
+ Write-Host 'INVENTURTEST (Standardmodus) abgeschlossen. Es wurden keine ACL-Sicherungen gestartet und keine Berechtigungen geaendert.' -ForegroundColor Green
  Write-Host ('Bericht: '+$ReportPath)
  Write-Host ('Log: '+$LogPath)
  Write-Host ('Inventur-CSV: '+$InventoryPath)
