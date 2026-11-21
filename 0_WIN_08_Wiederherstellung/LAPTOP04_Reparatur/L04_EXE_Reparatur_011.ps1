@@ -8,10 +8,6 @@ $ScriptDir=$PSScriptRoot
 $StammCsv=Join-Path (Split-Path -Parent $ScriptDir) 'WARS_Stamm.csv'
 $Root1='C:\Program Files'
 $Root2='C:\Program Files (x86)'
-$AclDir=Join-Path $Base 'ACL_Sicherungen\ACL'
-$TxtDir=Join-Path $Base 'ACL_Sicherungen\TXT'
-$CsvDir=Join-Path $Base 'ACL_Sicherungen\CSV'
-$LogDir=Join-Path $Base 'ACL_Sicherungen\LOG'
 $UsersSid=New-Object System.Security.Principal.SecurityIdentifier('S-1-5-32-545')
 $Rx=[int][System.Security.AccessControl.FileSystemRights]::ReadAndExecute
 $script:RegistryReadErrors=0
@@ -26,7 +22,27 @@ function Stop-WithMessage([string]$Message) {
  if ($script:LogPath -and (Test-Path -LiteralPath $script:LogPath)) { Add-Content -LiteralPath $script:LogPath -Value $Message -Encoding UTF8 }
  exit 1
 }
-function Get-UniqueReportPath {
+# Rechnerkonfiguration aus der zentralen Stamm-CSV einlesen
+if (-not (Test-Path -LiteralPath $StammCsv -PathType Leaf)) {
+ Stop-WithMessage ('Zentrale Stammdatei nicht gefunden: '+$StammCsv)
+}
+try {
+ $allConfig=@(Import-Csv -LiteralPath $StammCsv -Delimiter ';' -ErrorAction Stop)
+} catch {
+ Stop-WithMessage ('Stammdatei konnte nicht gelesen werden: '+$_.Exception.Message)
+}
+$computerName=[string]$env:COMPUTERNAME
+if ([string]::IsNullOrWhiteSpace($computerName)) {
+ Stop-WithMessage 'Windows-Rechnername konnte nicht ermittelt werden.'
+}
+$matches=@($allConfig | Where-Object {([string]$_.wars_rechner).Trim() -ieq $computerName})
+if ($matches.Count -ne 1) {
+ Stop-WithMessage ('Fuer Rechner '+$computerName+' wurde in WARS_Stamm.csv kein eindeutiger Datensatz gefunden. Treffer: '+$matches.Count)
+}
+$config=$matches[0]
+$backupDrive=([string]$config.wars_backup_LW).Trim()
+$backupPath=([string]$config.wars_backup_PFAD).Trim()
+if ($backupDrive -notmatch '^[A-Za-z]:function Get-UniqueReportPath {
  $i=1
  do { $p=Join-Path $Base ('L04_EXE_Reparatur_011-{0:D2}.txt' -f $i); $i++ } while (Test-Path -LiteralPath $p)
  return $p
@@ -65,27 +81,8 @@ function Get-RegistryProgramRows {
  return @($rows)
 }
 
-# Rechnerkonfiguration aus der zentralen Stamm-CSV einlesen
-if (-not (Test-Path -LiteralPath $StammCsv -PathType Leaf)) {
- Stop-WithMessage ('Zentrale Stammdatei nicht gefunden: '+$StammCsv)
-}
-try {
- $allConfig=@(Import-Csv -LiteralPath $StammCsv -Delimiter ';' -ErrorAction Stop)
-} catch {
- Stop-WithMessage ('Stammdatei konnte nicht gelesen werden: '+$_.Exception.Message)
-}
-$computerName=[string]$env:COMPUTERNAME
-if ([string]::IsNullOrWhiteSpace($computerName)) {
- Stop-WithMessage 'Windows-Rechnername konnte nicht ermittelt werden.'
-}
-$matches=@($allConfig | Where-Object {([string]$_.wars_rechner).Trim() -ieq $computerName})
-if ($matches.Count -ne 1) {
- Stop-WithMessage ('Fuer Rechner '+$computerName+' wurde in WARS_Stamm.csv kein eindeutiger Datensatz gefunden. Treffer: '+$matches.Count)
-}
-$config=$matches[0]
-$backupDrive=([string]$config.wars_backup_LW).Trim()
-$backupPath=([string]$config.wars_backup_PFAD).Trim()
-if ($backupDrive -notmatch '^[A-Za-z]:# Im reinen Inventurmodus werden nur TXT- und LOG-Ausgabeordner benoetigt.
+# Voraussetzungen
+# Im reinen Inventurmodus werden nur TXT- und LOG-Ausgabeordner benoetigt.
 # Der ACL-Ordner ist ausschliesslich fuer den ausdruecklich aktivierten Reparaturpfad erforderlich.
 $requiredDirs=if($EnableRepair){@($AclDir,$TxtDir,$CsvDir,$LogDir)}else{@($TxtDir,$CsvDir,$LogDir)}
 foreach ($d in $requiredDirs) { if (-not (Test-Path -LiteralPath $d -PathType Container)) { Stop-WithMessage ('Ausgabeverzeichnis fehlt: '+$d) } }
@@ -256,8 +253,51 @@ if ([string]::IsNullOrWhiteSpace($relativeBackupPath)) {
 $Base=[System.IO.Path]::Combine(($backupDrive+'\'),$relativeBackupPath)
 $computerBez=([string]$config.wars_rechner_BEZ).Trim()
 if ([string]::IsNullOrWhiteSpace($computerBez)) { $computerBez=$computerName }
+$AclDir=Join-Path $Base 'ACL_Sicherungen\ACL'
+$TxtDir=Join-Path $Base 'ACL_Sicherungen\TXT'
+$CsvDir=Join-Path $Base 'ACL_Sicherungen\CSV'
+$LogDir=Join-Path $Base 'ACL_Sicherungen\LOG'
 Write-Host ('Rechner: '+$computerName+' ('+$computerBez+')')
 Write-Host ('Backup-Ziel: '+$Base)
+
+function Get-UniqueReportPath {
+ $i=1
+ do { $p=Join-Path $Base ('L04_EXE_Reparatur_011-{0:D2}.txt' -f $i); $i++ } while (Test-Path -LiteralPath $p)
+ return $p
+}
+function Get-UsersAclState([System.Security.AccessControl.FileSystemSecurity]$Acl) {
+ $allow=$false; $deny=$false; $unknown=0
+ foreach ($ace in $Acl.Access) {
+  try {
+   if ($ace.IdentityReference -is [System.Security.Principal.SecurityIdentifier]) { $sid=$ace.IdentityReference.Value }
+   else { $sid=$ace.IdentityReference.Translate([System.Security.Principal.SecurityIdentifier]).Value }
+  } catch { $unknown++; continue }
+  if ($sid -eq $script:UsersSid.Value) {
+   if ($ace.AccessControlType -eq [System.Security.AccessControl.AccessControlType]::Deny) { $deny=$true }
+   if ($ace.AccessControlType -eq [System.Security.AccessControl.AccessControlType]::Allow -and (([int]$ace.FileSystemRights -band $script:Rx) -eq $script:Rx)) { $allow=$true }
+  }
+ }
+ return [pscustomobject]@{Allow=$allow;Deny=$deny;Unresolved=$unknown}
+}
+
+function Get-RegistryProgramRows {
+ $rows=New-Object System.Collections.ArrayList
+ $keys=@(
+  @{Root='HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall';Hive='HKLM';View='64/Native'},
+  @{Root='HKLM:\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall';Hive='HKLM';View='32'},
+  @{Root='HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall';Hive='HKCU';View='Current'}
+ )
+ foreach($k in $keys) {
+  if(Test-Path -LiteralPath $k.Root) {
+   foreach($sub in @(Get-ChildItem -LiteralPath $k.Root -ErrorAction SilentlyContinue)) {
+    try { $p=Get-ItemProperty -LiteralPath $sub.PSPath -ErrorAction Stop; if($p.DisplayName -or $p.InstallLocation -or $p.DisplayIcon) {
+     $null=$rows.Add([pscustomobject]@{RecordType='RegistryApp';Path='';DisplayName=[string]$p.DisplayName;InstallLocation=[string]$p.InstallLocation;DisplayIcon=[string]$p.DisplayIcon;RegistryHive=$k.Hive;RegistryView=$k.View;RegistryKey=$sub.PSChildName})
+    }} catch { $script:RegistryReadErrors++; Write-RunLine ('REGISTRY_LESEN_FEHLER - '+$sub.Name+' - '+$_.Exception.Message) }
+   }
+  }
+ }
+ return @($rows)
+}
 
 # Voraussetzungen
 # Im reinen Inventurmodus werden nur TXT- und LOG-Ausgabeordner benoetigt.
