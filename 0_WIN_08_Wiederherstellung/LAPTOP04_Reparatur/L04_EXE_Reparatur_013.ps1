@@ -446,7 +446,6 @@ foreach ($entry in $ExeInventoryRows) {
     $isAdmin=$principal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
     Write-RunLine ('DIAG_IDENTITAET - '+$id.Name)
     Write-RunLine ('DIAG_ADMINISTRATOR_TOKEN - '+$isAdmin)
-    Write-RunLine ('DIAG_TOKEN_ELEVATION_TYPE - '+$id.TokenGroups.Count)
     $fileAcl=Get-Acl -LiteralPath $path -ErrorAction Stop
     Write-RunLine ('DIAG_DATEI_OWNER - '+$fileAcl.Owner)
     Write-RunLine ('DIAG_DATEI_SDDL - '+$fileAcl.Sddl)
