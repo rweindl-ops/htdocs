@@ -442,11 +442,15 @@ foreach ($entry in $ExeInventoryRows) {
    # sowie die tatsaechlich gelesenen ACLs protokollieren; keine Rechte aendern.
    try {
     $id=[Security.Principal.WindowsIdentity]::GetCurrent()
+    $principal=New-Object Security.Principal.WindowsPrincipal($id)
+    $isAdmin=$principal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
     Write-RunLine ('DIAG_IDENTITAET - '+$id.Name)
+    Write-RunLine ('DIAG_ADMINISTRATOR_TOKEN - '+$isAdmin)
+    Write-RunLine ('DIAG_TOKEN_ELEVATION_TYPE - '+$id.TokenGroups.Count)
     $fileAcl=Get-Acl -LiteralPath $path -ErrorAction Stop
     Write-RunLine ('DIAG_DATEI_OWNER - '+$fileAcl.Owner)
     Write-RunLine ('DIAG_DATEI_SDDL - '+$fileAcl.Sddl)
-    $parent=Split-Path -LiteralPath $path -Parent
+    $parent=[System.IO.Path]::GetDirectoryName($path)
     $parentAcl=Get-Acl -LiteralPath $parent -ErrorAction Stop
     Write-RunLine ('DIAG_ORDNER - '+$parent)
     Write-RunLine ('DIAG_ORDNER_OWNER - '+$parentAcl.Owner)
