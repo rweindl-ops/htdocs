@@ -424,15 +424,26 @@ foreach ($entry in $ExeInventoryRows) {
  if ($state.Allow) {$already++;Write-RunLine ('BEREITS_AUSREICHEND - '+$path);continue}
  if ($state.Unresolved -gt 0) {$unknown++;Write-RunLine ('UEBERSPRUNGEN_UNGEKLAERTE_IDENTITAETEN - '+$path);continue}
  if (-not $apply) {$would++;Write-RunLine ('WUERDE_RX_ERGAENZEN - '+$path);continue}
+ # DACL gezielt mit icacls ergaenzen. Set-Acl schreibt den kompletten
+ # Sicherheitsdeskriptor und kann bei geschuetzten Dateien unnoetig den
+ # Besitzer-/Sicherheitskontext beruehren. icacls /grant aendert nur die DACL.
  try {
-  $rule=New-Object System.Security.AccessControl.FileSystemAccessRule($UsersSid,[System.Security.AccessControl.FileSystemRights]::ReadAndExecute,[System.Security.AccessControl.AccessControlType]::Allow)
-  $acl.AddAccessRule($rule);Set-Acl -LiteralPath $path -AclObject $acl -ErrorAction Stop
+  $icaclsPath=Join-Path $env:SystemRoot 'System32\\icacls.exe'
+  if (-not (Test-Path -LiteralPath $icaclsPath -PathType Leaf)) { throw 'icacls.exe wurde nicht gefunden.' }
+  $grantSpec='*'+$UsersSid.Value+':(RX)'
+  $icaclsOutput=@(& $icaclsPath $path '/grant' $grantSpec 2>&1)
+  $icaclsExitCode=$LASTEXITCODE
+  if ($icaclsExitCode -ne 0) { throw ('icacls ExitCode '+$icaclsExitCode+': '+($icaclsOutput -join ' ')) }
   $changed++;Write-RunLine ('AENDERUNG_GESPEICHERT - '+$path)
  } catch {$setErr++;Write-RunLine ('FEHLER_BEIM_SETZEN - '+$path+' - '+$_.Exception.Message);continue}
  try {
   $check=Get-UsersAclState (Get-Acl -LiteralPath $path -ErrorAction Stop)
-  if ($check.Allow -and -not $check.Deny -and $check.Unresolved -eq 0) {Write-RunLine ('ERFOLGREICH_GESETZT_UND_VERIFIZIERT - '+$path)}
-  else {$verifyErr++;Write-RunLine ('AENDERUNG_GESPEICHERT_ABER_VERIFIKATION_UNKLAR - '+$path)}
+  # Unaufloesbare andere ACEs verhindern nicht die Bestaetigung des explizit
+  # hinzugefuegten Users-RX. Ein vorhandenes DENY bleibt dagegen ein Fehler.
+  if ($check.Allow -and -not $check.Deny) {
+   Write-RunLine ('ERFOLGREICH_GESETZT_UND_VERIFIZIERT - '+$path+'; Ungeklaerte andere ACEs: '+$check.Unresolved)
+  }
+  else {$verifyErr++;Write-RunLine ('AENDERUNG_GESPEICHERT_ABER_VERIFIKATION_UNKLAR - '+$path+'; Allow='+$check.Allow+'; Deny='+$check.Deny+'; Ungeklaerte andere ACEs='+$check.Unresolved)}
  } catch {$verifyErr++;Write-RunLine ('AENDERUNG_GESPEICHERT_ABER_VERIFIKATION_FEHLER - '+$path+' - '+$_.Exception.Message)}
 }
 $summary=@('','================ AUSWERTUNG ================',('Gefundene EXE-Dateien: '+$total),('RX bereits vorhanden: '+$already),('DENY uebersprungen: '+$denied),('Ungeklaerte Identitaeten uebersprungen: '+$unknown),('Wuerde RX ergaenzen: '+$would),('Aenderungen gespeichert: '+$changed),('Fehler Lesen: '+$readErr),('Fehler Setzen: '+$setErr),('Fehler Verifikation: '+$verifyErr),('Fehler Suche: '+$enumErr),('Registry-Lesefehler: '+$script:RegistryReadErrors),('Inventur-Suchfehler: '+$script:InventorySearchErrors),('Ende: '+(Get-Date)))
