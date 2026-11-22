@@ -1,0 +1,9 @@
+L06 – AKTUELLER STAND – 23.11.2026, 00:03 Uhr
+
+1) Lauf 013-07 ist ausgefuehrt. Diagnose ist NICHT mehr offen.
+2) Inventur: 298 EXE-Dateien. ACL-Sicherung: 298/298 DACLs erfolgreich.
+3) Ergebnis Reparaturpruefung: 293 bereits mit RX, 5 Setzfehler, 0 Lese-/Such-/Verifikationsfehler.
+4) Die 5 Fehler betreffen weiterhin die dokumentierten Avira-Dateien unter C:\Program Files\Avira\Security. Kein expliziter DENY in den untersuchten Datei-DACLs; Ursache nicht abschliessend geklaert.
+5) Sicherungsstatus: ACL_Sicherungen/TXT/EXE_ACL_Backup_Status_20261123_000327.txt. Log: ACL_Sicherungen/LOG/Reparatur_20261123_000327.log.
+6) WICHTIGER WIDERSPRUCH: GitHub-PS1 setzt $AclDir auf ACL_Sicherungen\ACL und bildet $ExeAclBackup aus $AclDir. Die gemeldete CSV-Ablage unter ACL_Sicherungen\CSV passt nicht dazu. Ursache nicht raten. Zuerst die tatsaechlich auf L04 ausgefuehrte PS1 mit der GitHub-Version vergleichen. Nicht blind verschieben oder erneut starten.
+7) Keine pauschalen Avira-ACL-Aenderungen und keine Besitzerwechsel ohne Diagnose.
