@@ -435,7 +435,29 @@ foreach ($entry in $ExeInventoryRows) {
   $icaclsExitCode=$LASTEXITCODE
   if ($icaclsExitCode -ne 0) { throw ('icacls ExitCode '+$icaclsExitCode+': '+($icaclsOutput -join ' ')) }
   $changed++;Write-RunLine ('AENDERUNG_GESPEICHERT - '+$path)
- } catch {$setErr++;Write-RunLine ('FEHLER_BEIM_SETZEN - '+$path+' - '+$_.Exception.Message);continue}
+ } catch {
+   $setErr++
+   Write-RunLine ('FEHLER_BEIM_SETZEN - '+$path+' - '+$_.Exception.Message)
+   # Diagnose bei verweigerter DACL-Aenderung: Identitaet, Datei-/Ordnerbesitzer
+   # sowie die tatsaechlich gelesenen ACLs protokollieren; keine Rechte aendern.
+   try {
+    $id=[Security.Principal.WindowsIdentity]::GetCurrent()
+    Write-RunLine ('DIAG_IDENTITAET - '+$id.Name)
+    $fileAcl=Get-Acl -LiteralPath $path -ErrorAction Stop
+    Write-RunLine ('DIAG_DATEI_OWNER - '+$fileAcl.Owner)
+    Write-RunLine ('DIAG_DATEI_SDDL - '+$fileAcl.Sddl)
+    $parent=Split-Path -LiteralPath $path -Parent
+    $parentAcl=Get-Acl -LiteralPath $parent -ErrorAction Stop
+    Write-RunLine ('DIAG_ORDNER - '+$parent)
+    Write-RunLine ('DIAG_ORDNER_OWNER - '+$parentAcl.Owner)
+    Write-RunLine ('DIAG_ORDNER_SDDL - '+$parentAcl.Sddl)
+    $fileIca=@(& $icaclsPath $path 2>&1)
+    Write-RunLine ('DIAG_ICACLS_DATEI - '+($fileIca -join ' '))
+    $parentIca=@(& $icaclsPath $parent 2>&1)
+    Write-RunLine ('DIAG_ICACLS_ORDNER - '+($parentIca -join ' '))
+   } catch {Write-RunLine ('DIAGNOSE_FEHLER - '+$_.Exception.Message)}
+   continue
+  }
  try {
   $check=Get-UsersAclState (Get-Acl -LiteralPath $path -ErrorAction Stop)
   # Unaufloesbare andere ACEs verhindern nicht die Bestaetigung des explizit
