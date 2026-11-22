@@ -55,7 +55,7 @@ Daher gelten zwingend folgende Regeln:
 
 Vorgesehener Ausgabeordner auf L06:
 
-D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP06_Reparatur\ACL_Sicherungen\TXT\Avira_Registry_Check_L06
+X:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP06_Reparatur\ACL_Sicherungen\TXT\Avira_Registry_Check_L06
 
 Die sechs vorgesehenen Ergebnisdateien (Namensschema passend zu L04):
 
