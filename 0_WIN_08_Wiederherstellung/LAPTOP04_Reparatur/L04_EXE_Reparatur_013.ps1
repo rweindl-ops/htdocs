@@ -4,6 +4,10 @@
 # Die eigentliche Reparaturlogik basiert auf der erfolgreich getesteten Version 012.
 
 $ErrorActionPreference='Stop'
+trap {
+ Write-Host ('KRITISCHER PS1-FEHLER: '+$_.Exception.Message) -ForegroundColor Red
+ exit 1
+}
 $ScriptDir=$PSScriptRoot
 $StammCsv=Join-Path (Split-Path -Parent $ScriptDir) 'WARS_Stamm.csv'
 $Root1='C:\Program Files'
@@ -157,7 +161,50 @@ $relativeBackupPath=$backupPath.TrimStart([char[]]@('\','/'))
 if ([string]::IsNullOrWhiteSpace($relativeBackupPath)) {
  Stop-WithMessage 'Backup-Pfad in WARS_Stamm.csv ist ungueltig.'
 }
-$Base=[System.IO.Path]::GetFullPath([System.IO.Path]::Combine(($backupDrive+'\'),$relativeBackupPath))
+
+# CSV-Laufwerk zuerst lokal pruefen. Falls es ein Netzlaufwerk ist,
+# dessen UNC-Ziel dynamisch aus Windows ermitteln (keine Rechnerpfade fest codiert).
+try {
+ $driveRoot=$backupDrive+'\'
+ if (Test-Path -LiteralPath $driveRoot -PathType Container) {
+  $Base=Join-Path $driveRoot $relativeBackupPath
+ } else {
+  $remoteRoot=$null
+  try {
+   if (-not ('WARSNetworkDriveResolver' -as [type])) {
+    Add-Type -TypeDefinition @'
+using System;
+using System.Text;
+using System.Runtime.InteropServices;
+public static class WARSNetworkDriveResolver {
+    [DllImport("mpr.dll", CharSet=CharSet.Unicode)]
+    public static extern int WNetGetConnection(string localName, StringBuilder remoteName, ref int length);
+}
+'@ -ErrorAction Stop
+   }
+   $buffer=New-Object System.Text.StringBuilder 1024
+   $bufferLength=$buffer.Capacity
+   $result=[WARSNetworkDriveResolver]::WNetGetConnection($backupDrive,$buffer,[ref]$bufferLength)
+   if ($result -eq 0) { $remoteRoot=$buffer.ToString() }
+  } catch {
+   Write-Host ('Hinweis: Netzlaufwerkabfrage: '+$_.Exception.Message) -ForegroundColor Yellow
+  }
+  if ([string]::IsNullOrWhiteSpace($remoteRoot)) {
+   $driveKey=Join-Path 'HKCU:\Network' $backupDrive.Substring(0,1)
+   if (Test-Path -LiteralPath $driveKey) {
+    $mapping=Get-ItemProperty -LiteralPath $driveKey -ErrorAction Stop
+    $remoteRoot=[string]$mapping.RemotePath
+   }
+  }
+  if ([string]::IsNullOrWhiteSpace($remoteRoot) -or $remoteRoot -notmatch '^\\\\') {
+   Stop-WithMessage ('Das CSV-Laufwerk '+$backupDrive+' ist nicht lokal erreichbar und seine UNC-Zuordnung konnte nicht ermittelt werden. Netzlaufwerkverbindung pruefen.')
+  }
+  $Base=Join-Path ($remoteRoot.TrimEnd('\')) $relativeBackupPath
+ }
+ $Base=[System.IO.Path]::GetFullPath($Base)
+} catch {
+ Stop-WithMessage ('Backup-Pfad konnte nicht aus WARS_Stamm.csv aufgeloest werden: '+$_.Exception.Message)
+}
 $AclDir=Join-Path $Base 'ACL_Sicherungen\ACL'
 $TxtDir=Join-Path $Base 'ACL_Sicherungen\TXT'
 $CsvDir=Join-Path $Base 'ACL_Sicherungen\CSV'
@@ -170,7 +217,7 @@ Write-Host ('Backup-Ziel: '+$Base)
 # Hauptmenue erst nach erfolgreicher Rechnerpruefung
 # --------------------------------------------------
 Write-Host ''
-Write-Host 'L04 - EXE-Berechtigungsreparatur 013'
+Write-Host ($computerBez+' - EXE-Berechtigungsreparatur 013')
 Write-Host ''
 Write-Host '1 = Nur Inventur (EXE-Dateien und Registry)'
 Write-Host '2 = Inventur + ACL-Sicherung + Pruefung/Reparatur'
@@ -201,7 +248,7 @@ if ($EnableRepair) {
 
 function Get-UniqueReportPath {
  $i=1
- do { $p=Join-Path $Base ('L04_EXE_Reparatur_013-{0:D2}.txt' -f $i); $i++ } while (Test-Path -LiteralPath $p)
+ do { $p=Join-Path $Base ($computerBez+'_EXE_Reparatur_013-{0:D2}.txt' -f $i); $i++ } while (Test-Path -LiteralPath $p)
  return $p
 }
 function Get-UsersAclState([System.Security.AccessControl.FileSystemSecurity]$Acl) {
@@ -258,7 +305,7 @@ foreach ($p in $checkPaths) { if (Test-Path -LiteralPath $p) { Stop-WithMessage 
 $createPaths=@($ReportPath,$LogPath)
 if($EnableRepair){$createPaths+=@($ExeAclStatus)}
 New-Item -ItemType File -Path $createPaths -ErrorAction Stop | Out-Null
-$header=@('L04 - EXE-Berechtigungsreparatur 013',('Start: '+(Get-Date)),'Zielgruppe: BUILTIN\Users (S-1-5-32-545)','Zielrecht: Lesen und Ausfuehren (RX)','Nur fehlendes RX ergaenzen; vorhandene ACEs und Vererbung erhalten.','ACL-Sicherung muss vor jeder Rechteaenderung erfolgreich sein.','')
+$header=@(($computerBez+' - EXE-Berechtigungsreparatur 013'),('Start: '+(Get-Date)),'Zielgruppe: BUILTIN\Users (S-1-5-32-545)','Zielrecht: Lesen und Ausfuehren (RX)','Nur fehlendes RX ergaenzen; vorhandene ACEs und Vererbung erhalten.','ACL-Sicherung muss vor jeder Rechteaenderung erfolgreich sein.','')
 foreach ($l in $header) { Add-Content -LiteralPath $ReportPath -Value $l -Encoding UTF8; Add-Content -LiteralPath $LogPath -Value $l -Encoding UTF8 }
 
 # Die Sicherung betrifft nur die EXE-Dateien, deren Berechtigungen spaeter
