@@ -91,3 +91,30 @@ Vor dem Senden prüfen:
 - [ ] Klar gesagt, was der Nutzer ausführen und anschließend zurückmelden soll?
 
 Wenn eine dieser Prüfungen nicht erfüllt ist, den Befehl nicht ausgeben.
+
+
+## Dauerhafte Befehlsdokumentation – verbindlich
+
+- Jeder erstellte und vom Nutzer erfolgreich ausgeführte CMD-/PowerShell-Befehl wird unmittelbar nach erfolgreichem Einsatz in der passenden Laptop-Dokumentation archiviert.
+- Das Archiv enthält den **vollständigen Originalbefehl bzw. die vollständige BAT-/PS1-Datei**, den Zweck, das verwendete Gerät, das Ausführungsdatum, den Ausgabeordner und das bestätigte Ergebnis.
+- Bei einer Wiederholung auf einem anderen Laptop wird zuerst dieser archivierte, funktionierende Originalbefehl herangezogen. Es werden nur die ausdrücklich laptopabhängigen Angaben geändert (z. B. Gerätename und Ausgabeordner). Registry-Abfragen, Reihenfolge, Dateinamen und Umleitungen bleiben unverändert.
+- Bereits vorhandene Befehle und Skripte werden nicht aus dem Gedächtnis neu geschrieben, wenn eine archivierte Fassung existiert.
+- Ein Befehl gilt erst dann als erfolgreich, wenn die erwarteten Ausgabedateien tatsächlich vorhanden sind. Eine abschließende `echo`-Meldung ist kein Erfolgsnachweis.
+- Nachträgliche Korrekturen werden als neue Version dokumentiert; die zuvor verwendete Fassung bleibt nachvollziehbar erhalten.
+
+## Avira-Registry-Erfassung – Referenz L04 / Wiederholung L06
+
+Die L04-Erfassung umfasst genau diese sechs Dateien und Abfragen:
+
+1. `01_Uninstall_Avira.txt` – `reg query "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall" /s /f "Avira"`
+2. `02_Uninstall_Avira_32bit.txt` – leerer Platzhalter für den vergleichbaren Dateisatz auf 32-Bit-Windows
+3. `03_Services_Avira.txt` – `reg query "HKLM\SYSTEM\CurrentControlSet\Services" /s /f "Avira"`
+4. `04_Avira_Software.txt` – `reg query "HKLM\SOFTWARE\Avira" /s`
+5. `05_Avira_Software_32bit.txt` – leerer Platzhalter für den vergleichbaren Dateisatz auf 32-Bit-Windows
+6. `06_Services_Speedup.txt` – `reg query "HKLM\SYSTEM\CurrentControlSet\Services" /s /f "Speedup"`
+
+Die L06-Erfassung muss dieselben sechs Abfragen, Dateinamen und dieselbe Reihenfolge verwenden. Für L06 ist der aktuell bestätigte Ausgabe-Laufwerksbuchstabe **X:**. Der vollständige L06-Ausgabeordner lautet:
+
+`X:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP06_Reparatur\ACL_Sicherungen\TXT\Avira_Registry_Check_L06`
+
+Wichtig: In diesem Pfad steht nach `Festplatte` ein Leerzeichen. Jeder einzelne Ausgabepfad muss exakt so geschrieben und vollständig in Anführungszeichen gesetzt werden.
