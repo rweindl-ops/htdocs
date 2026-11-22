@@ -428,7 +428,7 @@ foreach ($entry in $ExeInventoryRows) {
  # Sicherheitsdeskriptor und kann bei geschuetzten Dateien unnoetig den
  # Besitzer-/Sicherheitskontext beruehren. icacls /grant aendert nur die DACL.
  try {
-  $icaclsPath=Join-Path $env:SystemRoot 'System32\\icacls.exe'
+  $icaclsPath=Join-Path $env:SystemRoot 'System32\icacls.exe'
   if (-not (Test-Path -LiteralPath $icaclsPath -PathType Leaf)) { throw 'icacls.exe wurde nicht gefunden.' }
   $grantSpec='*'+$UsersSid.Value+':(RX)'
   $icaclsOutput=@(& $icaclsPath $path '/grant' $grantSpec 2>&1)
