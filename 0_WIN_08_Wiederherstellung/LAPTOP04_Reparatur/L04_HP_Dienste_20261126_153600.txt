@@ -1,0 +1,46 @@
+﻿
+
+Name        : hpqcxs08
+DisplayName : hpqcxs08
+State       : Running
+StartMode   : Manual
+StartName   : LocalSystem
+PathName    : C:\WINDOWS\system32\svchost.exe -k hpdevmgmt
+
+Name        : hpqddsvc
+DisplayName : HP CUE DeviceDiscovery Service
+State       : Running
+StartMode   : Auto
+StartName   : LocalSystem
+PathName    : C:\WINDOWS\system32\svchost.exe -k hpdevmgmt
+
+Name        : HPSLPSVC
+DisplayName : HP Network Devices Support
+State       : Running
+StartMode   : Auto
+StartName   : LocalSystem
+PathName    : C:\WINDOWS\system32\svchost.exe -k HPService
+
+Name        : HPSupportSolutionsFrameworkService
+DisplayName : HP Support Solutions Framework Service
+State       : Running
+StartMode   : Auto
+StartName   : LocalSystem
+PathName    : "C:\Program Files\Hewlett-Packard\HP Support Solutions\HPSupportSolutionsFrameworkService.exe"
+
+Name        : Net Driver HPZ12
+DisplayName : Net Driver HPZ12
+State       : Running
+StartMode   : Auto
+StartName   : NT AUTHORITY\LocalService
+PathName    : C:\WINDOWS\System32\svchost.exe -k HPZ12
+
+Name        : Pml Driver HPZ12
+DisplayName : Pml Driver HPZ12
+State       : Running
+StartMode   : Auto
+StartName   : NT AUTHORITY\LocalService
+PathName    : C:\WINDOWS\System32\svchost.exe -k HPZ12
+
+
+
