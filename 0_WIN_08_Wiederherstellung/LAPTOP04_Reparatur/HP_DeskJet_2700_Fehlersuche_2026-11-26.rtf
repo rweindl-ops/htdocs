@@ -1,0 +1,37 @@
+{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\blue0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 HP DeskJet 2700 \u8211- Fehlerbehebung auf LAPTOP04\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 {\b Datum:} 26.11.2026\line {\b Ergebnis:} Scanfunktion nach vollst\u228 ?ndiger Deinstallation der HP-Software und anschlie\u223 ?ender Neuinstallation wiederhergestellt.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Ausgangslage\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Der HP DeskJet 2700 war \u252 ?ber WLAN mit LAPTOP04 (L04) und LAPTOP06 (L06) verbunden.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Drucken funktionierte auf L04.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab In HP Smart auf L04 schlug das Scannen mit einer Kommunikationsfehlermeldung fehl.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Auf L06 funktionierte das Scannen mit demselben Drucker.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab \u220 ?ber Windows lie\u223 ? sich der Scanner auf L04 grunds\u228 ?tzlich \u246 ?ffnen.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Die aktuellen DeskJet-2700-Treiber waren auf beiden Ger\u228 ?ten bereits installiert.\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Durchgef\u252 ?hrte Pr\u252 ?fungen\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 1.\tx360\tab Der Windows-Dienst {\b Windows-Bilderfassung (WIA)} lief auf beiden Ger\u228 ?ten.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 2.\tx360\tab Die Pr\u252 ?fung der HP-Programm- und AppX-Installationen ergab auf L04 und L06 keine Treffer in den abgefragten Installations\u252 ?bersichten.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 3.\tx360\tab Die Startmen\u252 ?eintr\u228 ?ge zeigten auf L04 zus\u228 ?tzliche \u228 ?ltere HP-Komponenten, darunter:\par}
+{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab HP Solution Center\par}
+{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab HP DeskJet 2700 series \u8211- HP Scan\par}
+{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab HP TWAIN Administration\par}
+{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab HP Support Assistant\sa180\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 4.\tx360\tab Auf L04 waren zus\u228 ?tzlich \u228 ?ltere HP-Dienste vorhanden, unter anderem:\par}
+{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab HP CUE DeviceDiscovery Service ({\f1 hpqddsvc})\par}
+{\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab HP Network Devices Support ({\f1 HPSLPSVC})\sa180\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Tests ohne Erfolg\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Das Anhalten der Dienste {\f1 hpqddsvc} und {\f1 HPSLPSVC} \u228 ?nderte nichts am Scanfehler.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Der DeskJet 2700 wurde in Windows entfernt und anschlie\u223 ?end erneut \u252 ?ber WLAN hinzugef\u252 ?gt.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Windows zeigte den Drucker dabei zweimal an: einmal als reinen Drucker und einmal als Drucker mit Scanner.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab Auch nach der erneuten WLAN-Einrichtung blieb der Scanfehler in HP Smart bestehen.\sa180\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Tats\u228 ?chliche L\u246 ?sung\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Auf L04 wurde die vorhandene HP-Software vollst\u228 ?ndig deinstalliert und anschlie\u223 ?end neu installiert.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Danach war das Problem behoben.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Erkenntnis f\u252 ?r zuk\u252 ?nftige HP-Fehler\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Wenn HP Smart trotz funktionierender Netzwerkverbindung, installierter Treiber und grunds\u228 ?tzlich erreichbarem Scanner nicht scannen kann, sollte bei einer widerspr\u252 ?chlichen oder besch\u228 ?digten HP-Installation fr\u252 ?hzeitig eine vollst\u228 ?ndige Deinstallation der HP-Software mit anschlie\u223 ?ender Neuinstallation erwogen werden.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Nicht erneut unn\u246 ?tig Zeit mit wiederholten Einzelpr\u252 ?fungen von Diensten, Berechtigungen oder dem blo\u223 ?en Entfernen und Wiederhinzuf\u252 ?gen des Druckers verbringen, wenn diese Ma\u223 ?nahmen bereits ohne Erfolg getestet wurden.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 {\b Wichtig:} Die genaue Ursache innerhalb der alten HP-Installation wurde nicht isoliert. Belegt ist, dass die vollst\u228 ?ndige Deinstallation und Neuinstallation das Problem behoben hat.\par}
+}
