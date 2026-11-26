@@ -1,0 +1,1404 @@
+﻿L04 - EXE-Berechtigungsreparatur 013
+Start: 11/26/2026 13:20:51
+Zielgruppe: BUILTIN\Users (S-1-5-32-545)
+Zielrecht: Lesen und Ausfuehren (RX)
+Nur fehlendes RX ergaenzen; vorhandene ACEs und Vererbung erhalten.
+ACL-Sicherung muss vor jeder Rechteaenderung erfolgreich sein.
+
+EXE_INVENTUR: 1374 EXE-Dateien; CSV=D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP04_Reparatur\ACL_Sicherungen\CSV\EXE_Inventur_20261126_132051.csv
+REGISTRY_INVENTUR: 283 Eintraege aus HKLM 64/32 und HKCU
+REGISTRY_LESFEHLER: 0
+INVENTUR_SUCHFEHLER: 0
+EXE-ACL-Sicherung erfolgreich: 1374 DACLs; Datei=D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP04_Reparatur\ACL_Sicherungen\ACL\EXE_ACL_Backup_20261126_132051.csv
+Modus R: fehlendes RX gezielt ergaenzen.
+
+VERARBEITUNG: EXE-Dateien aus der gesicherten Inventur
+BEREITS_AUSREICHEND - C:\Program Files\DateilistenSchreiber.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDFCompressor.exe
+BEREITS_AUSREICHEND - C:\Program Files\traycolor.exe
+BEREITS_AUSREICHEND - C:\Program Files\@Last Software\SketchUp 5\BsSndRpt.exe
+BEREITS_AUSREICHEND - C:\Program Files\@Last Software\SketchUp 5\GettingStarted.exe
+BEREITS_AUSREICHEND - C:\Program Files\@Last Software\SketchUp 5\Machnm1.exe
+BEREITS_AUSREICHEND - C:\Program Files\@Last Software\SketchUp 5\SketchUp.exe
+BEREITS_AUSREICHEND - C:\Program Files\ACAD2000\acad.exe
+BEREITS_AUSREICHEND - C:\Program Files\ACAD2000\addplwiz.exe
+BEREITS_AUSREICHEND - C:\Program Files\ACAD2000\expand.exe
+BEREITS_AUSREICHEND - C:\Program Files\ACAD2000\HPSETUP.exe
+BEREITS_AUSREICHEND - C:\Program Files\ACAD2000\pc3exe.exe
+BEREITS_AUSREICHEND - C:\Program Files\ACAD2000\styexe.exe
+BEREITS_AUSREICHEND - C:\Program Files\ACAD2000\styshwiz.exe
+BEREITS_AUSREICHEND - C:\Program Files\ACAD2000\DRV\ntlock\setupx86.exe
+BEREITS_AUSREICHEND - C:\Program Files\ACAD2000\EXPRESS\ScriptPro.exe
+BEREITS_AUSREICHEND - C:\Program Files\ACAD2000\EXPRESS\ttc2ttf.exe
+BEREITS_AUSREICHEND - C:\Program Files\ACAD2000\HELP\alalink.exe
+BEREITS_AUSREICHEND - C:\Program Files\ACAD2000\migration\ama.exe
+BEREITS_AUSREICHEND - C:\Program Files\ACAD2000\migration\dwgcvt.exe
+BEREITS_AUSREICHEND - C:\Program Files\ACAD2000\migration\harvester.exe
+BEREITS_AUSREICHEND - C:\Program Files\ACAD2000\migration\lca.exe
+BEREITS_AUSREICHEND - C:\Program Files\ACAD2000\migration\mnutool.exe
+BEREITS_AUSREICHEND - C:\Program Files\ACAD2000\migration\pgptool.exe
+BEREITS_AUSREICHEND - C:\Program Files\ACAD2000\migration\serharv.exe
+BEREITS_AUSREICHEND - C:\Program Files\ACAD2000\migration\convert\convert.exe
+BEREITS_AUSREICHEND - C:\Program Files\ACAD2000\migration\pictaker\PTEEEval.EXE
+BEREITS_AUSREICHEND - C:\Program Files\ACAD2000\SAMPLE\ACTIVEX\Facility\Facility.Exe
+BEREITS_AUSREICHEND - C:\Program Files\ACAD2000\SAMPLE\ACTIVEX\Facility\setup\Setup.EXE
+BEREITS_AUSREICHEND - C:\Program Files\ACAD2000\SUPPORT\slidelib.exe
+BEREITS_AUSREICHEND - C:\Program Files\ACAD2000\SUPPORT\BATCHPLT\batchplt.exe
+BEREITS_AUSREICHEND - C:\Program Files\Adobe\Reader 9.0\Reader\A3DUtility.exe
+BEREITS_AUSREICHEND - C:\Program Files\Adobe\Reader 9.0\Reader\AcroBroker.exe
+BEREITS_AUSREICHEND - C:\Program Files\Adobe\Reader 9.0\Reader\AcroRd32.exe
+BEREITS_AUSREICHEND - C:\Program Files\Adobe\Reader 9.0\Reader\AcroRd32Info.exe
+BEREITS_AUSREICHEND - C:\Program Files\Adobe\Reader 9.0\Reader\AcroTextExtractor.exe
+BEREITS_AUSREICHEND - C:\Program Files\Adobe\Reader 9.0\Reader\AdobeCollabSync.exe
+BEREITS_AUSREICHEND - C:\Program Files\Adobe\Reader 9.0\Reader\Eula.exe
+BEREITS_AUSREICHEND - C:\Program Files\Adobe\Reader 9.0\Reader\LogTransport2.exe
+BEREITS_AUSREICHEND - C:\Program Files\Adobe\Reader 9.0\Reader\reader_sl.exe
+BEREITS_AUSREICHEND - C:\Program Files\Adobe\Reader 9.0\Setup Files\{AC76BA86-7AD7-1031-7B44-A94000000001}\Setup.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\7z.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\ADR.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\aman.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\amanhlp.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\AMBooter.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\autoupdate.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\bcdboot.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\CFDH.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\clean.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\Defrager.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\DST.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\DTF.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\DupFiles.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\DyndiskConverter.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\EPW.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\ga4.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\Help.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\loaddrv.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\LoadDrv_Win32.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\LoadDrv_x64.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\Ntfs2Fat32.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\panotify.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\PartAssist.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\SetupGreen32.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\SetupGreen64.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\ss.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\UninstallFB.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\wimlib-imagex.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\win11chk.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\Winchk.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\WinToGo.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\ddm\DDM.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\ddm\ddmmain.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\ddm\Help.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\ddm\loaddrv.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\native\w2k\x86\fre\ampa.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\native\wlh\amd64\fre\ampa.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\native\wlh\x86\fre\ampa.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\native\wnet\amd64\fre\ampa.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\x64\7z.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\x64\AMBooter.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\x64\BitlockerTool.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\x64\Defrager.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\x64\LoadDrv_x64.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\x64\PartAssist.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\x64\SetupGreen64.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\x64\Winchk.exe
+BEREITS_AUSREICHEND - C:\Program Files\AOMEI Partition Assistant\x64\WinToGo.exe
+BEREITS_AUSREICHEND - C:\Program Files\Audacity\audacity.exe
+BEREITS_AUSREICHEND - C:\Program Files\Audacity\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\AutoCAD LT 2000\aclt.exe
+BEREITS_AUSREICHEND - C:\Program Files\AutoCAD LT 2000\addplwiz.exe
+BEREITS_AUSREICHEND - C:\Program Files\AutoCAD LT 2000\HPSETUP.exe
+BEREITS_AUSREICHEND - C:\Program Files\AutoCAD LT 2000\pc3exe.exe
+BEREITS_AUSREICHEND - C:\Program Files\AutoCAD LT 2000\styexe.exe
+BEREITS_AUSREICHEND - C:\Program Files\AutoCAD LT 2000\styshwiz.exe
+BEREITS_AUSREICHEND - C:\Program Files\AutoCAD LT 2000\TabsetUpdate.exe
+BEREITS_AUSREICHEND - C:\Program Files\AutoCAD LT 2000\HELP\alalink.exe
+BEREITS_AUSREICHEND - C:\Program Files\AutoCAD LT 2000\SUPPORT\slidelib.exe
+BEREITS_AUSREICHEND - C:\Program Files\Autodesk\Autodesk DWF Viewer\DwfViewer.exe
+BEREITS_AUSREICHEND - C:\Program Files\Autodesk\DWG TrueView 2018 - English\accoreconsole.exe
+BEREITS_AUSREICHEND - C:\Program Files\Autodesk\DWG TrueView 2018 - English\addplwiz.exe
+BEREITS_AUSREICHEND - C:\Program Files\Autodesk\DWG TrueView 2018 - English\DADispatcherService.exe
+BEREITS_AUSREICHEND - C:\Program Files\Autodesk\DWG TrueView 2018 - English\dwgviewr.exe
+BEREITS_AUSREICHEND - C:\Program Files\Autodesk\DWG TrueView 2018 - English\HPSETUP.exe
+BEREITS_AUSREICHEND - C:\Program Files\Autodesk\DWG TrueView 2018 - English\pc3exe.exe
+BEREITS_AUSREICHEND - C:\Program Files\Autodesk\DWG TrueView 2018 - English\senddmp.exe
+BEREITS_AUSREICHEND - C:\Program Files\Autodesk\DWG TrueView 2018 - English\styexe.exe
+BEREITS_AUSREICHEND - C:\Program Files\Autodesk\DWG TrueView 2018 - English\styshwiz.exe
+BEREITS_AUSREICHEND - C:\Program Files\Autodesk\DWG TrueView 2018 - English\AcWebBrowser\AcWebBrowser.exe
+BEREITS_AUSREICHEND - C:\Program Files\Autodesk\DWG TrueView 2018 - English\Setup\en-us\Setup\Setup.exe
+BEREITS_AUSREICHEND - C:\Program Files\Autodesk\DWG TrueView 2018 - English\Setup\en-us\Setup\Setup\AcDelTree.exe
+BEREITS_AUSREICHEND - C:\Program Files\Autodesk\DWG TrueView 2018 - English\Setup\en-us\Setup\Setup\senddmp.exe
+BEREITS_AUSREICHEND - C:\Program Files\avc\Any Video Converter\Any Video Converter.exe
+BEREITS_AUSREICHEND - C:\Program Files\avc\Any Video Converter\Uninstall Any Video Converter.exe
+BEREITS_AUSREICHEND - C:\Program Files\avc\Any Video Converter\resources\elevate.exe
+BEREITS_AUSREICHEND - C:\Program Files\avc\Any Video Converter\resources\app.asar.unpacked\7za\win32\ia32\7za.exe
+BEREITS_AUSREICHEND - C:\Program Files\avc\Any Video Converter\resources\app.asar.unpacked\7za\win32\x64\7za.exe
+BEREITS_AUSREICHEND - C:\Program Files\avc\Any Video Converter\resources\com.anvsoft.avc\main\bin\AvcDaemon.exe
+BEREITS_AUSREICHEND - C:\Program Files\avc\Any Video Converter\resources\com.anvsoft.avc\main\bin\ffmpeg.exe
+BEREITS_AUSREICHEND - C:\Program Files\avc\Any Video Converter\resources\com.anvsoft.avc\main\bin\ffprobe.exe
+BEREITS_AUSREICHEND - C:\Program Files\avc\Any Video Converter\resources\com.anvsoft.avc\main\bin\yt-dlp.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Endpoint Protection SDK\ACSSigned.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Endpoint Protection SDK\endpointprotection.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Endpoint Protection SDK\firewall.tools.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Endpoint Protection SDK\launchelevated.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Endpoint Protection SDK\rtp_setup.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Endpoint Protection SDK\SentryEye.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Endpoint Protection SDK\SentryProtection.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Endpoint Protection SDK\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Endpoint Protection SDK\wsc_agent.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Endpoint Protection SDK\wsc_agent_enroll.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Endpoint Protection SDK\wsc_agent_legacy.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Endpoint Protection SDK\wsc_agent_legacy_enroll.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Endpoint Protection SDK\wsc_remediation.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Endpoint Protection SDK\updateBackup\ACSSigned.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Endpoint Protection SDK\updateBackup\endpointprotection.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Endpoint Protection SDK\updateBackup\firewall.tools.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Endpoint Protection SDK\updateBackup\launchelevated.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Fallback Updater\Avira.Spotlight.FallbackUpdater.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Migration Cleanup\Avira.Spotlight.Bootstrapper.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Optimizer Host\Avira.OptimizerHost.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Optimizer Host\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Security\Avira.Spotlight.Bootstrapper.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Security\Avira.Spotlight.Common.Updater.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Security\Avira.Spotlight.Common.UpdaterTracker.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Security\Avira.Spotlight.Service.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Security\Avira.Spotlight.Service.Worker.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Security\Avira.Spotlight.Systray.Application.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Security\Avira.Spotlight.UI.AdministrativeRightsProvider.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Security\Avira.Spotlight.UI.Application.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Security\Avira.Spotlight.UI.Application.Messaging.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Security\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Security\EndpointProtectionSdk\ACSSignedIC.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Security\Swu\wa_3rd_party_host_32.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Security\Swu\wa_3rd_party_host_64.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Security\Swu\wa_3rd_party_host_ARM64.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\System Speedup\Avira.Optimizer.Common.ErrorReporter.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\System Speedup\Avira.Optimizer.Common.Updater.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\System Speedup\Avira.SystemSpeedup.Core.Common.Starter.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\System Speedup\Avira.SystemSpeedup.Core.DeviceOptimization.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\System Speedup\Avira.SystemSpeedup.Maintenance.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\System Speedup\Avira.SystemSpeedup.RealTime.Client.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\System Speedup\Avira.SystemSpeedup.RealTimeOptimizer.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\System Speedup\Avira.SystemSpeedup.Service.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\System Speedup\Avira.SystemSpeedup.Tools.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\System Speedup\Avira.SystemSpeedup.UI.Application.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\System Speedup\Avira.SystemSpeedup.UI.Popup.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\System Speedup\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\System Speedup\setup\avira_speedup_setup.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\VPN\Avira.NetworkBlocker.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\VPN\Avira.VPN.Notifier.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\VPN\Avira.VpnService.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\VPN\Avira.WebAppHost.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\VPN\uninstaller.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\VPN\OpenVpn\phantomvpn.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\VPN\OpenVpn\TAP\win10\amd64\tapinstall.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\VPN\OpenVpn\TAP\win10\arm64\tapinstall.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\VPN\OpenVpn\TAP\win10\i386\tapinstall.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\VPN\OpenVpn\TAP\win7\amd64\tapinstall.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\VPN\OpenVpn\TAP\win7\i386\tapinstall.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\Registration.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\Uninstall.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\AVSAudioConverter\AVSAudioConverter.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\AVSAudioConverter\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\AVSAudioEditor\AVSAudioEditor.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\AVSAudioEditor\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\AVSCoverEditor\AVSCoverEditor2.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\AVSCoverEditor\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\AVSDiscCreator\AVSDiscCreator.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\AVSDiscCreator\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\AVSDocumentConverter\AVSDocumentConverter.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\AVSDocumentConverter\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\AVSImageConverter\AVSExplorerExtension.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\AVSImageConverter\AVSImageConverter.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\AVSImageConverter\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\AVSMediaPlayer\AVSMediaPlayer.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\AVSMediaPlayer\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\AVSPhotoEditor\AVSPhotoEditor.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\AVSPhotoEditor\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\AVSRegistryCleaner\AVSRegistryCleaner.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\AVSRegistryCleaner\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\AVSScreenCapture\AVSScreenCapture.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\AVSScreenCapture\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\AVSVideoConverter\AVSVideoConverter.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\AVSVideoConverter\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\AVSVideoEditor\AVSVideoEditor.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\AVSVideoEditor\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\AVSVideoRecorder\AVSVideoRecorder.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\AVSVideoRecorder\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\AVSVideoRemaker\AVSVideoReMaker.exe
+BEREITS_AUSREICHEND - C:\Program Files\AVS4YOU\AVSVideoRemaker\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\BurnAware Free\AudioCD.exe
+BEREITS_AUSREICHEND - C:\Program Files\BurnAware Free\BurnAware.exe
+BEREITS_AUSREICHEND - C:\Program Files\BurnAware Free\BurnImage.exe
+BEREITS_AUSREICHEND - C:\Program Files\BurnAware Free\CopyImage.exe
+BEREITS_AUSREICHEND - C:\Program Files\BurnAware Free\DataDisc.exe
+BEREITS_AUSREICHEND - C:\Program Files\BurnAware Free\DiscInfo.exe
+BEREITS_AUSREICHEND - C:\Program Files\BurnAware Free\EraseDisc.exe
+BEREITS_AUSREICHEND - C:\Program Files\BurnAware Free\MakeISO.exe
+BEREITS_AUSREICHEND - C:\Program Files\BurnAware Free\MediaDisc.exe
+BEREITS_AUSREICHEND - C:\Program Files\BurnAware Free\SpanDisc.exe
+BEREITS_AUSREICHEND - C:\Program Files\BurnAware Free\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\BurnAware Free\UnpackISO.exe
+BEREITS_AUSREICHEND - C:\Program Files\BurnAware Free\VerifyDisc.exe
+BEREITS_AUSREICHEND - C:\Program Files\CCleaner\CCleaner.exe
+BEREITS_AUSREICHEND - C:\Program Files\CCleaner\CCleanerBugReport.exe
+BEREITS_AUSREICHEND - C:\Program Files\CCleaner\CCleanerCrashDump.exe
+BEREITS_AUSREICHEND - C:\Program Files\CCleaner\CCleanerPerformanceOptimizerService.exe
+BEREITS_AUSREICHEND - C:\Program Files\CCleaner\CCleanerReactivator.exe
+BEREITS_AUSREICHEND - C:\Program Files\CCleaner\ccleaner_update_helper.exe
+BEREITS_AUSREICHEND - C:\Program Files\CCleaner\CCUpdate.exe
+BEREITS_AUSREICHEND - C:\Program Files\CCleaner\ccupdate607_free.exe
+BEREITS_AUSREICHEND - C:\Program Files\CCleaner\ccupdate609_free.exe
+BEREITS_AUSREICHEND - C:\Program Files\CCleaner\ccupdate612_free.exe
+BEREITS_AUSREICHEND - C:\Program Files\CCleaner\ccupdate616_free.exe
+BEREITS_AUSREICHEND - C:\Program Files\CCleaner\ccupdate621_free.exe
+BEREITS_AUSREICHEND - C:\Program Files\CCleaner\ccupdate624_free.exe
+BEREITS_AUSREICHEND - C:\Program Files\CCleaner\ccupdate633_free.exe
+BEREITS_AUSREICHEND - C:\Program Files\CCleaner\ccupdate634_free.exe
+BEREITS_AUSREICHEND - C:\Program Files\CCleaner\ccupdate638_free.exe
+BEREITS_AUSREICHEND - C:\Program Files\CCleaner\ccupdate702_free.exe
+BEREITS_AUSREICHEND - C:\Program Files\CCleaner\uninst.exe
+BEREITS_AUSREICHEND - C:\Program Files\CCleaner\wa_3rd_party_host_32.exe
+BEREITS_AUSREICHEND - C:\Program Files\CDBurnerXP\cdbxpcmd.exe
+BEREITS_AUSREICHEND - C:\Program Files\CDBurnerXP\cdbxpp.exe
+BEREITS_AUSREICHEND - C:\Program Files\CDBurnerXP\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\CDBurnerXP\updater.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\Adobe\ARM\1.0\AcrobatUpdater.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\Adobe\ARM\1.0\ReaderUpdater.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\Adobe\Updater6\AdobeUpdaterInstallMgr.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\Adobe\Updater6\Adobe_Updater.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\Apple\Apple Application Support\APSDaemon.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\Apple\Apple Application Support\defaults.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\Apple\Apple Application Support\distnoted.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\Apple\Apple Application Support\plutil.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\Apple\Apple Application Support\WebKit2WebProcess.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\Autodesk Shared\AcHelp2.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\Autodesk Shared\mtstack16.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\Autodesk Shared\AcShellEx\AcLauncher.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\Autodesk Shared\dwf common\ExpressViewer.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\Autodesk Shared\dwf common\RegCleaner.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\AVSMedia\ActiveX\AVSMobileDevice2iSQLiteService2.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\AVSMedia\ActiveX\AVSMobileDevice2iSyncDBService2.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\AVSMedia\ActiveX\AVSVideoConverterHost.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\AVSMedia\ActiveX\Repairing.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\AVSMedia\BurnerService\AVSVideoBurner.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\AVSMedia\BurnerService\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\AVSMedia\MobileUploader\AVSMobileUploader.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\AVSMedia\MobileUploader\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\AVSMedia\Registration\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\Corel\Shared\Shell Extension\ShellUninst.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\Corel\Shared\Shell Extension\x86\PropSchemaReg.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\Corel\Shared\Writing Tools\9.1\wt9_1sptlDE.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\DVDVideoSoft\FreeStudioManager.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\DVDVideoSoft\PremiumMembershipOffer.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\DVDVideoSoft\bin\Assistant.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\DVDVideoSoft\bin\ContextMenuHelper.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\DVDVideoSoft\bin\DVSSysReport.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\DVDVideoSoft\bin\DVSUpdate.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\DVDVideoSoft\bin\PremiumMembershipOffer.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\DVDVideoSoft\bin\PrerequisiteCheck.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\DVDVideoSoft\bin\tar.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\DVDVideoSoft\lib\app_updater.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\DVDVideoSoft\lib\app_updater_notification.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\DVDVideoSoft\lib\ffmpeg.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\DVDVideoSoft\lib\Uninstall.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\DVDVideoSoft\lib\updhelper.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\Hewlett-Packard\Scanjet\bin\hpsjrreg.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\InstallShield\Driver\7\Intel 32\IDriver.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\InstallShield\Professional\RunTime\09\01\Intel32\DotNetInstaller.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\InstallShield\Professional\RunTime\11\50\Intel32\DotNetInstaller.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\Artgalry\ARTGALRY.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\Artgalry\CAG.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\DW\DW20.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\DW\DWTRIG20.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\EQUATION\EQNEDT32.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\ink\FlickLearningWizard.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\ink\InputPersonalization.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\ink\mip.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\ink\pipanel.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\ink\ShapeCollector.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\ink\TabTip.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\MSInfo\msinfo32.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\MSInfo\OFFPROV.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\OFFICE14\FLTLDR.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\OFFICE14\LICLUA.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\OFFICE14\MSOICONS.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\OFFICE14\MSOXMLED.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\OFFICE14\Oarpmany.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\OFFICE14\Office Setup Controller\ODeploy.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\OFFICE14\Office Setup Controller\Setup.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\OfficeSoftwareProtectionPlatform\OSPPREARM.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\OfficeSoftwareProtectionPlatform\OSPPSVC.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\Smart Tag\SmartTagInstall.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\Source Engine\OSE.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\TextConv\WksConv\Wkconv.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\VBA\VBA6\link.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\VSTA\8.0\x86\vsta_ep32.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\VSTO\10.0\VSTOInstaller.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\Works Shared\dw15.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\Works Shared\WkCalRem.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\Works Shared\WksCal.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\Protexis\License Service\PsiService_2.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\System\Mapi\1031\NT\CNFNOT32.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\System\Mapi\1031\NT\NEWPROF.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\System\Mapi\1031\NT\SCANPST.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\Wondershare\PDFelement10\Shell Extensions\PEShellContextMenu4.exe
+BEREITS_AUSREICHEND - C:\Program Files\Convar\PC Inspector File Recovery\Filerecovery.exe
+BEREITS_AUSREICHEND - C:\Program Files\Convar\PC Inspector File Recovery\Uninstall.exe
+BEREITS_AUSREICHEND - C:\Program Files\CoreFTP\corecmd.exe
+BEREITS_AUSREICHEND - C:\Program Files\CoreFTP\coreftp.exe
+BEREITS_AUSREICHEND - C:\Program Files\CoreFTP\uninstall.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\Corel Graphics 11\Config\Redist\50comupd.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\Corel Graphics 11\Config\Redist\regsvr32.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\Corel Graphics 11\Fontnav\FontNav.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\Corel Graphics 11\Programs\BarCode.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\Corel Graphics 11\Programs\Capture.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\Corel Graphics 11\Programs\CdrConv.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\Corel Graphics 11\Programs\CorelDrw.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\Corel Graphics 11\Programs\CorelPP.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\Corel Graphics 11\Programs\CSBProf.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\Corel Graphics 11\Programs\Printwiz.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\Corel Graphics 11\Programs\Rave.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\Corel Graphics 11\Programs\Trace.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\Corel Graphics 11\Programs\UnregIco.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\Corel Graphics 11\Register\registration.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\CorelDRAW Essentials X5\Connect\Connect.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\CorelDRAW Essentials X5\DrawEssentials\Dim.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\CorelDRAW Essentials X5\Filters\CorelPS2PDF.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\CorelDRAW Essentials X5\Filters\ooxmlConvertInstaller.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\CorelDRAW Essentials X5\PPEssentials\Dim.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\CorelDRAW Essentials X5\Programs\CdrConv.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\CorelDRAW Essentials X5\Programs\DIM.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Corel\CorelDRAW Essentials X5\Programs\DrawEssentials.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\CorelDRAW Essentials X5\Programs\PPEssentials.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\CorelDRAW Essentials X5\Setup\Setup.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\CorelDRAW Essentials X5\Setup\SetupARP.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\CorelDRAW Essentials X5\WritingTools\WT15sptlDE.exe
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\Shared files\EffectExtractor.exe
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\YouCam9\CLWFLService9.exe
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\YouCam9\GPUUtilityEx.exe
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\YouCam9\YouCam9.exe
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\YouCam9\YouCamService9.exe
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\YouCam9\Boomerang\x86\Boomerang.exe
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\YouCam9\CLMirrorDriver\Vista\x64\CLDrvInst.exe
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\YouCam9\CLMirrorDriver\Vista\x64\DriverInstaller.exe
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\YouCam9\CLMirrorDriver\Vista\x86\CLDrvInst.exe
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\YouCam9\CLMirrorDriver\Vista\x86\DriverInstaller.exe
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\YouCam9\Driver\CLDrvInst.exe
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\YouCam9\MUITransfer\MUIStartMenu.exe
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\YouCam9\MUITransfer\MUIStartMenuX64.exe
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\YouCam9\OLRSubmission\OLRStateCheck.exe
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\YouCam9\OLRSubmission\OLRSubmission.exe
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\YouCam9\subsys\BigBang\Runtime\CLUpdater.exe
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\YouCam9\subsys\BigBang\Runtime\GDPR\GDPRDlg.exe
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\YouCam9\subsys\BigBang\Runtime\MUITransfer\MUIStartMenu.exe
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\YouCam9\subsys\YouCam\makeup.exe
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\YouCam9\Trial\trial.exe
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\YouCam9\Trial\TrialMgr.exe
+BEREITS_AUSREICHEND - C:\Program Files\DearMob\5KPlayer\5KPlayer.exe
+BEREITS_AUSREICHEND - C:\Program Files\DearMob\5KPlayer\AMDCheck.exe
+BEREITS_AUSREICHEND - C:\Program Files\DearMob\5KPlayer\DisplayDrivers.exe
+BEREITS_AUSREICHEND - C:\Program Files\DearMob\5KPlayer\FileRelation.exe
+BEREITS_AUSREICHEND - C:\Program Files\DearMob\5KPlayer\IntelCheck.exe
+BEREITS_AUSREICHEND - C:\Program Files\DearMob\5KPlayer\NvidiaCheck.exe
+BEREITS_AUSREICHEND - C:\Program Files\DearMob\5KPlayer\uninstaller.exe
+BEREITS_AUSREICHEND - C:\Program Files\DearMob\5KPlayer\ytb\AtomicParsley.exe
+BEREITS_AUSREICHEND - C:\Program Files\DearMob\5KPlayer\ytb\ffmpeg.exe
+BEREITS_AUSREICHEND - C:\Program Files\DearMob\5KPlayer\ytb\ytb.exe
+BEREITS_AUSREICHEND - C:\Program Files\DearMob\5KPlayer\ytb\Lib\distutils\command\wininst-10.0-amd64.exe
+BEREITS_AUSREICHEND - C:\Program Files\DearMob\5KPlayer\ytb\Lib\distutils\command\wininst-10.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\DearMob\5KPlayer\ytb\Lib\distutils\command\wininst-14.0-amd64.exe
+BEREITS_AUSREICHEND - C:\Program Files\DearMob\5KPlayer\ytb\Lib\distutils\command\wininst-14.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\DearMob\5KPlayer\ytb\Lib\distutils\command\wininst-6.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\DearMob\5KPlayer\ytb\Lib\distutils\command\wininst-7.1.exe
+BEREITS_AUSREICHEND - C:\Program Files\DearMob\5KPlayer\ytb\Lib\distutils\command\wininst-8.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\DearMob\5KPlayer\ytb\Lib\distutils\command\wininst-9.0-amd64.exe
+BEREITS_AUSREICHEND - C:\Program Files\DearMob\5KPlayer\ytb\Lib\distutils\command\wininst-9.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\DearMob\5KPlayer\ytb\Lib\site-packages\pip\_vendor\distlib\t32.exe
+BEREITS_AUSREICHEND - C:\Program Files\DearMob\5KPlayer\ytb\Lib\site-packages\pip\_vendor\distlib\t64.exe
+BEREITS_AUSREICHEND - C:\Program Files\DearMob\5KPlayer\ytb\Lib\site-packages\pip\_vendor\distlib\w32.exe
+BEREITS_AUSREICHEND - C:\Program Files\DearMob\5KPlayer\ytb\Lib\site-packages\pip\_vendor\distlib\w64.exe
+BEREITS_AUSREICHEND - C:\Program Files\DearMob\5KPlayer\ytb\Lib\site-packages\setuptools\cli-32.exe
+BEREITS_AUSREICHEND - C:\Program Files\DearMob\5KPlayer\ytb\Lib\site-packages\setuptools\cli-64.exe
+BEREITS_AUSREICHEND - C:\Program Files\DearMob\5KPlayer\ytb\Lib\site-packages\setuptools\cli.exe
+BEREITS_AUSREICHEND - C:\Program Files\DearMob\5KPlayer\ytb\Lib\site-packages\setuptools\gui-32.exe
+BEREITS_AUSREICHEND - C:\Program Files\DearMob\5KPlayer\ytb\Lib\site-packages\setuptools\gui-64.exe
+BEREITS_AUSREICHEND - C:\Program Files\DearMob\5KPlayer\ytb\Lib\site-packages\setuptools\gui.exe
+BEREITS_AUSREICHEND - C:\Program Files\DearMob\5KPlayer\ytb\Lib\venv\scripts\nt\python.exe
+BEREITS_AUSREICHEND - C:\Program Files\DearMob\5KPlayer\ytb\Lib\venv\scripts\nt\pythonw.exe
+BEREITS_AUSREICHEND - C:\Program Files\DiskGenius\DGBCDX64.exe
+BEREITS_AUSREICHEND - C:\Program Files\DiskGenius\DGFileViewer.exe
+BEREITS_AUSREICHEND - C:\Program Files\DiskGenius\DiskGenius.exe
+BEREITS_AUSREICHEND - C:\Program Files\DiskGenius\OfflineReg.exe
+BEREITS_AUSREICHEND - C:\Program Files\DiskGenius\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\Dolby Home Theater v4\pcee4.exe
+BEREITS_AUSREICHEND - C:\Program Files\Dolby Home Theater v4\pcee4d.exe
+BEREITS_AUSREICHEND - C:\Program Files\Dolby Home Theater v4\pcee4e.exe
+BEREITS_AUSREICHEND - C:\Program Files\Dolby Home Theater v4\pcee4l.exe
+BEREITS_AUSREICHEND - C:\Program Files\DoubleCAD XT Setup\instmsia.exe
+BEREITS_AUSREICHEND - C:\Program Files\DoubleCAD XT Setup\instmsiw.exe
+BEREITS_AUSREICHEND - C:\Program Files\DoubleCAD XT Setup\setup.exe
+BEREITS_AUSREICHEND - C:\Program Files\DoubleCAD XT v5\instmsi30.exe
+BEREITS_AUSREICHEND - C:\Program Files\DoubleCAD XT v5\setup.exe
+BEREITS_AUSREICHEND - C:\Program Files\DVDStyler\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\DVDStyler\bin\dvd+rw-format.exe
+BEREITS_AUSREICHEND - C:\Program Files\DVDStyler\bin\dvd+rw-mediainfo.exe
+BEREITS_AUSREICHEND - C:\Program Files\DVDStyler\bin\dvdauthor.exe
+BEREITS_AUSREICHEND - C:\Program Files\DVDStyler\bin\DVDStyler.exe
+BEREITS_AUSREICHEND - C:\Program Files\DVDStyler\bin\ffmpeg.exe
+BEREITS_AUSREICHEND - C:\Program Files\DVDStyler\bin\ffplay.exe
+BEREITS_AUSREICHEND - C:\Program Files\DVDStyler\bin\ffprobe.exe
+BEREITS_AUSREICHEND - C:\Program Files\DVDStyler\bin\growisofs.exe
+BEREITS_AUSREICHEND - C:\Program Files\DVDStyler\bin\MediaInfo.exe
+BEREITS_AUSREICHEND - C:\Program Files\DVDStyler\bin\mkisofs.exe
+BEREITS_AUSREICHEND - C:\Program Files\DVDStyler\bin\mplex.exe
+BEREITS_AUSREICHEND - C:\Program Files\DVDStyler\bin\spumux.exe
+BEREITS_AUSREICHEND - C:\Program Files\DVDVideoSoft\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\DVDVideoSoft\unins001.exe
+BEREITS_AUSREICHEND - C:\Program Files\DVDVideoSoft\Free Video Flip and Rotate\ffmpeg.exe
+BEREITS_AUSREICHEND - C:\Program Files\DVDVideoSoft\Free Video Flip and Rotate\FreeVideoFlipAndRotate.exe
+BEREITS_AUSREICHEND - C:\Program Files\DVDVideoSoft\Free WebM Video Converter\FreeWebMVideoConverter.exe
+BEREITS_AUSREICHEND - C:\Program Files\FotoSketcher\FotoSketcher.exe
+BEREITS_AUSREICHEND - C:\Program Files\FotoSketcher\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\Free Audio Editor 2015\cdburner.exe
+BEREITS_AUSREICHEND - C:\Program Files\Free Audio Editor 2015\cdripper.exe
+BEREITS_AUSREICHEND - C:\Program Files\Free Audio Editor 2015\disceraser.exe
+BEREITS_AUSREICHEND - C:\Program Files\Free Audio Editor 2015\filemerger.exe
+BEREITS_AUSREICHEND - C:\Program Files\Free Audio Editor 2015\FreeAudioEditor.exe
+BEREITS_AUSREICHEND - C:\Program Files\Free Audio Editor 2015\goup.exe
+BEREITS_AUSREICHEND - C:\Program Files\Free Audio Editor 2015\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\Free Audio Editor 2015\wmainfo.exe
+BEREITS_AUSREICHEND - C:\Program Files\Free Audio Editor 2015\wmfdist.exe
+BEREITS_AUSREICHEND - C:\Program Files\Free Audio Editor 2015\GetfromYouTube\GetfromYouTube.exe
+BEREITS_AUSREICHEND - C:\Program Files\Free Audio Editor 2015\ImportAudioFromVideo\ImportAudioFromVideo.exe
+BEREITS_AUSREICHEND - C:\Program Files\FxSound LLC\FxSound\FxSound.exe
+BEREITS_AUSREICHEND - C:\Program Files\FxSound LLC\FxSound\updater.exe
+BEREITS_AUSREICHEND - C:\Program Files\FxSound LLC\FxSound\Apps\DfxSetupDrv.exe
+BEREITS_AUSREICHEND - C:\Program Files\FxSound LLC\FxSound\Drivers\ptdevcon32.exe
+BEREITS_AUSREICHEND - C:\Program Files\FxSound LLC\FxSound\Drivers\ptdevcon64.exe
+BEREITS_AUSREICHEND - C:\Program Files\FxSound LLC\FxSound\Drivers\win10\x64\fxdevcon64.exe
+BEREITS_AUSREICHEND - C:\Program Files\FxSound LLC\FxSound\Drivers\win10\x86\fxdevcon32.exe
+BEREITS_AUSREICHEND - C:\Program Files\FxSound LLC\FxSound\Drivers\win7\x64\fxdevcon64.exe
+BEREITS_AUSREICHEND - C:\Program Files\FxSound LLC\FxSound\Drivers\win7\x86\fxdevcon32.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\bin\bzip2.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\bin\gdk-pixbuf-query-loaders.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\bin\gimp-2.10.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\bin\gimp-console-2.10.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\bin\gimp-debug-resume.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\bin\gimp-debug-tool-2.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\bin\gimp-test-clipboard-2.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\bin\gimptool-2.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\bin\gspawn-win32-helper-console.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\bin\gspawn-win32-helper.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\bin\python.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\bin\pythonw.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\align-layers\align-layers.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\animation-optimize\animation-optimize.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\animation-play\animation-play.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\blinds\blinds.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\blur\blur.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\border-average\border-average.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\busy-dialog\busy-dialog.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\cartoon\cartoon.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\checkerboard\checkerboard.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\cml-explorer\cml-explorer.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\color-cube-analyze\color-cube-analyze.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\color-enhance\color-enhance.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\colorify\colorify.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\colormap-remap\colormap-remap.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\compose\compose.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\contrast-retinex\contrast-retinex.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\crop-zealous\crop-zealous.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\curve-bend\curve-bend.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\decompose\decompose.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\depth-merge\depth-merge.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\despeckle\despeckle.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\destripe\destripe.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\edge-dog\edge-dog.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\emboss\emboss.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-bmp\file-bmp.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-cel\file-cel.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-compressor\file-compressor.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-csource\file-csource.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-darktable\file-darktable.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-dds\file-dds.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-desktop-link\file-desktop-link.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-dicom\file-dicom.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-exr\file-exr.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-faxg3\file-faxg3.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-fits\file-fits.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-fli\file-fli.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-gbr\file-gbr.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-gegl\file-gegl.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-gif-load\file-gif-load.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-gif-save\file-gif-save.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-gih\file-gih.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-glob\file-glob.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-header\file-header.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-heif\file-heif.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-html-table\file-html-table.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-ico\file-ico.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-jp2-load\file-jp2-load.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-jpeg\file-jpeg.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-jpegxl\file-jpegxl.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-mng\file-mng.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-pat\file-pat.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-pcx\file-pcx.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-pdf-load\file-pdf-load.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-pdf-save\file-pdf-save.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-pix\file-pix.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-png\file-png.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-pnm\file-pnm.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-ps\file-ps.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-psd\file-psd.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-psp\file-psp.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-raw-data\file-raw-data.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-raw-placeholder\file-raw-placeholder.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-rawtherapee\file-rawtherapee.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-sgi\file-sgi.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-sunras\file-sunras.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-svg\file-svg.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-tga\file-tga.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-tiff\file-tiff.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-webp\file-webp.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-wmf\file-wmf.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-xbm\file-xbm.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-xpm\file-xpm.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\file-xwd\file-xwd.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\film\film.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\filter-pack\filter-pack.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\flame\flame.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\fractal-explorer\fractal-explorer.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\fractal-trace\fractal-trace.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\gfig\gfig.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\gimpressionist\gimpressionist.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\goat-exercise\goat-exercise.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\gradient-flare\gradient-flare.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\gradient-map\gradient-map.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\grid\grid.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\guillotine\guillotine.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\help\help.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\help-browser\help-browser.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\hot\hot.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\ifs-compose\ifs-compose.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\imagemap\imagemap.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\jigsaw\jigsaw.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\lighting\lighting.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\map-object\map-object.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\max-rgb\max-rgb.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\metadata-editor\metadata-editor.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\metadata-viewer\metadata-viewer.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\nl-filter\nl-filter.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\pagecurl\pagecurl.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\photocopy\photocopy.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\plugin-browser\plugin-browser.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\print\print.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\procedure-browser\procedure-browser.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\qbist\qbist.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\sample-colorize\sample-colorize.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\screenshot\screenshot.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\script-fu\script-fu.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\selection-to-path\selection-to-path.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\sharpen\sharpen.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\smooth-palette\smooth-palette.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\softglow\softglow.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\sparkle\sparkle.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\sphere-designer\sphere-designer.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\tile\tile.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\tile-small\tile-small.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\unit-editor\unit-editor.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\van-gogh-lic\van-gogh-lic.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\warp\warp.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\wavelet-decompose\wavelet-decompose.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\web-browser\web-browser.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\gimp\2.0\plug-ins\web-page\web-page.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\python2.7\distutils\command\wininst-6.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\python2.7\distutils\command\wininst-7.1.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\python2.7\distutils\command\wininst-8.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\python2.7\distutils\command\wininst-9.0-amd64.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\python2.7\distutils\command\wininst-9.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\python2.7\site-packages\distlib\t32.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\python2.7\site-packages\distlib\t64.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\python2.7\site-packages\distlib\w32.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\python2.7\site-packages\distlib\w64.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\python2.7\site-packages\pip\_vendor\distlib\t32.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\python2.7\site-packages\pip\_vendor\distlib\t64.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\python2.7\site-packages\pip\_vendor\distlib\w32.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\python2.7\site-packages\pip\_vendor\distlib\w64.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\python2.7\site-packages\setuptools\cli-32.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\python2.7\site-packages\setuptools\cli-64.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\python2.7\site-packages\setuptools\cli.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\python2.7\site-packages\setuptools\gui-32.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\python2.7\site-packages\setuptools\gui-64.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\lib\python2.7\site-packages\setuptools\gui.exe
+BEREITS_AUSREICHEND - C:\Program Files\GIMP 2\uninst\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Chrome\Application\chrome.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Chrome\Application\chrome_proxy.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Chrome\Application\109.0.5414.168\chrome_pwa_launcher.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Chrome\Application\109.0.5414.168\elevation_service.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Chrome\Application\109.0.5414.168\nacl64.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Chrome\Application\109.0.5414.168\notification_helper.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Chrome\Application\109.0.5414.168\Installer\chrmstp.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Chrome\Application\109.0.5414.168\Installer\setup.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Drive File Stream\78.0.1.0\crashpad_handler.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Drive File Stream\78.0.1.0\GoogleDriveFS.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Drive File Stream\78.0.1.0\switchblade_host.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Drive File Stream\78.0.1.0\uninstall.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Drive File Stream\79.0.2.0\crashpad_handler.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Drive File Stream\79.0.2.0\GoogleDriveFS.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Drive File Stream\79.0.2.0\switchblade_host.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Drive File Stream\79.0.2.0\uninstall.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Google SketchUp\BsSndRpt.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Google SketchUp\Machnm1.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Google SketchUp\SketchUp5.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Google SketchUp 7\BsSndRpt.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Google SketchUp 7\SketchUp.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Google SketchUp 8\BsSndRpt.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Google SketchUp 8\SketchUp.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Update\GoogleUpdate.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Update\1.3.36.372\GoogleCrashHandler.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Update\1.3.36.372\GoogleCrashHandler64.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Update\1.3.36.372\GoogleUpdate.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Update\1.3.36.372\GoogleUpdateBroker.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Update\1.3.36.372\GoogleUpdateComRegisterShell64.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Update\1.3.36.372\GoogleUpdateCore.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Update\1.3.36.372\GoogleUpdateOnDemand.exe
+BEREITS_AUSREICHEND - C:\Program Files\gs\gs9.16\uninstgs.exe
+BEREITS_AUSREICHEND - C:\Program Files\gs\gs9.16\bin\gswin32.exe
+BEREITS_AUSREICHEND - C:\Program Files\gs\gs9.16\bin\gswin32c.exe
+BEREITS_AUSREICHEND - C:\Program Files\HeSoWa\TTT2020\TTT.exe
+BEREITS_AUSREICHEND - C:\Program Files\HeSoWa\TTT2020\TTTDownload.exe
+BEREITS_AUSREICHEND - C:\Program Files\HeSoWa\TTT2020\TTTPatch.exe
+BEREITS_AUSREICHEND - C:\Program Files\HeSoWa\TTT2020\TTTUninstallOld.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Customer Feedback\HPCF.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Framework\Extract.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Framework\HPSF.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Framework\HPSF_Tasks.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Framework\HPSF_Utils.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Framework\LaunchUninstaller.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Framework\UninstallHPSA.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Framework\Resources\HPCF.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Framework\Resources\HPHelpUpdater.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Framework\Resources\HPSALauncher.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Framework\Resources\HPSASearch.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Framework\Resources\HPSFViewer.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Framework\Resources\ProductConfig.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Framework\Resources\PsDrLauncher.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Framework\Resources\Contact\ContactTechnicalSupport.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Framework\Solutions\HPSAObjectMetrics.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Framework\Solutions\LaunchMsHelpTopic.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Framework\Solutions\PSGRedirector.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Framework\Warranty\HPWSD.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\HPSupportSolutionsFrameworkService.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\7za.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\HPDeviceCheck.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\HPDIA.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\HPSFReport.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\HPSSFUpdater.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\HPWPD.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\UnifiedIoLauncher.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\unzip.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_AbsoluteMsg.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_AntiVirusDefenderA.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_AntiVirusNoAV_A.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_AudioCheckPromo.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_BackToTheOffice.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_BackupPasswordReminder_v2.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_BackupYourImportantData_v2.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_BatteryFailure.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_BluetoothMessage.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_CarePackRenewalPC.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_ChromeNetworkCheckPluginReminder.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_CleanAndDisinfectComputer.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_DeviceAdded.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_DisplaysAccessories.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_EASPromo.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_EMUBatteryRecallv2.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_EnableFirewall.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_EOSStatus.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_EOSStatus_Printers.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_FreeUpStorage32GB.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_GlobalAccessories.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_HDDFailure_v2.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_HPSmartFriend_v2.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_HPSolutionCenterMsg.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_ImrpoveFPSGamingPC.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_InstantInk_OJPro.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_InstantInk_Printers.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_InWarrantyCarePack.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_InWarrantyCarePack_Printers.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_KeyboardShourtcuts.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_LowInkForII.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_LowInkForII_OJPro.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_LowInkSupplies.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_NewCCPhone_IN.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_OSCheckPromo.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_OverheatingPrevention.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_PerformanceTuneUp.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_PIPMessage.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_PostWarrantyCarePack.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_PostWarrantyCarePack_Printers.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_PowerManagement.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_PrinterPromo.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_ProtectAndCaringHPNB.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_ThermalPerformance_Gaming.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_TPS_Print.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_VirtualRepairCenterPRN.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_WFH_Msg.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_WhatsAppPromo.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_WinDiags.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_WindowsUpdateDisabled_v2.exe
+BEREITS_AUSREICHEND - C:\Program Files\Hewlett-Packard\HP Support Solutions\Modules\SUDF\Detect_WinInkWsWithDigiPen.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Diagnostics\PSDR\HPPSDr.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\bin\hpfcCopy.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\bin\hpiscnapp.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\bin\hpoews01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\bin\hposid01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\bin\hposvc08.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\bin\hpqbam08.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\bin\Hpqdirec.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\bin\hpqgpc01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\bin\hpqgplgt01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\bin\hpqgplgt02.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\bin\hpqgplgtupl.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\bin\hpqgplgtupl02.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\bin\hpqkygrp.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\bin\hpqlgtidx.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\bin\hpqpprop.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\bin\HpqSplFix08.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\bin\hpqste08.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\bin\hpqtax08.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\bin\hpqtbx01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\bin\hpqtra08.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\bin\hpqusgh.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\bin\hpqusgl.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\bin\hpqusgm.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\bin\hpqwrg.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\bin\hpsjrreg.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\devicemanagement\hpzmsi01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\devicemanagement\hpzscr01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\esupport\hpqrrx08.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\esupport\hpzmsi01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\esupport\hpzscr01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\extcapuninstall\hpqrrx08.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\extcapuninstall\hpzmsi01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\extcapuninstall\hpzscr01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\help\player\FlashPla.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\help\player\fscommand\H470_insert_card.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\help\player\fscommand\H470_jams.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\help\player\fscommand\H470_load_envelopes.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\help\player\fscommand\H470_load_hagaki.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\help\player\fscommand\H470_load_small.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\help\player\fscommand\H470_load_standard.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\help\player\fscommand\H470_replace_battery.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\help\player\fscommand\H470_replace_printcartridge.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\help\player\fscommand\H470_transfer_camera.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\help\player\fscommand\H470_transfer_card.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\HelpViewer\hpqhvind.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\HelpViewer\hpqhvshm.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\HelpViewer\hpqlpvwr.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\hpssupply\hpzmsi01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\hpssupply\hpzscr01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\Product Assistant\bin\hprblog.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{2B71BB94-F52C-4EF2-85E8-45E63296EDF2}\TestPage.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{52DE907F-8A0B-47A2-A3CA-3653BEB3834B}\hpwlpd01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{52DE907F-8A0B-47A2-A3CA-3653BEB3834B}\hpzcdl01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{52DE907F-8A0B-47A2-A3CA-3653BEB3834B}\hpzsetup.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{52DE907F-8A0B-47A2-A3CA-3653BEB3834B}\hpzstub.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{52DE907F-8A0B-47A2-A3CA-3653BEB3834B}\setup.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{52DE907F-8A0B-47A2-A3CA-3653BEB3834B}\setup\cleanusbcontainer01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{52DE907F-8A0B-47A2-A3CA-3653BEB3834B}\setup\cleanusbcontainer40.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{52DE907F-8A0B-47A2-A3CA-3653BEB3834B}\setup\devinstanceeraser01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{52DE907F-8A0B-47A2-A3CA-3653BEB3834B}\setup\devinstanceeraser40.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{52DE907F-8A0B-47A2-A3CA-3653BEB3834B}\setup\hpqrrx08.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{52DE907F-8A0B-47A2-A3CA-3653BEB3834B}\setup\hpzcdl01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{52DE907F-8A0B-47A2-A3CA-3653BEB3834B}\setup\hpzdui01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{52DE907F-8A0B-47A2-A3CA-3653BEB3834B}\setup\hpzfwx01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{52DE907F-8A0B-47A2-A3CA-3653BEB3834B}\setup\hpzmsi01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{52DE907F-8A0B-47A2-A3CA-3653BEB3834B}\setup\hpznop01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{52DE907F-8A0B-47A2-A3CA-3653BEB3834B}\setup\hpznui01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{52DE907F-8A0B-47A2-A3CA-3653BEB3834B}\setup\hpzpsl01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{52DE907F-8A0B-47A2-A3CA-3653BEB3834B}\setup\hpzpsl01_bt.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{52DE907F-8A0B-47A2-A3CA-3653BEB3834B}\setup\hpzrcn01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{52DE907F-8A0B-47A2-A3CA-3653BEB3834B}\setup\hpzscr01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{52DE907F-8A0B-47A2-A3CA-3653BEB3834B}\setup\hpzshl01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{52DE907F-8A0B-47A2-A3CA-3653BEB3834B}\setup\hpzwrp01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{841C974B-1B01-4896-B996-6CD68C060EBE}\hpzcdl01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{841C974B-1B01-4896-B996-6CD68C060EBE}\hpzsetup.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{841C974B-1B01-4896-B996-6CD68C060EBE}\hpzstub.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{841C974B-1B01-4896-B996-6CD68C060EBE}\setup.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{841C974B-1B01-4896-B996-6CD68C060EBE}\setup\cleanusbcontainer01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{841C974B-1B01-4896-B996-6CD68C060EBE}\setup\cleanusbcontainer40.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{841C974B-1B01-4896-B996-6CD68C060EBE}\setup\devinstanceeraser01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{841C974B-1B01-4896-B996-6CD68C060EBE}\setup\devinstanceeraser40.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{841C974B-1B01-4896-B996-6CD68C060EBE}\setup\doccd.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{841C974B-1B01-4896-B996-6CD68C060EBE}\setup\hpqrrx08.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{841C974B-1B01-4896-B996-6CD68C060EBE}\setup\hpzcdl01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{841C974B-1B01-4896-B996-6CD68C060EBE}\setup\hpzdui01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{841C974B-1B01-4896-B996-6CD68C060EBE}\setup\hpzfwx01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{841C974B-1B01-4896-B996-6CD68C060EBE}\setup\hpzmsi01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{841C974B-1B01-4896-B996-6CD68C060EBE}\setup\hpznop01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{841C974B-1B01-4896-B996-6CD68C060EBE}\setup\hpznui01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{841C974B-1B01-4896-B996-6CD68C060EBE}\setup\hpzpsl01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{841C974B-1B01-4896-B996-6CD68C060EBE}\setup\hpzrcn01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{841C974B-1B01-4896-B996-6CD68C060EBE}\setup\hpzscr01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{841C974B-1B01-4896-B996-6CD68C060EBE}\setup\hpzshl01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Digital Imaging\{841C974B-1B01-4896-B996-6CD68C060EBE}\setup\hpzwrp01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP DeskJet 2700 series\Bin\CancelEventHandler.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP DeskJet 2700 series\Bin\DeviceSetup.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP DeskJet 2700 series\Bin\DeviceSetupLauncher.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP DeskJet 2700 series\Bin\HP DeskJet 2700 series.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP DeskJet 2700 series\Bin\HPCustPartic.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP DeskJet 2700 series\Bin\HPCustParticUI.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP DeskJet 2700 series\Bin\HPDeviceUpdateHost.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP DeskJet 2700 series\Bin\HPNetworkCommunicatorCom.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP DeskJet 2700 series\Bin\HPPAHelper.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP DeskJet 2700 series\Bin\HPPSDrDownloader.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP DeskJet 2700 series\Bin\hpqDTSS.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP DeskJet 2700 series\Bin\HPScan.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP DeskJet 2700 series\Bin\InstanceFinderDlg.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP DeskJet 2700 series\Bin\Toolbox.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP DeskJet 2700 series\Bin\TwainUtilityUI.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP DeskJet 2700 series\Bin\utils\hpUrlLauncher.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP DeskJet 2700 series\Bin\utils\hpUtility.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP DeskJet 2700 series\DriverStore\YetiV4\amd64\hpgid31v4PE.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP DeskJet 2700 series\DriverStore\YetiV4\amd64\HPPdsmqConnector31.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP DeskJet 2700 series\DriverStore\YetiV4\i386\hpgid31v4PE.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP DeskJet 2700 series\DriverStore\YetiV4\i386\HPPdsmqConnector31.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP Officejet 7500 E910\Bin\DeviceSetup.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP Officejet 7500 E910\Bin\DeviceSetupLauncher.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP Officejet 7500 E910\Bin\DigitalWizards.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP Officejet 7500 E910\Bin\FaxApplications.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP Officejet 7500 E910\Bin\HP Officejet 7500 E910.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP Officejet 7500 E910\Bin\HPDeviceUpdateHost.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP Officejet 7500 E910\Bin\HPNetworkCommunicator.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP Officejet 7500 E910\Bin\HPNetworkCommunicatorCom.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP Officejet 7500 E910\Bin\hpqDTSS.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP Officejet 7500 E910\Bin\HPRewards.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP Officejet 7500 E910\Bin\HPScan.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP Officejet 7500 E910\Bin\HPScanDisco.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP Officejet 7500 E910\Bin\HPSmartDeals.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP Officejet 7500 E910\Bin\InstanceFinderDlg.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP Officejet 7500 E910\Bin\ScanToPCActivationApp.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP Officejet 7500 E910\Bin\SendAFax.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP Officejet 7500 E910\Bin\Toolbox.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP Officejet 7500 E910\Bin\HelpViewer\hpqhvind.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP Officejet 7500 E910\Bin\HelpViewer\hpqlpvwr.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP Officejet 7500 E910\Bin\utils\hpUrlLauncher.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP Officejet 7500 E910\Bin\utils\hpUtility.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP Officejet 7500 E910\DriverStore\Pipeline\amd64\hpinkins4812.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP Officejet 7500 E910\DriverStore\Pipeline\i386\hpinkins4812.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP Software Update\hpwucli.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HP Software Update\hpwuschd2.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\HPSSUPPLY\hpqSSupply.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Temp\{52DE907F-8A0B-47A2-A3CA-3653BEB3834B}\setup\hpzmsi01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Temp\{52DE907F-8A0B-47A2-A3CA-3653BEB3834B}\setup\hpzpnp01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Temp\{52DE907F-8A0B-47A2-A3CA-3653BEB3834B}\setup\hpzrcv01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Temp\{52DE907F-8A0B-47A2-A3CA-3653BEB3834B}\setup\hpzscr01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Temp\{52DE907F-8A0B-47A2-A3CA-3653BEB3834B}\setup\hpzstub.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Temp\{841C974B-1B01-4896-B996-6CD68C060EBE}\setup\hpzmsi01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Temp\{841C974B-1B01-4896-B996-6CD68C060EBE}\setup\hpzpnp01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Temp\{841C974B-1B01-4896-B996-6CD68C060EBE}\setup\hpzrcv01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Temp\{841C974B-1B01-4896-B996-6CD68C060EBE}\setup\hpzscr01.exe
+BEREITS_AUSREICHEND - C:\Program Files\HP\Temp\{841C974B-1B01-4896-B996-6CD68C060EBE}\setup\hpzstub.exe
+BEREITS_AUSREICHEND - C:\Program Files\HWiNFO32\HWiNFO32.EXE
+BEREITS_AUSREICHEND - C:\Program Files\HWiNFO32\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\bin\CmapLauncher.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\bin\CmapTools.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\bin\ffmpeg.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\bin\imgman.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\bin\Updater.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\jabswitch.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\java-rmi.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\java.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\javacpl.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\javaw.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\javaws.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\jp2launcher.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\jqs.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\keytool.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\kinit.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\klist.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\ktab.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\orbd.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\pack200.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\policytool.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\rmid.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\rmiregistry.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\servertool.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\ssvagent.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\tnameserv.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\unpack200.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\UninstallerData\Change CmapTools Installation.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\UninstallerData\resource\invoker.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\UninstallerData\resource\remove.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\UninstallerData\resource\ZGWin32LaunchHelper.exe
+BEREITS_AUSREICHEND - C:\Program Files\IMSIDesign\DoubleCAD XT 5\Program\CrashSender.exe
+BEREITS_AUSREICHEND - C:\Program Files\IMSIDesign\DoubleCAD XT 5\Program\doublecadxt.exe
+BEREITS_AUSREICHEND - C:\Program Files\IMSIDesign\DoubleCAD XT 5\Program\ProdUpdate.exe
+BEREITS_AUSREICHEND - C:\Program Files\IMSIDesign\DoubleCAD XT 5\Program\TCStart.exe
+BEREITS_AUSREICHEND - C:\Program Files\IMSIDesign\DoubleCAD XT 5\Program\TCTips.exe
+BEREITS_AUSREICHEND - C:\Program Files\IMSIDesign\DoubleCAD XT 5\Program\ThumbSetup.exe
+BEREITS_AUSREICHEND - C:\Program Files\IMSIDesign\DoubleCAD XT 5\Program\TraceApp_7.exe
+BEREITS_AUSREICHEND - C:\Program Files\IMSIDesign\DoubleCAD XT de\Program\doublecadxt.exe
+BEREITS_AUSREICHEND - C:\Program Files\IMSIDesign\DoubleCAD XT de\Program\TCStart.exe
+BEREITS_AUSREICHEND - C:\Program Files\IMSIDesign\DoubleCAD XT de\Program\TCTips.exe
+BEREITS_AUSREICHEND - C:\Program Files\IMSIDesign\DoubleCAD XT de\Program\ThumbSetup.exe
+BEREITS_AUSREICHEND - C:\Program Files\IMSIDesign\DoubleCAD XT de\Program\TraceApp.exe
+BEREITS_AUSREICHEND - C:\Program Files\Inkscape\gspawn-win32-helper-console.exe
+BEREITS_AUSREICHEND - C:\Program Files\Inkscape\gspawn-win32-helper.exe
+BEREITS_AUSREICHEND - C:\Program Files\Inkscape\inkscape.exe
+BEREITS_AUSREICHEND - C:\Program Files\Inkscape\inkview.exe
+BEREITS_AUSREICHEND - C:\Program Files\Inkscape\python\python.exe
+BEREITS_AUSREICHEND - C:\Program Files\Inkscape\python\pythonw.exe
+BEREITS_AUSREICHEND - C:\Program Files\Inkscape\python\Lib\distutils\command\wininst-6.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\Inkscape\python\Lib\distutils\command\wininst-6.exe
+BEREITS_AUSREICHEND - C:\Program Files\Inkscape\python\Lib\distutils\command\wininst-7.1.exe
+BEREITS_AUSREICHEND - C:\Program Files\Inkscape\python\Lib\distutils\command\wininst-8.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\Inkscape\python\Lib\distutils\command\wininst-9.0-amd64.exe
+BEREITS_AUSREICHEND - C:\Program Files\Inkscape\python\Lib\distutils\command\wininst-9.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\Intel\Intel(R) Processor Graphics\uninstall\Setup.exe
+BEREITS_AUSREICHEND - C:\Program Files\Internet Explorer\ExtExport.exe
+BEREITS_AUSREICHEND - C:\Program Files\Internet Explorer\iediagcmd.exe
+BEREITS_AUSREICHEND - C:\Program Files\Internet Explorer\ieinstal.exe
+BEREITS_AUSREICHEND - C:\Program Files\Internet Explorer\ielowutil.exe
+BEREITS_AUSREICHEND - C:\Program Files\Internet Explorer\iexplore.exe
+BEREITS_AUSREICHEND - C:\Program Files\IrfanView\iv_uninstall.exe
+BEREITS_AUSREICHEND - C:\Program Files\IrfanView\i_view32.exe
+BEREITS_AUSREICHEND - C:\Program Files\IrfanView\Plugins\Slideshow.exe
+BEREITS_AUSREICHEND - C:\Program Files\K-Lite Codec Pack\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\K-Lite Codec Pack\Filters\madVR\madHcCtrl.exe
+BEREITS_AUSREICHEND - C:\Program Files\K-Lite Codec Pack\MPC-HC\mpc-hc_nvo.exe
+BEREITS_AUSREICHEND - C:\Program Files\K-Lite Codec Pack\Tools\CodecTweakTool.exe
+BEREITS_AUSREICHEND - C:\Program Files\K-Lite Codec Pack\Tools\mediainfo.exe
+BEREITS_AUSREICHEND - C:\Program Files\K-Lite Codec Pack\Tools\SetACL_x86.exe
+BEREITS_AUSREICHEND - C:\Program Files\Kinovea\Kinovea.exe
+BEREITS_AUSREICHEND - C:\Program Files\Kinovea\Uninstall.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\gengal.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\gpgme-w32spawn.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\minidump_upload.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\odbcconfig.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\opencltest.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\python.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\quickstart.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\regmerge.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\regview.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\sbase.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\scalc.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\sdraw.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\senddoc.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\simpress.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\smath.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\soffice.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\soffice_safe.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\spsupp_helper.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\sweb.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\swriter.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\twain32shim.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\ui-previewer.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\uno.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\unoinfo.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\unopkg.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\xpdfimport.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\python-core-3.8.10\bin\python.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\python-core-3.8.10\lib\distutils\command\wininst-10.0-amd64.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\python-core-3.8.10\lib\distutils\command\wininst-10.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\python-core-3.8.10\lib\distutils\command\wininst-14.0-amd64.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\python-core-3.8.10\lib\distutils\command\wininst-14.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\python-core-3.8.10\lib\distutils\command\wininst-6.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\python-core-3.8.10\lib\distutils\command\wininst-7.1.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\python-core-3.8.10\lib\distutils\command\wininst-8.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\python-core-3.8.10\lib\distutils\command\wininst-9.0-amd64.exe
+BEREITS_AUSREICHEND - C:\Program Files\LibreOffice\program\python-core-3.8.10\lib\distutils\command\wininst-9.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\Lucom\FormsForWeb\Filler3.7.3\FFWFiller.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\BingBar\7.1.355.0\BBSvc.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\BingBar\7.1.355.0\BingApp.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\BingBar\7.1.355.0\BingBar.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\BingBar\7.1.355.0\bingsurrogate.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\BingBar\7.1.355.0\SeaPort.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\Edge\Application\msedge.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\Edge\Application\msedge_proxy.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\Edge\Application\pwahelper.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\Edge\Application\88.0.705.81\cookie_exporter.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\Edge\Application\88.0.705.81\elevation_service.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\Edge\Application\88.0.705.81\identity_helper.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\Edge\Application\88.0.705.81\msedge.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\Edge\Application\88.0.705.81\msedgewebview2.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\Edge\Application\88.0.705.81\msedge_proxy.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\Edge\Application\88.0.705.81\msedge_pwa_launcher.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\Edge\Application\88.0.705.81\nacl64.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\Edge\Application\88.0.705.81\notification_helper.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\Edge\Application\88.0.705.81\pwahelper.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\Edge\Application\88.0.705.81\BHO\ie_to_edge_stub.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\Edge\Application\88.0.705.81\Installer\setup.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeUpdate\CopilotUpdate.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeUpdate\1.3.319.41\CopilotUpdate.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeUpdate\1.3.319.41\MicrosoftEdgeComRegisterShellARM64.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeUpdate\1.3.319.41\MicrosoftEdgeUpdate.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeUpdate\1.3.319.41\MicrosoftEdgeUpdateBroker.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeUpdate\1.3.319.41\MicrosoftEdgeUpdateComRegisterShell64.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeUpdate\1.3.319.41\MicrosoftEdgeUpdateCore.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeUpdate\1.3.319.41\MicrosoftEdgeUpdateOnDemand.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeUpdate\1.3.319.41\MicrosoftEdgeUpdateSetup.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeUpdate\Download\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\88.0.705.81\MicrosoftEdge_X86_88.0.705.81.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeUpdate\Download\{F3C4FE00-EFD5-403B-9569-398A20F1BA4A}\1.3.319.41\MicrosoftEdgeUpdateSetup_X86_1.3.319.41.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeWebView\Application\109.0.1518.140\cookie_exporter.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeWebView\Application\109.0.1518.140\elevation_service.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeWebView\Application\109.0.1518.140\identity_helper.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeWebView\Application\109.0.1518.140\msedge.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeWebView\Application\109.0.1518.140\msedgewebview2.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeWebView\Application\109.0.1518.140\msedge_proxy.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeWebView\Application\109.0.1518.140\msedge_pwa_launcher.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeWebView\Application\109.0.1518.140\nacl64.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeWebView\Application\109.0.1518.140\notification_helper.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeWebView\Application\109.0.1518.140\pwahelper.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeWebView\Application\109.0.1518.140\BHO\ie_to_edge_stub.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeWebView\Application\109.0.1518.140\Installer\setup.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office\EXCEL.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office\FINDER.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office\FINDFAST.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office\GRAPH9.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office\MSACCESS.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office\MSACNV30.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office\MSO7FTP.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office\MSO7FTPA.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office\MSO7FTPS.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office\MSOHTMED.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office\OSA.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office\OSA9.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office\OUTLOOK.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office\POWERPNT.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office\WAVTOASF.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office\WINPROJ.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office\WINWORD.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office\1031\MSOHELP.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office\1031\PROJWIZ.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office\1031\WRKGADM.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office\Setup\ACMEPRJ.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office\Websrv\MSPJHTTP.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office10\MAKECERT.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office10\SELFCERT.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\ACCICONS.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\BCSSync.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\CLVIEW.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\CNFNOT32.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\EXCEL.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\excelcnv.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\GRAPH.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\GROOVE.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\GROOVEMN.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\IEContentService.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\INFOPATH.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\misc.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\MSACCESS.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\MSOHTMED.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\MSOSYNC.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\MSOUC.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\MSPUB.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\MSQRY32.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\MSTORDB.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\MSTORE.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\NAMECONTROLSERVER.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\OIS.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\ONENOTE.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\ONENOTEM.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\OUTLOOK.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\POWERPNT.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\PPTICO.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\SCANPST.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\SELFCERT.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\SETLANG.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\VPREVIEW.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\WINWORD.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\Wordconv.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\WORDICON.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\XLICONS.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\1031\ONELEV.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\PowerPoint Viewer\PPTVIEW.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Works\lnchtour.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Works\MSWorks.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Works\WkDStore.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Works\wkgdcach.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Works\wklnckml.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Works\wkplmstp.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Works\wksab.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Works\wksdb.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Works\WksDict.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Works\WksSb.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Works\wksss.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Works\WksWP.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Works\wkwcestp.exe
+BEREITS_AUSREICHEND - C:\Program Files\Mixxx\mixxx.exe
+BEREITS_AUSREICHEND - C:\Program Files\Mixxx\UninstallMixxx.exe
+BEREITS_AUSREICHEND - C:\Program Files\Mozilla Firefox\crashreporter.exe
+BEREITS_AUSREICHEND - C:\Program Files\Mozilla Firefox\default-browser-agent.exe
+BEREITS_AUSREICHEND - C:\Program Files\Mozilla Firefox\firefox.exe
+BEREITS_AUSREICHEND - C:\Program Files\Mozilla Firefox\maintenanceservice.exe
+BEREITS_AUSREICHEND - C:\Program Files\Mozilla Firefox\maintenanceservice_installer.exe
+BEREITS_AUSREICHEND - C:\Program Files\Mozilla Firefox\minidump-analyzer.exe
+BEREITS_AUSREICHEND - C:\Program Files\Mozilla Firefox\pingsender.exe
+BEREITS_AUSREICHEND - C:\Program Files\Mozilla Firefox\plugin-container.exe
+BEREITS_AUSREICHEND - C:\Program Files\Mozilla Firefox\private_browsing.exe
+BEREITS_AUSREICHEND - C:\Program Files\Mozilla Firefox\updater.exe
+BEREITS_AUSREICHEND - C:\Program Files\Mozilla Firefox\uninstall\helper.exe
+BEREITS_AUSREICHEND - C:\Program Files\Mozilla Maintenance Service\maintenanceservice.exe
+BEREITS_AUSREICHEND - C:\Program Files\Mozilla Maintenance Service\maintenanceservice_tmp.exe
+BEREITS_AUSREICHEND - C:\Program Files\Mozilla Maintenance Service\Uninstall.exe
+BEREITS_AUSREICHEND - C:\Program Files\MySQL\Connector ODBC 8.0\myodbc-installer.exe
+BEREITS_AUSREICHEND - C:\Program Files\MySQL\MySQL Installer for Windows\MySQLInstaller.exe
+BEREITS_AUSREICHEND - C:\Program Files\MySQL\MySQL Installer for Windows\MySQLInstallerConsole.exe
+BEREITS_AUSREICHEND - C:\Program Files\MySQL\MySQL Installer for Windows\MySQLInstallerLauncher.exe
+BEREITS_AUSREICHEND - C:\Program Files\MySQL\MySQL Installer for Windows\MySQLInstallerUpdater.exe
+BEREITS_AUSREICHEND - C:\Program Files\NSIS Uninstall Information\{689DAD27-0634-4e5d-B726-E951371AE338}\PostBuild.exe
+BEREITS_AUSREICHEND - C:\Program Files\NSIS Uninstall Information\{689DAD27-0634-4e5d-B726-E951371AE338}\Setup.exe
+BEREITS_AUSREICHEND - C:\Program Files\NVIDIA Corporation\3D Vision\NvStereoUtilityOGL.exe
+BEREITS_AUSREICHEND - C:\Program Files\NVIDIA Corporation\3D Vision\nvStInst.exe
+BEREITS_AUSREICHEND - C:\Program Files\NVIDIA Corporation\3D Vision\nvstlink.exe
+BEREITS_AUSREICHEND - C:\Program Files\NVIDIA Corporation\3D Vision\nvstreg.exe
+BEREITS_AUSREICHEND - C:\Program Files\NVIDIA Corporation\3D Vision\nvsttest.exe
+BEREITS_AUSREICHEND - C:\Program Files\NVIDIA Corporation\3D Vision\nvstview.exe
+BEREITS_AUSREICHEND - C:\Program Files\NVIDIA Corporation\3D Vision\NVStWiz.exe
+BEREITS_AUSREICHEND - C:\Program Files\NVIDIA Corporation\Control Panel Client\nvcplui.exe
+BEREITS_AUSREICHEND - C:\Program Files\NVIDIA Corporation\Control Panel Client\NvGpuUtilization.exe
+BEREITS_AUSREICHEND - C:\Program Files\NVIDIA Corporation\Display\nvsmartmaxapp.exe
+BEREITS_AUSREICHEND - C:\Program Files\NVIDIA Corporation\Display\nvtray.exe
+BEREITS_AUSREICHEND - C:\Program Files\NVIDIA Corporation\Display\nvxdsync.exe
+BEREITS_AUSREICHEND - C:\Program Files\NVIDIA Corporation\Display.NvContainer\NVDisplay.Container.exe
+BEREITS_AUSREICHEND - C:\Program Files\NVIDIA Corporation\Drs\dbInstaller.exe
+BEREITS_AUSREICHEND - C:\Program Files\NVIDIA Corporation\Installer2\CoreTemp.{507FFAE1-335E-4A37-97D3-2EBA32B1D1A8}\setup.exe
+BEREITS_AUSREICHEND - C:\Program Files\NVIDIA Corporation\Installer2\Display.3DVision.{DB0660FF-F94D-4A29-8F8D-FA00E730AA92}\3DVision.exe
+BEREITS_AUSREICHEND - C:\Program Files\NVIDIA Corporation\Installer2\Display.Driver.{3E78010A-64AD-4B70-A751-0788B9582F27}\dbInstaller.exe
+BEREITS_AUSREICHEND - C:\Program Files\NVIDIA Corporation\Installer2\Display.Driver.{3E78010A-64AD-4B70-A751-0788B9582F27}\GeForce_iCafe.exe
+BEREITS_AUSREICHEND - C:\Program Files\NVIDIA Corporation\Installer2\Display.Driver.{3E78010A-64AD-4B70-A751-0788B9582F27}\NvContainerSetup.exe
+BEREITS_AUSREICHEND - C:\Program Files\NVIDIA Corporation\Installer2\Display.Driver.{3E78010A-64AD-4B70-A751-0788B9582F27}\NvCplSetupInt.exe
+BEREITS_AUSREICHEND - C:\Program Files\NVIDIA Corporation\Installer2\Display.Driver.{3E78010A-64AD-4B70-A751-0788B9582F27}\nvsetup.exe
+BEREITS_AUSREICHEND - C:\Program Files\NVIDIA Corporation\Installer2\Display.Driver.{3E78010A-64AD-4B70-A751-0788B9582F27}\NvSplash.exe
+BEREITS_AUSREICHEND - C:\Program Files\NVIDIA Corporation\Installer2\Display.Driver.{3E78010A-64AD-4B70-A751-0788B9582F27}\NvSplashService.exe
+BEREITS_AUSREICHEND - C:\Program Files\NVIDIA Corporation\Installer2\Display.Driver.{3E78010A-64AD-4B70-A751-0788B9582F27}\VulkanRT-Installer.exe
+BEREITS_AUSREICHEND - C:\Program Files\NVIDIA Corporation\Installer2\installer.{6DF10B19-561D-4C16-974F-E159B506DF46}\NVNetworkService.exe
+BEREITS_AUSREICHEND - C:\Program Files\NVIDIA Corporation\Installer2\InstallerCore\SETUP.EXE
+BEREITS_AUSREICHEND - C:\Program Files\OpenOffice 4\program\odbcconfig.exe
+BEREITS_AUSREICHEND - C:\Program Files\OpenOffice 4\program\python.exe
+BEREITS_AUSREICHEND - C:\Program Files\OpenOffice 4\program\quickstart.exe
+BEREITS_AUSREICHEND - C:\Program Files\OpenOffice 4\program\rebasegui.exe
+BEREITS_AUSREICHEND - C:\Program Files\OpenOffice 4\program\rebaseoo.exe
+BEREITS_AUSREICHEND - C:\Program Files\OpenOffice 4\program\regcomp.exe
+BEREITS_AUSREICHEND - C:\Program Files\OpenOffice 4\program\regmerge.exe
+BEREITS_AUSREICHEND - C:\Program Files\OpenOffice 4\program\regview.exe
+BEREITS_AUSREICHEND - C:\Program Files\OpenOffice 4\program\sbase.exe
+BEREITS_AUSREICHEND - C:\Program Files\OpenOffice 4\program\scalc.exe
+BEREITS_AUSREICHEND - C:\Program Files\OpenOffice 4\program\sdraw.exe
+BEREITS_AUSREICHEND - C:\Program Files\OpenOffice 4\program\senddoc.exe
+BEREITS_AUSREICHEND - C:\Program Files\OpenOffice 4\program\simpress.exe
+BEREITS_AUSREICHEND - C:\Program Files\OpenOffice 4\program\smath.exe
+BEREITS_AUSREICHEND - C:\Program Files\OpenOffice 4\program\soffice.exe
+BEREITS_AUSREICHEND - C:\Program Files\OpenOffice 4\program\sweb.exe
+BEREITS_AUSREICHEND - C:\Program Files\OpenOffice 4\program\swriter.exe
+BEREITS_AUSREICHEND - C:\Program Files\OpenOffice 4\program\uno.exe
+BEREITS_AUSREICHEND - C:\Program Files\OpenOffice 4\program\unoinfo.exe
+BEREITS_AUSREICHEND - C:\Program Files\OpenOffice 4\program\unopkg.exe
+BEREITS_AUSREICHEND - C:\Program Files\OpenOffice 4\program\python-core-2.7.18\bin\python.exe
+BEREITS_AUSREICHEND - C:\Program Files\OpenOffice 4\program\python-core-2.7.18\lib\distutils\command\wininst-6.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\OpenOffice 4\program\python-core-2.7.18\lib\distutils\command\wininst-7.1.exe
+BEREITS_AUSREICHEND - C:\Program Files\OpenOffice 4\program\python-core-2.7.18\lib\distutils\command\wininst-8.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\OpenOffice 4\program\python-core-2.7.18\lib\distutils\command\wininst-9.0-amd64.exe
+BEREITS_AUSREICHEND - C:\Program Files\OpenOffice 4\program\python-core-2.7.18\lib\distutils\command\wininst-9.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\ORCAAVA\AVA.EXE
+BEREITS_AUSREICHEND - C:\Program Files\ORCAAVA\AVACHECK.EXE
+BEREITS_AUSREICHEND - C:\Program Files\ORCAAVA\AVADATA.EXE
+BEREITS_AUSREICHEND - C:\Program Files\ORCAAVA\AVAINFO.EXE
+BEREITS_AUSREICHEND - C:\Program Files\ORCAAVA\AVASTART.EXE
+BEREITS_AUSREICHEND - C:\Program Files\ORCAAVA\AVATIPS.EXE
+BEREITS_AUSREICHEND - C:\Program Files\ORCAAVA\AVATOOLS.EXE
+BEREITS_AUSREICHEND - C:\Program Files\ORCAAVA\CIPSNAP.EXE
+BEREITS_AUSREICHEND - C:\Program Files\ORCAAVA\DNACC.EXE
+BEREITS_AUSREICHEND - C:\Program Files\ORCAAVA\GAEB2K11.EXE
+BEREITS_AUSREICHEND - C:\Program Files\ORCAAVA\OSDBDCOM.EXE
+BEREITS_AUSREICHEND - C:\Program Files\ORCAAVA\OSSYSRES.EXE
+BEREITS_AUSREICHEND - C:\Program Files\ORCAAVA\UINSTALL.EXE
+BEREITS_AUSREICHEND - C:\Program Files\ORCAAVA\UNWISE.EXE
+BEREITS_AUSREICHEND - C:\Program Files\ORCAAVA\WILISNAP.EXE
+BEREITS_AUSREICHEND - C:\Program Files\ORCAAVA\BACKUP\GAEB2K11.EXE
+BEREITS_AUSREICHEND - C:\Program Files\ORCAAVA\GAEB2000\G2KTEST.EXE
+BEREITS_AUSREICHEND - C:\Program Files\ORCAAVA\GAEB2000\gaeb2k11.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDF24\pdf24-Assistant.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDF24\pdf24-DocTool.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDF24\pdf24-Editor.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDF24\pdf24-Fax.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDF24\pdf24-SettingsUITool.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDF24\pdf24-Updater.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDF24\pdf24.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDF24\PrinterInstall.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDF24\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDF24\gs\bin\gswin32.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDF24\gs\bin\gswin32c.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDFCreator\DeleteMonitorDll.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDFCreator\PDFCreator.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDFCreator\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDFCreator\Images2PDF\Images2PDF.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDFCreator\Images2PDF\Images2PDFC.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDFCreator\languages\TransTool.exe
+BEREITS_AUSREICHEND - C:\Program Files\Personal Backup 5\PbPlaner.exe
+BEREITS_AUSREICHEND - C:\Program Files\Personal Backup 5\PbRestore.exe
+BEREITS_AUSREICHEND - C:\Program Files\Personal Backup 5\PbTerminate.exe
+BEREITS_AUSREICHEND - C:\Program Files\Personal Backup 5\Persbackup.exe
+BEREITS_AUSREICHEND - C:\Program Files\Personal Backup 5\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\PhotoFiltre\PhotoFiltre.exe
+BEREITS_AUSREICHEND - C:\Program Files\PhotoFiltre\Uninst.exe
+BEREITS_AUSREICHEND - C:\Program Files\PSPad editor\Notepad.exe
+BEREITS_AUSREICHEND - C:\Program Files\PSPad editor\PSPad.exe
+BEREITS_AUSREICHEND - C:\Program Files\PSPad editor\TiDy.exe
+BEREITS_AUSREICHEND - C:\Program Files\PSPad editor\Uninst\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\QuickTime\PictureViewer.exe
+BEREITS_AUSREICHEND - C:\Program Files\QuickTime\QTTask.exe
+BEREITS_AUSREICHEND - C:\Program Files\QuickTime\QuickTimePlayer.exe
+BEREITS_AUSREICHEND - C:\Program Files\QuickTime\QTSystem\ExportController.exe
+BEREITS_AUSREICHEND - C:\Program Files\QuickTime\QTSystem\QuickTimeUpdateHelper.exe
+BEREITS_AUSREICHEND - C:\Program Files\Realtek\Audio\Drivers\RtlUpd.exe
+BEREITS_AUSREICHEND - C:\Program Files\Realtek\Audio\HDA\AERTSrv.exe
+BEREITS_AUSREICHEND - C:\Program Files\Realtek\Audio\HDA\CreateRtkToastLnk.exe
+BEREITS_AUSREICHEND - C:\Program Files\Realtek\Audio\HDA\DTSAudioService.exe
+BEREITS_AUSREICHEND - C:\Program Files\Realtek\Audio\HDA\FMAPP.exe
+BEREITS_AUSREICHEND - C:\Program Files\Realtek\Audio\HDA\RtHDVBg.exe
+BEREITS_AUSREICHEND - C:\Program Files\Realtek\Audio\HDA\RtHDVCpl.exe
+BEREITS_AUSREICHEND - C:\Program Files\Realtek\Audio\HDA\RtkAudioService.exe
+BEREITS_AUSREICHEND - C:\Program Files\Realtek\Audio\HDA\RtlUpd.exe
+BEREITS_AUSREICHEND - C:\Program Files\Realtek\Audio\HDA\vncutil.exe
+BEREITS_AUSREICHEND - C:\Program Files\Realtek\Audio\InstallShield\Rtkupd.exe
+BEREITS_AUSREICHEND - C:\Program Files\Scribus 1.4.5\Scribus.exe
+BEREITS_AUSREICHEND - C:\Program Files\Scribus 1.4.5\uninst.exe
+BEREITS_AUSREICHEND - C:\Program Files\Scribus 1.4.5\w9xpopen.exe
+BEREITS_AUSREICHEND - C:\Program Files\Scribus 1.4.5\lib\distutils\command\wininst-6.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\Scribus 1.4.5\lib\distutils\command\wininst-7.1.exe
+BEREITS_AUSREICHEND - C:\Program Files\Scribus 1.4.5\lib\distutils\command\wininst-8.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\Scribus 1.4.5\lib\distutils\command\wininst-9.0-amd64.exe
+BEREITS_AUSREICHEND - C:\Program Files\Scribus 1.4.5\lib\distutils\command\wininst-9.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\Scribus 1.4.5\libs\tools\antiword\antiword.exe
+BEREITS_AUSREICHEND - C:\Program Files\SketchUp\SketchUp 2015\BsSndRpt.exe
+BEREITS_AUSREICHEND - C:\Program Files\SketchUp\SketchUp 2015\SketchUp.exe
+BEREITS_AUSREICHEND - C:\Program Files\SketchUp\SketchUp 2015\ifcplugin\IFCPluginWorker_Loader.exe
+BEREITS_AUSREICHEND - C:\Program Files\SketchUp\SketchUp 2015\ifcplugin\ImportLoader.exe
+BEREITS_AUSREICHEND - C:\Program Files\SketchUp\SketchUp 2015\LayOut\BsSndRpt.exe
+BEREITS_AUSREICHEND - C:\Program Files\SketchUp\SketchUp 2015\LayOut\LayOut.exe
+BEREITS_AUSREICHEND - C:\Program Files\SketchUp\SketchUp 2015\Style Builder\Style Builder.exe
+BEREITS_AUSREICHEND - C:\Program Files\SketchUp\SketchUp 2016\BsSndRpt.exe
+BEREITS_AUSREICHEND - C:\Program Files\SketchUp\SketchUp 2016\SketchUp.exe
+BEREITS_AUSREICHEND - C:\Program Files\SketchUp\SketchUp 2016\ifcplugin\IFCPluginWorker_Loader.exe
+BEREITS_AUSREICHEND - C:\Program Files\SketchUp\SketchUp 2016\ifcplugin\ImportLoader.exe
+BEREITS_AUSREICHEND - C:\Program Files\SketchUp\SketchUp 2016\LayOut\BsSndRpt.exe
+BEREITS_AUSREICHEND - C:\Program Files\SketchUp\SketchUp 2016\LayOut\LayOut.exe
+BEREITS_AUSREICHEND - C:\Program Files\SketchUp\SketchUp 2016\Style Builder\Style Builder.exe
+BEREITS_AUSREICHEND - C:\Program Files\SpeedFan\speedfan.exe
+BEREITS_AUSREICHEND - C:\Program Files\SpeedFan\uninstall.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\uninstall-synfigstudio.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\animate.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\compare.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\composite.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\conjure.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\convert.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\display.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\ffmpeg.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\i686-w64-mingw32-sndfile-resample.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\i686-w64-mingw32-sox.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\identify.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\import.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\melt.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\mogrify.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\montage.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\pango-querymodules.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\stream.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\synfig.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\synfigstudio.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\python\python.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\python\pythonw.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\python\w9xpopen.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\python\Lib\distutils\command\wininst-6.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\python\Lib\distutils\command\wininst-7.1.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\python\Lib\distutils\command\wininst-8.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\python\Lib\distutils\command\wininst-9.0-amd64.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\python\Lib\distutils\command\wininst-9.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\python\Lib\site-packages\setuptools\cli-32.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\python\Lib\site-packages\setuptools\cli-64.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\python\Lib\site-packages\setuptools\cli.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\python\Lib\site-packages\setuptools\gui-32.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\python\Lib\site-packages\setuptools\gui-64.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\python\Lib\site-packages\setuptools\gui.exe
+BEREITS_AUSREICHEND - C:\Program Files\Tools&More\Joe\Joe.exe
+BEREITS_AUSREICHEND - C:\Program Files\Tracker Software\Live Update\LiveUpdate.exe
+BEREITS_AUSREICHEND - C:\Program Files\Tracker Software\PDF Viewer\PDFXCview.exe
+BEREITS_AUSREICHEND - C:\Program Files\Tracker Software\PDF Viewer\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\VDownloader\ffmpeg.exe
+BEREITS_AUSREICHEND - C:\Program Files\VDownloader\ShellUtility.exe
+BEREITS_AUSREICHEND - C:\Program Files\VDownloader\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\VDownloader\VDownloader.exe
+BEREITS_AUSREICHEND - C:\Program Files\VDownloader\ffmpeg32\ffmpeg.exe
+BEREITS_AUSREICHEND - C:\Program Files\VDownloader\ffmpeg32\ffplay.exe
+BEREITS_AUSREICHEND - C:\Program Files\VDownloader\ffmpeg32\ffprobe.exe
+BEREITS_AUSREICHEND - C:\Program Files\VDownloader\x64\CefSharp.BrowserSubprocess.exe
+BEREITS_AUSREICHEND - C:\Program Files\VDownloader\x86\CefSharp.BrowserSubprocess.exe
+BEREITS_AUSREICHEND - C:\Program Files\Vertexshare\Webp Converter\update.exe
+BEREITS_AUSREICHEND - C:\Program Files\Vertexshare\Webp Converter\WebpConverter.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Defender\MpCmdRun.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Defender\MpUXSrv.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Defender\MSASCui.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Defender\MsMpEng.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Defender\NisSrv.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Contacts\wlcomm.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Installer\LangSelector.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Installer\wlarp.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Installer\wlsettings.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Installer\wlstartup.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Photo Gallery\LanguageChange.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Photo Gallery\MovieMaker.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Photo Gallery\WLXAlbumDownloadWizard.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Photo Gallery\WLXCodecHost.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Photo Gallery\WLXPhotoAcquireWizard.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Photo Gallery\WLXPhotoGallery.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Photo Gallery\WLXPhotoGalleryRepair.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Photo Gallery\WLXQuickTimeControlHost.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Photo Gallery\WLXTranscode.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Photo Gallery\WLXVideoAcquireWizard.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Photo Gallery\WLXVideoCameraAutoPlayManager.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Mail\wab.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Mail\wabmig.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Media Player\setup_wm.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Media Player\wmlaunch.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Media Player\wmpconfig.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Media Player\wmplayer.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Media Player\wmpnetwk.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Media Player\wmpnscfg.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Media Player\wmprph.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Media Player\wmpshare.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Media Player\WMPSideShowGadget.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Movie Maker\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Movie Maker\InstallPack\vcredist_x86.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Movie Maker\InstallPack\D3DX11_43\DXSETUP.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows NT\Accessories\wordpad.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Photo Viewer\ImagingDevices.exe
+BEREITS_AUSREICHEND - C:\Program Files\WinRAR\Rar.exe
+BEREITS_AUSREICHEND - C:\Program Files\WinRAR\Uninstall.exe
+BEREITS_AUSREICHEND - C:\Program Files\WinRAR\UnRAR.exe
+BEREITS_AUSREICHEND - C:\Program Files\WinRAR\WinRAR.exe
+BEREITS_AUSREICHEND - C:\Program Files\WinZip\WINZIP32.EXE
+BEREITS_AUSREICHEND - C:\Program Files\WinZip\WZQKPICK.EXE
+BEREITS_AUSREICHEND - C:\Program Files\WinZip\WZSEPE32.EXE
+BEREITS_AUSREICHEND - C:\Program Files\XnView\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\XnView\xnview.exe
+BEREITS_AUSREICHEND - C:\Program Files\XnView\PlugIns\slide.exe
+
+================ AUSWERTUNG ================
+Gefundene EXE-Dateien: 1374
+RX bereits vorhanden: 1374
+DENY uebersprungen: 0
+Ungeklaerte Identitaeten uebersprungen: 0
+Wuerde RX ergaenzen: 0
+Aenderungen gespeichert: 0
+Fehler Lesen: 0
+Fehler Setzen: 0
+Fehler Verifikation: 0
+Fehler Suche: 0
+Registry-Lesefehler: 0
+Inventur-Suchfehler: 0
+Ende: 11/26/2026 13:23:16

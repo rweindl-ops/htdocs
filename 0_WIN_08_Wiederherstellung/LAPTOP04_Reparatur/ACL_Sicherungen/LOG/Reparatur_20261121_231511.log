@@ -1,0 +1,13 @@
+﻿L04 - EXE-Berechtigungsreparatur 011
+Start: 11/21/2026 23:15:11
+Zielgruppe: BUILTIN\Users (S-1-5-32-545)
+Zielrecht: Lesen und Ausfuehren (RX)
+Nur fehlendes RX ergaenzen; vorhandene ACEs und Vererbung erhalten.
+ACL-Sicherung muss vor jeder Rechteaenderung erfolgreich sein.
+
+EXE_INVENTUR: 1339 EXE-Dateien; CSV=D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP04_Reparatur\ACL_Sicherungen\CSV\EXE_Inventur_20261121_231511.csv
+REGISTRY_INVENTUR: 277 Eintraege aus HKLM 64/32 und HKCU
+REGISTRY_LESFEHLER: 0
+INVENTUR_SUCHFEHLER: 0
+EXE-ACL-Sicherung erfolgreich: 1339 DACLs; Datei=D:\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP04_Reparatur\ACL_Sicherungen\ACL\EXE_ACL_Backup_20261121_231511.csv
+Ungueltige Auswahl. Abbruch ohne Rechteaenderung.
