@@ -1,0 +1,515 @@
+﻿L06 - EXE-Berechtigungsreparatur 013
+Start: 11/24/2026 10:50:25
+Zielgruppe: BUILTIN\Users (S-1-5-32-545)
+Zielrecht: Lesen und Ausfuehren (RX)
+Nur fehlendes RX ergaenzen; vorhandene ACEs und Vererbung erhalten.
+ACL-Sicherung muss vor jeder Rechteaenderung erfolgreich sein.
+
+EXE_INVENTUR: 441 EXE-Dateien; CSV=\\Laptop04\d\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP06_Reparatur\ACL_Sicherungen\CSV\EXE_Inventur_20261124_105024.csv
+REGISTRY_INVENTUR: 195 Eintraege aus HKLM 64/32 und HKCU
+REGISTRY_LESFEHLER: 0
+INVENTUR_SUCHFEHLER: 0
+EXE-ACL-Sicherung erfolgreich: 441 DACLs; Datei=\\Laptop04\d\000_Festplatte Reparatur\0_WIN_08_Wiederherstellung\LAPTOP06_Reparatur\ACL_Sicherungen\ACL\EXE_ACL_Backup_20261124_105024.csv
+Modus R: fehlendes RX gezielt ergaenzen.
+
+VERARBEITUNG: EXE-Dateien aus der gesicherten Inventur
+BEREITS_AUSREICHEND - C:\Program Files\DateilistenSchreiber.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDFCompressor.exe
+BEREITS_AUSREICHEND - C:\Program Files\traycolor.exe
+AENDERUNG_GESPEICHERT - C:\Program Files\Audacity\audacity.exe
+ERFOLGREICH_GESETZT_UND_VERIFIZIERT - C:\Program Files\Audacity\audacity.exe; Ungeklaerte andere ACEs: 1
+BEREITS_AUSREICHEND - C:\Program Files\Audacity\unins000.exe
+AENDERUNG_GESPEICHERT - C:\Program Files\avc\Any Video Converter\Any Video Converter.exe
+ERFOLGREICH_GESETZT_UND_VERIFIZIERT - C:\Program Files\avc\Any Video Converter\Any Video Converter.exe; Ungeklaerte andere ACEs: 1
+BEREITS_AUSREICHEND - C:\Program Files\avc\Any Video Converter\Uninstall Any Video Converter.exe
+BEREITS_AUSREICHEND - C:\Program Files\avc\Any Video Converter\resources\elevate.exe
+BEREITS_AUSREICHEND - C:\Program Files\avc\Any Video Converter\resources\app.asar.unpacked\7za\win32\ia32\7za.exe
+BEREITS_AUSREICHEND - C:\Program Files\avc\Any Video Converter\resources\app.asar.unpacked\7za\win32\x64\7za.exe
+AENDERUNG_GESPEICHERT - C:\Program Files\avc\Any Video Converter\resources\com.anvsoft.avc\main\bin\AvcDaemon.exe
+ERFOLGREICH_GESETZT_UND_VERIFIZIERT - C:\Program Files\avc\Any Video Converter\resources\com.anvsoft.avc\main\bin\AvcDaemon.exe; Ungeklaerte andere ACEs: 1
+BEREITS_AUSREICHEND - C:\Program Files\avc\Any Video Converter\resources\com.anvsoft.avc\main\bin\ffmpeg.exe
+BEREITS_AUSREICHEND - C:\Program Files\avc\Any Video Converter\resources\com.anvsoft.avc\main\bin\ffprobe.exe
+BEREITS_AUSREICHEND - C:\Program Files\avc\Any Video Converter\resources\com.anvsoft.avc\main\bin\yt-dlp.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Endpoint Protection SDK\ACSSigned.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Endpoint Protection SDK\endpointprotection.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Endpoint Protection SDK\firewall.tools.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Endpoint Protection SDK\launchelevated.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Endpoint Protection SDK\rtp_setup.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Endpoint Protection SDK\SentryEye.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Endpoint Protection SDK\SentryProtection.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Endpoint Protection SDK\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Endpoint Protection SDK\wsc_agent.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Endpoint Protection SDK\wsc_agent_enroll.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Endpoint Protection SDK\wsc_agent_legacy.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Endpoint Protection SDK\wsc_agent_legacy_enroll.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Endpoint Protection SDK\wsc_remediation.exe
+FEHLER_BEIM_SETZEN - C:\Program Files\Avira\Fallback Updater\Avira.Spotlight.FallbackUpdater.exe - C:\Program Files\Avira\Fallback Updater\Avira.Spotlight.FallbackUpdater.exe: Zugriff verweigert
+DIAG_IDENTITAET - LAPTOP06\t-projekt
+DIAG_ADMINISTRATOR_TOKEN - True
+DIAG_DATEI_OWNER - VORDEFINIERT\Administratoren
+DIAG_DATEI_SDDL - O:BAG:S-1-5-21-3063029802-56871117-1851580397-513D:AI(A;;FA;;;BA)(A;ID;FA;;;BA)(A;ID;FA;;;SY)
+DIAG_ORDNER - C:\Program Files\Avira\Fallback Updater
+DIAG_ORDNER_OWNER - VORDEFINIERT\Administratoren
+DIAG_ORDNER_SDDL - O:BAG:S-1-5-21-3063029802-56871117-1851580397-513D:AI(A;;FA;;;BA)(A;OICIID;FA;;;AC)(A;ID;FA;;;BA)(A;OICIIOID;FA;;;CO)(A;OICIID;FA;;;SY)(A;OICIIOID;FA;;;BA)(A;OICIID;FA;;;BU)(A;CIID;FA;;;S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464)
+DIAG_ICACLS_DATEI - C:\Program Files\Avira\Fallback Updater\Avira.Spotlight.FallbackUpdater.exe VORDEFINIERT\Administratoren:(F)                                                                             VORDEFINIERT\Administratoren:(I)(F)                                                                             NT-AUTORITÄT\SYSTEM:(I)(F)  1 Dateien erfolgreich verarbeitet, bei 0 Dateien ist ein Verarbeitungsfehler aufgetreten.
+DIAG_ICACLS_ORDNER - C:\Program Files\Avira\Fallback Updater VORDEFINIERT\Administratoren:(F)                                         ZERTIFIZIERUNGSSTELLE FÜR ANWENDUNGSPAKETE\ALLE ANWENDUNGSPAKETE:(I)(OI)(CI)(F)                                         VORDEFINIERT\Administratoren:(I)(F)                                         ERSTELLER-BESITZER:(I)(OI)(CI)(IO)(F)                                         NT-AUTORITÄT\SYSTEM:(I)(OI)(CI)(F)                                         VORDEFINIERT\Administratoren:(I)(OI)(CI)(IO)(F)                                         VORDEFINIERT\Benutzer:(I)(OI)(CI)(F)                                         NT SERVICE\TrustedInstaller:(I)(CI)(F)  1 Dateien erfolgreich verarbeitet, bei 0 Dateien ist ein Verarbeitungsfehler aufgetreten.
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Migration Cleanup\Avira.Spotlight.Bootstrapper.exe
+AENDERUNG_GESPEICHERT - C:\Program Files\Avira\Optimizer Host\Avira.OptimizerHost.exe
+ERFOLGREICH_GESETZT_UND_VERIFIZIERT - C:\Program Files\Avira\Optimizer Host\Avira.OptimizerHost.exe; Ungeklaerte andere ACEs: 1
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Optimizer Host\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Security\Avira.Spotlight.Bootstrapper.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Security\Avira.Spotlight.Common.Updater.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Security\Avira.Spotlight.Common.UpdaterTracker.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Security\Avira.Spotlight.Service.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Security\Avira.Spotlight.Service.Worker.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Security\Avira.Spotlight.Systray.Application.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Security\Avira.Spotlight.UI.AdministrativeRightsProvider.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Security\Avira.Spotlight.UI.Application.exe
+FEHLER_BEIM_SETZEN - C:\Program Files\Avira\Security\Avira.Spotlight.UI.Application.Messaging.exe - C:\Program Files\Avira\Security\Avira.Spotlight.UI.Application.Messaging.exe: Zugriff verweigert
+DIAG_IDENTITAET - LAPTOP06\t-projekt
+DIAG_ADMINISTRATOR_TOKEN - True
+DIAG_DATEI_OWNER - VORDEFINIERT\Administratoren
+DIAG_DATEI_SDDL - O:BAG:S-1-5-21-3063029802-56871117-1851580397-513D:AI(A;ID;FA;;;BA)(A;ID;FA;;;SY)
+DIAG_ORDNER - C:\Program Files\Avira\Security
+DIAG_ORDNER_OWNER - VORDEFINIERT\Administratoren
+DIAG_ORDNER_SDDL - O:BAG:S-1-5-21-3063029802-56871117-1851580397-513D:AI(A;;FA;;;BA)(A;OICIID;FA;;;AC)(A;ID;FA;;;BA)(A;OICIIOID;FA;;;CO)(A;OICIID;FA;;;SY)(A;OICIIOID;FA;;;BA)(A;OICIID;FA;;;BU)(A;CIID;FA;;;S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464)
+DIAG_ICACLS_DATEI - C:\Program Files\Avira\Security\Avira.Spotlight.UI.Application.Messaging.exe VORDEFINIERT\Administratoren:(I)(F)                                                                              NT-AUTORITÄT\SYSTEM:(I)(F)  1 Dateien erfolgreich verarbeitet, bei 0 Dateien ist ein Verarbeitungsfehler aufgetreten.
+DIAG_ICACLS_ORDNER - C:\Program Files\Avira\Security VORDEFINIERT\Administratoren:(F)                                 ZERTIFIZIERUNGSSTELLE FÜR ANWENDUNGSPAKETE\ALLE ANWENDUNGSPAKETE:(I)(OI)(CI)(F)                                 VORDEFINIERT\Administratoren:(I)(F)                                 ERSTELLER-BESITZER:(I)(OI)(CI)(IO)(F)                                 NT-AUTORITÄT\SYSTEM:(I)(OI)(CI)(F)                                 VORDEFINIERT\Administratoren:(I)(OI)(CI)(IO)(F)                                 VORDEFINIERT\Benutzer:(I)(OI)(CI)(F)                                 NT SERVICE\TrustedInstaller:(I)(CI)(F)  1 Dateien erfolgreich verarbeitet, bei 0 Dateien ist ein Verarbeitungsfehler aufgetreten.
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Security\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Security\EndpointProtectionSdk\ACSSignedIC.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Security\Swu\wa_3rd_party_host_32.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Security\Swu\wa_3rd_party_host_64.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\Security\Swu\wa_3rd_party_host_ARM64.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\System Speedup\Avira.Optimizer.Common.ErrorReporter.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\System Speedup\Avira.Optimizer.Common.Updater.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\System Speedup\Avira.SystemSpeedup.Core.Common.Starter.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\System Speedup\Avira.SystemSpeedup.Core.DeviceOptimization.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\System Speedup\Avira.SystemSpeedup.Maintenance.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\System Speedup\Avira.SystemSpeedup.RealTime.Client.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\System Speedup\Avira.SystemSpeedup.RealTimeOptimizer.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\System Speedup\Avira.SystemSpeedup.Service.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\System Speedup\Avira.SystemSpeedup.Tools.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\System Speedup\Avira.SystemSpeedup.UI.Application.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\System Speedup\Avira.SystemSpeedup.UI.Popup.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\System Speedup\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\System Speedup\setup\avira_speedup_setup.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\VPN\Avira.NetworkBlocker.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\VPN\Avira.VPN.Notifier.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\VPN\Avira.VpnService.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\VPN\Avira.WebAppHost.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\VPN\uninstaller.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\VPN\OpenVpn\phantomvpn.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\VPN\OpenVpn\TAP\win10\amd64\tapinstall.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\VPN\OpenVpn\TAP\win10\arm64\tapinstall.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\VPN\OpenVpn\TAP\win10\i386\tapinstall.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\VPN\OpenVpn\TAP\win7\amd64\tapinstall.exe
+BEREITS_AUSREICHEND - C:\Program Files\Avira\VPN\OpenVpn\TAP\win7\i386\tapinstall.exe
+BEREITS_AUSREICHEND - C:\Program Files\BurnAware Free\AudioCD.exe
+BEREITS_AUSREICHEND - C:\Program Files\BurnAware Free\BurnAware.exe
+BEREITS_AUSREICHEND - C:\Program Files\BurnAware Free\BurnImage.exe
+BEREITS_AUSREICHEND - C:\Program Files\BurnAware Free\CopyImage.exe
+BEREITS_AUSREICHEND - C:\Program Files\BurnAware Free\DataDisc.exe
+BEREITS_AUSREICHEND - C:\Program Files\BurnAware Free\DiscInfo.exe
+BEREITS_AUSREICHEND - C:\Program Files\BurnAware Free\EraseDisc.exe
+BEREITS_AUSREICHEND - C:\Program Files\BurnAware Free\MakeISO.exe
+BEREITS_AUSREICHEND - C:\Program Files\BurnAware Free\MediaDisc.exe
+BEREITS_AUSREICHEND - C:\Program Files\BurnAware Free\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\BurnAware Free\VerifyDisc.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\Corel\Shared\Writing Tools\9.1\wt9_1sptlDE.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\DVDVideoSoft\FreeStudioManager.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\DVDVideoSoft\PremiumMembershipOffer.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\DVDVideoSoft\bin\Assistant.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\DVDVideoSoft\bin\DVSSysReport.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\DVDVideoSoft\bin\DVSUpdate.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\DVDVideoSoft\bin\tar.exe
+AENDERUNG_GESPEICHERT - C:\Program Files\Common Files\DVDVideoSoft\lib\app_updater.exe
+ERFOLGREICH_GESETZT_UND_VERIFIZIERT - C:\Program Files\Common Files\DVDVideoSoft\lib\app_updater.exe; Ungeklaerte andere ACEs: 1
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\DVDVideoSoft\lib\app_updater_notification.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\DVDVideoSoft\lib\Uninstall.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\DVDVideoSoft\lib\updhelper.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\InstallShield\Driver\7\Intel 32\IDriver.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\InstallShield\Professional\RunTime\09\01\Intel32\DotNetInstaller.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\DW\DW20.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\DW\DWTRIG20.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\ink\FlickLearningWizard.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\ink\InputPersonalization.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\ink\mip.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\ink\pipanel.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\ink\ShapeCollector.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\ink\TabTip.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\MSInfo\msinfo32.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\OFFICE14\FLTLDR.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\OFFICE14\LICLUA.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\OFFICE14\MSOICONS.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\OFFICE14\MSOXMLED.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\OFFICE14\Oarpmany.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\OFFICE14\Office Setup Controller\ODeploy.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\OFFICE14\Office Setup Controller\Setup.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\OfficeSoftwareProtectionPlatform\OSPPREARM.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\OfficeSoftwareProtectionPlatform\OSPPSVC.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\Smart Tag\SmartTagInstall.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\Source Engine\OSE.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\TextConv\WksConv\Wkconv.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\VSTA\8.0\x86\vsta_ep32.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\VSTO\10.0\VSTOInstaller.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\VSTO\10.0\Microsoft Visual Studio 2010 Tools for Office Runtime (x86)\install.exe
+BEREITS_AUSREICHEND - C:\Program Files\Common Files\microsoft shared\VSTO\10.0\Microsoft Visual Studio 2010 Tools for Office Runtime (x86) Language Pack - DEU\install.exe
+BEREITS_AUSREICHEND - C:\Program Files\CoreFTP\corecmd.exe
+BEREITS_AUSREICHEND - C:\Program Files\CoreFTP\coreftp.exe
+BEREITS_AUSREICHEND - C:\Program Files\CoreFTP\uninstall.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\Corel Graphics 11\Config\Redist\50comupd.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\Corel Graphics 11\Config\Redist\regsvr32.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\Corel Graphics 11\Fontnav\FontNav.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\Corel Graphics 11\Programs\BarCode.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\Corel Graphics 11\Programs\Capture.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\Corel Graphics 11\Programs\CdrConv.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\Corel Graphics 11\Programs\CorelDrw.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\Corel Graphics 11\Programs\CorelPP.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\Corel Graphics 11\Programs\CSBProf.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\Corel Graphics 11\Programs\Printwiz.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\Corel Graphics 11\Programs\Rave.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\Corel Graphics 11\Programs\Trace.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\Corel Graphics 11\Programs\UnregIco.exe
+BEREITS_AUSREICHEND - C:\Program Files\Corel\Corel Graphics 11\Register\registration.exe
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\Shared files\EffectExtractor.exe
+AENDERUNG_GESPEICHERT - C:\Program Files\CyberLink\YouCam9\CLWFLService9.exe
+ERFOLGREICH_GESETZT_UND_VERIFIZIERT - C:\Program Files\CyberLink\YouCam9\CLWFLService9.exe; Ungeklaerte andere ACEs: 1
+AENDERUNG_GESPEICHERT - C:\Program Files\CyberLink\YouCam9\GPUUtilityEx.exe
+ERFOLGREICH_GESETZT_UND_VERIFIZIERT - C:\Program Files\CyberLink\YouCam9\GPUUtilityEx.exe; Ungeklaerte andere ACEs: 1
+AENDERUNG_GESPEICHERT - C:\Program Files\CyberLink\YouCam9\YouCam9.exe
+ERFOLGREICH_GESETZT_UND_VERIFIZIERT - C:\Program Files\CyberLink\YouCam9\YouCam9.exe; Ungeklaerte andere ACEs: 1
+AENDERUNG_GESPEICHERT - C:\Program Files\CyberLink\YouCam9\YouCamService9.exe
+ERFOLGREICH_GESETZT_UND_VERIFIZIERT - C:\Program Files\CyberLink\YouCam9\YouCamService9.exe; Ungeklaerte andere ACEs: 1
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\YouCam9\Boomerang\x86\Boomerang.exe
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\YouCam9\CLMirrorDriver\Vista\x64\CLDrvInst.exe
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\YouCam9\CLMirrorDriver\Vista\x64\DriverInstaller.exe
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\YouCam9\CLMirrorDriver\Vista\x86\CLDrvInst.exe
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\YouCam9\CLMirrorDriver\Vista\x86\DriverInstaller.exe
+AENDERUNG_GESPEICHERT - C:\Program Files\CyberLink\YouCam9\Driver\CLDrvInst.exe
+ERFOLGREICH_GESETZT_UND_VERIFIZIERT - C:\Program Files\CyberLink\YouCam9\Driver\CLDrvInst.exe; Ungeklaerte andere ACEs: 1
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\YouCam9\MUITransfer\MUIStartMenu.exe
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\YouCam9\MUITransfer\MUIStartMenuX64.exe
+AENDERUNG_GESPEICHERT - C:\Program Files\CyberLink\YouCam9\OLRSubmission\OLRStateCheck.exe
+ERFOLGREICH_GESETZT_UND_VERIFIZIERT - C:\Program Files\CyberLink\YouCam9\OLRSubmission\OLRStateCheck.exe; Ungeklaerte andere ACEs: 1
+AENDERUNG_GESPEICHERT - C:\Program Files\CyberLink\YouCam9\OLRSubmission\OLRSubmission.exe
+ERFOLGREICH_GESETZT_UND_VERIFIZIERT - C:\Program Files\CyberLink\YouCam9\OLRSubmission\OLRSubmission.exe; Ungeklaerte andere ACEs: 1
+AENDERUNG_GESPEICHERT - C:\Program Files\CyberLink\YouCam9\subsys\BigBang\Runtime\CLUpdater.exe
+ERFOLGREICH_GESETZT_UND_VERIFIZIERT - C:\Program Files\CyberLink\YouCam9\subsys\BigBang\Runtime\CLUpdater.exe; Ungeklaerte andere ACEs: 1
+AENDERUNG_GESPEICHERT - C:\Program Files\CyberLink\YouCam9\subsys\BigBang\Runtime\GDPR\GDPRDlg.exe
+ERFOLGREICH_GESETZT_UND_VERIFIZIERT - C:\Program Files\CyberLink\YouCam9\subsys\BigBang\Runtime\GDPR\GDPRDlg.exe; Ungeklaerte andere ACEs: 1
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\YouCam9\subsys\BigBang\Runtime\MUITransfer\MUIStartMenu.exe
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\YouCam9\subsys\YouCam\makeup.exe
+AENDERUNG_GESPEICHERT - C:\Program Files\CyberLink\YouCam9\Trial\trial.exe
+ERFOLGREICH_GESETZT_UND_VERIFIZIERT - C:\Program Files\CyberLink\YouCam9\Trial\trial.exe; Ungeklaerte andere ACEs: 1
+BEREITS_AUSREICHEND - C:\Program Files\CyberLink\YouCam9\Trial\TrialMgr.exe
+BEREITS_AUSREICHEND - C:\Program Files\DVDVideoSoft\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\DVDVideoSoft\Free Video Flip and Rotate\ffmpeg.exe
+BEREITS_AUSREICHEND - C:\Program Files\DVDVideoSoft\Free Video Flip and Rotate\FreeVideoFlipAndRotate.exe
+AENDERUNG_GESPEICHERT - C:\Program Files\FotoSketcher\FotoSketcher.exe
+ERFOLGREICH_GESETZT_UND_VERIFIZIERT - C:\Program Files\FotoSketcher\FotoSketcher.exe; Ungeklaerte andere ACEs: 1
+BEREITS_AUSREICHEND - C:\Program Files\FotoSketcher\unins000.exe
+AENDERUNG_GESPEICHERT - C:\Program Files\FxSound LLC\FxSound\FxSound.exe
+ERFOLGREICH_GESETZT_UND_VERIFIZIERT - C:\Program Files\FxSound LLC\FxSound\FxSound.exe; Ungeklaerte andere ACEs: 1
+BEREITS_AUSREICHEND - C:\Program Files\FxSound LLC\FxSound\updater.exe
+AENDERUNG_GESPEICHERT - C:\Program Files\FxSound LLC\FxSound\Apps\DfxSetupDrv.exe
+ERFOLGREICH_GESETZT_UND_VERIFIZIERT - C:\Program Files\FxSound LLC\FxSound\Apps\DfxSetupDrv.exe; Ungeklaerte andere ACEs: 1
+BEREITS_AUSREICHEND - C:\Program Files\FxSound LLC\FxSound\Drivers\ptdevcon32.exe
+BEREITS_AUSREICHEND - C:\Program Files\FxSound LLC\FxSound\Drivers\ptdevcon64.exe
+BEREITS_AUSREICHEND - C:\Program Files\FxSound LLC\FxSound\Drivers\win10\x64\fxdevcon64.exe
+BEREITS_AUSREICHEND - C:\Program Files\FxSound LLC\FxSound\Drivers\win10\x86\fxdevcon32.exe
+BEREITS_AUSREICHEND - C:\Program Files\FxSound LLC\FxSound\Drivers\win7\x64\fxdevcon64.exe
+AENDERUNG_GESPEICHERT - C:\Program Files\FxSound LLC\FxSound\Drivers\win7\x86\fxdevcon32.exe
+ERFOLGREICH_GESETZT_UND_VERIFIZIERT - C:\Program Files\FxSound LLC\FxSound\Drivers\win7\x86\fxdevcon32.exe; Ungeklaerte andere ACEs: 1
+BEREITS_AUSREICHEND - C:\Program Files\Google\Chrome\Application\chrome.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Chrome\Application\chrome_proxy.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Chrome\Application\109.0.5414.168\chrome_pwa_launcher.exe
+AENDERUNG_GESPEICHERT - C:\Program Files\Google\Chrome\Application\109.0.5414.168\elevation_service.exe
+ERFOLGREICH_GESETZT_UND_VERIFIZIERT - C:\Program Files\Google\Chrome\Application\109.0.5414.168\elevation_service.exe; Ungeklaerte andere ACEs: 1
+BEREITS_AUSREICHEND - C:\Program Files\Google\Chrome\Application\109.0.5414.168\nacl64.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Chrome\Application\109.0.5414.168\notification_helper.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Chrome\Application\109.0.5414.168\Installer\chrmstp.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Chrome\Application\109.0.5414.168\Installer\setup.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Google SketchUp\BsSndRpt.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Google SketchUp\Machnm1.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Google SketchUp\SketchUp.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Update\GoogleUpdate.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Update\1.3.36.372\GoogleCrashHandler.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Update\1.3.36.372\GoogleCrashHandler64.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Update\1.3.36.372\GoogleUpdate.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Update\1.3.36.372\GoogleUpdateBroker.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Update\1.3.36.372\GoogleUpdateComRegisterShell64.exe
+BEREITS_AUSREICHEND - C:\Program Files\Google\Update\1.3.36.372\GoogleUpdateCore.exe
+AENDERUNG_GESPEICHERT - C:\Program Files\Google\Update\1.3.36.372\GoogleUpdateOnDemand.exe
+ERFOLGREICH_GESETZT_UND_VERIFIZIERT - C:\Program Files\Google\Update\1.3.36.372\GoogleUpdateOnDemand.exe; Ungeklaerte andere ACEs: 1
+BEREITS_AUSREICHEND - C:\Program Files\Google\Update\Download\{8A69D345-D564-463C-AFF1-A69D9E530F96}\109.0.5414.168\109.0.5414.168_chrome_installer.exe
+BEREITS_AUSREICHEND - C:\Program Files\HeSoWa\TTT2020\TTT.exe
+BEREITS_AUSREICHEND - C:\Program Files\HeSoWa\TTT2020\TTTDownload.exe
+BEREITS_AUSREICHEND - C:\Program Files\HeSoWa\TTT2020\TTTPatch.exe
+BEREITS_AUSREICHEND - C:\Program Files\HeSoWa\TTT2020\TTTUninstallOld.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\bin\CmapLauncher.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\bin\CmapTools.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\bin\ffmpeg.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\bin\imgman.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\bin\Updater.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\jabswitch.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\java-rmi.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\java.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\javacpl.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\javaw.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\javaws.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\jp2launcher.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\jqs.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\keytool.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\kinit.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\klist.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\ktab.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\orbd.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\pack200.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\policytool.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\rmid.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\rmiregistry.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\servertool.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\ssvagent.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\tnameserv.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\jre\bin\unpack200.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\UninstallerData\Change CmapTools Installation.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\UninstallerData\resource\invoker.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\UninstallerData\resource\remove.exe
+BEREITS_AUSREICHEND - C:\Program Files\IHMC CmapTools\UninstallerData\resource\ZGWin32LaunchHelper.exe
+BEREITS_AUSREICHEND - C:\Program Files\Intel\Intel(R) Processor Graphics\uninstall\Setup.exe
+BEREITS_AUSREICHEND - C:\Program Files\Internet Explorer\ExtExport.exe
+BEREITS_AUSREICHEND - C:\Program Files\Internet Explorer\iediagcmd.exe
+BEREITS_AUSREICHEND - C:\Program Files\Internet Explorer\ieinstal.exe
+BEREITS_AUSREICHEND - C:\Program Files\Internet Explorer\ielowutil.exe
+BEREITS_AUSREICHEND - C:\Program Files\Internet Explorer\iexplore.exe
+BEREITS_AUSREICHEND - C:\Program Files\IrfanView\iv_uninstall.exe
+BEREITS_AUSREICHEND - C:\Program Files\IrfanView\i_view32.exe
+BEREITS_AUSREICHEND - C:\Program Files\IrfanView\Plugins\IV_Player.exe
+BEREITS_AUSREICHEND - C:\Program Files\IrfanView\Plugins\Slideshow.exe
+BEREITS_AUSREICHEND - C:\Program Files\Kinovea\Kinovea.exe
+BEREITS_AUSREICHEND - C:\Program Files\Kinovea\Uninstall.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\Edge\Application\msedge.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\Edge\Application\msedge_proxy.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\Edge\Application\pwahelper.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\Edge\Application\109.0.1518.140\cookie_exporter.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\Edge\Application\109.0.1518.140\elevation_service.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\Edge\Application\109.0.1518.140\identity_helper.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\Edge\Application\109.0.1518.140\msedge.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\Edge\Application\109.0.1518.140\msedgewebview2.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\Edge\Application\109.0.1518.140\msedge_proxy.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\Edge\Application\109.0.1518.140\msedge_pwa_launcher.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\Edge\Application\109.0.1518.140\nacl64.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\Edge\Application\109.0.1518.140\notification_helper.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\Edge\Application\109.0.1518.140\pwahelper.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\Edge\Application\109.0.1518.140\BHO\ie_to_edge_stub.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\Edge\Application\109.0.1518.140\Installer\setup.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeUpdate\CopilotUpdate.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeUpdate\1.3.319.41\CopilotUpdate.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeUpdate\1.3.319.41\MicrosoftEdgeComRegisterShellARM64.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeUpdate\1.3.319.41\MicrosoftEdgeUpdate.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeUpdate\1.3.319.41\MicrosoftEdgeUpdateBroker.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeUpdate\1.3.319.41\MicrosoftEdgeUpdateComRegisterShell64.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeUpdate\1.3.319.41\MicrosoftEdgeUpdateCore.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeUpdate\1.3.319.41\MicrosoftEdgeUpdateOnDemand.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeUpdate\1.3.319.41\MicrosoftEdgeUpdateSetup.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeUpdate\Download\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\109.0.1518.140\MicrosoftEdge_X86_109.0.1518.140.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeUpdate\Download\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}\109.0.1518.140\MicrosoftEdge_X86_109.0.1518.140.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeUpdate\Download\{F3C4FE00-EFD5-403B-9569-398A20F1BA4A}\1.3.319.41\MicrosoftEdgeUpdateSetup_X86_1.3.319.41.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeWebView\Application\109.0.1518.140\cookie_exporter.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeWebView\Application\109.0.1518.140\elevation_service.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeWebView\Application\109.0.1518.140\identity_helper.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeWebView\Application\109.0.1518.140\msedge.exe
+AENDERUNG_GESPEICHERT - C:\Program Files\Microsoft\EdgeWebView\Application\109.0.1518.140\msedgewebview2.exe
+ERFOLGREICH_GESETZT_UND_VERIFIZIERT - C:\Program Files\Microsoft\EdgeWebView\Application\109.0.1518.140\msedgewebview2.exe; Ungeklaerte andere ACEs: 1
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeWebView\Application\109.0.1518.140\msedge_proxy.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeWebView\Application\109.0.1518.140\msedge_pwa_launcher.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeWebView\Application\109.0.1518.140\nacl64.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeWebView\Application\109.0.1518.140\notification_helper.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeWebView\Application\109.0.1518.140\pwahelper.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeWebView\Application\109.0.1518.140\BHO\ie_to_edge_stub.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft\EdgeWebView\Application\109.0.1518.140\Installer\setup.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\ACCICONS.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\CLVIEW.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\CNFNOT32.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\EXCEL.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\excelcnv.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\GRAPH.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\GROOVE.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\GROOVEMN.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\IEContentService.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\INFOPATH.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\misc.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\MSACCESS.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\MSOHTMED.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\MSOSYNC.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\MSOUC.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\MSPUB.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\MSQRY32.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\MSTORDB.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\MSTORE.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\NAMECONTROLSERVER.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\OIS.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\ONENOTE.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\ONENOTEM.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\OUTLOOK.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\POWERPNT.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\PPTICO.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\protocolhandler.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\SCANPST.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\SELFCERT.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\SETLANG.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\VPREVIEW.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\WINWORD.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\Wordconv.exe
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\WORDICON.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\XLICONS.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Microsoft Office\Office14\1031\ONELEV.EXE
+BEREITS_AUSREICHEND - C:\Program Files\Mixxx\mixxx.exe
+BEREITS_AUSREICHEND - C:\Program Files\Mixxx\UninstallMixxx.exe
+BEREITS_AUSREICHEND - C:\Program Files\NSIS Uninstall Information\{689DAD27-0634-4e5d-B726-E951371AE338}\PostBuild.exe
+BEREITS_AUSREICHEND - C:\Program Files\NSIS Uninstall Information\{689DAD27-0634-4e5d-B726-E951371AE338}\Setup.exe
+AENDERUNG_GESPEICHERT - C:\Program Files\PDF24\pdf24-Assistant.exe
+ERFOLGREICH_GESETZT_UND_VERIFIZIERT - C:\Program Files\PDF24\pdf24-Assistant.exe; Ungeklaerte andere ACEs: 1
+AENDERUNG_GESPEICHERT - C:\Program Files\PDF24\pdf24-DocTool.exe
+ERFOLGREICH_GESETZT_UND_VERIFIZIERT - C:\Program Files\PDF24\pdf24-DocTool.exe; Ungeklaerte andere ACEs: 1
+BEREITS_AUSREICHEND - C:\Program Files\PDF24\pdf24-Editor.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDF24\pdf24-Fax.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDF24\pdf24-SettingsUITool.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDF24\pdf24-Updater.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDF24\pdf24.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDF24\PrinterInstall.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDF24\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDF24\gs\bin\gswin32.exe
+AENDERUNG_GESPEICHERT - C:\Program Files\PDF24\gs\bin\gswin32c.exe
+ERFOLGREICH_GESETZT_UND_VERIFIZIERT - C:\Program Files\PDF24\gs\bin\gswin32c.exe; Ungeklaerte andere ACEs: 1
+BEREITS_AUSREICHEND - C:\Program Files\PDFCreator\DeleteMonitorDll.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDFCreator\ErrorReport.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDFCreator\PDFCreator.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDFCreator\PrinterHelper.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDFCreator\RepairFolderPermissions.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDFCreator\SetupHelper.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDFCreator\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDFCreator\Ghostscript\Bin\gswin32c.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDFCreator\Images2PDF\Images2PDF.exe
+BEREITS_AUSREICHEND - C:\Program Files\PDFCreator\Images2PDF\Images2PDFC.exe
+BEREITS_AUSREICHEND - C:\Program Files\PSPad editor\Notepad.exe
+BEREITS_AUSREICHEND - C:\Program Files\PSPad editor\PSPad.exe
+BEREITS_AUSREICHEND - C:\Program Files\PSPad editor\TiDy.exe
+BEREITS_AUSREICHEND - C:\Program Files\PSPad editor\Uninst\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\Scribus 1.4.5\Scribus.exe
+BEREITS_AUSREICHEND - C:\Program Files\Scribus 1.4.5\uninst.exe
+BEREITS_AUSREICHEND - C:\Program Files\Scribus 1.4.5\w9xpopen.exe
+BEREITS_AUSREICHEND - C:\Program Files\Scribus 1.4.5\lib\distutils\command\wininst-6.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\Scribus 1.4.5\lib\distutils\command\wininst-7.1.exe
+BEREITS_AUSREICHEND - C:\Program Files\Scribus 1.4.5\lib\distutils\command\wininst-8.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\Scribus 1.4.5\lib\distutils\command\wininst-9.0-amd64.exe
+BEREITS_AUSREICHEND - C:\Program Files\Scribus 1.4.5\lib\distutils\command\wininst-9.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\Scribus 1.4.5\libs\tools\antiword\antiword.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synaptics\SynTP\InstNT.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synaptics\SynTP\SynMood.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synaptics\SynTP\SynTPEnh.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synaptics\SynTP\SynTPHelper.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synaptics\SynTP\SynTPLpr.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synaptics\SynTP\SynZMetr.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synaptics\SynTP\Tutorial.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\uninstall-synfigstudio.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\animate.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\compare.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\composite.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\conjure.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\convert.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\display.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\ffmpeg.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\i686-w64-mingw32-sndfile-resample.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\i686-w64-mingw32-sox.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\identify.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\import.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\melt.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\mogrify.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\montage.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\pango-querymodules.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\stream.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\synfig.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\bin\synfigstudio.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\python\python.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\python\pythonw.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\python\w9xpopen.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\python\Lib\distutils\command\wininst-6.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\python\Lib\distutils\command\wininst-7.1.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\python\Lib\distutils\command\wininst-8.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\python\Lib\distutils\command\wininst-9.0-amd64.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\python\Lib\distutils\command\wininst-9.0.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\python\Lib\site-packages\setuptools\cli-32.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\python\Lib\site-packages\setuptools\cli-64.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\python\Lib\site-packages\setuptools\cli.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\python\Lib\site-packages\setuptools\gui-32.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\python\Lib\site-packages\setuptools\gui-64.exe
+BEREITS_AUSREICHEND - C:\Program Files\Synfig\python\Lib\site-packages\setuptools\gui.exe
+BEREITS_AUSREICHEND - C:\Program Files\Tools&More\Joe\Joe.exe
+BEREITS_AUSREICHEND - C:\Program Files\Tracker Software\Live Update\LiveUpdate.exe
+BEREITS_AUSREICHEND - C:\Program Files\Tracker Software\PDF Viewer\PDFXCview.exe
+BEREITS_AUSREICHEND - C:\Program Files\Tracker Software\PDF Viewer\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Defender\MpCmdRun.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Defender\MpUXSrv.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Defender\MSASCui.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Defender\MsMpEng.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Defender\NisSrv.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Contacts\wlcomm.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Installer\LangSelector.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Installer\wlarp.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Installer\wlsettings.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Installer\wlstartup.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Photo Gallery\LanguageChange.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Photo Gallery\MovieMaker.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Photo Gallery\WLXAlbumDownloadWizard.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Photo Gallery\WLXCodecHost.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Photo Gallery\WLXPhotoAcquireWizard.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Photo Gallery\WLXPhotoGallery.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Photo Gallery\WLXPhotoGalleryRepair.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Photo Gallery\WLXQuickTimeControlHost.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Photo Gallery\WLXTranscode.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Photo Gallery\WLXVideoAcquireWizard.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Live\Photo Gallery\WLXVideoCameraAutoPlayManager.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Mail\wab.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Mail\wabmig.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Media Player\setup_wm.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Media Player\wmlaunch.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Media Player\wmpconfig.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Media Player\wmplayer.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Media Player\wmpnetwk.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Media Player\wmpnscfg.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Media Player\wmprph.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Media Player\wmpshare.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Media Player\WMPSideShowGadget.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Movie Maker\unins000.exe
+AENDERUNG_GESPEICHERT - C:\Program Files\Windows Movie Maker\InstallPack\vcredist_x86.exe
+ERFOLGREICH_GESETZT_UND_VERIFIZIERT - C:\Program Files\Windows Movie Maker\InstallPack\vcredist_x86.exe; Ungeklaerte andere ACEs: 1
+BEREITS_AUSREICHEND - C:\Program Files\Windows Movie Maker\InstallPack\D3DX11_43\DXSETUP.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows NT\Accessories\wordpad.exe
+BEREITS_AUSREICHEND - C:\Program Files\Windows Photo Viewer\ImagingDevices.exe
+BEREITS_AUSREICHEND - C:\Program Files\WinRAR\Rar.exe
+BEREITS_AUSREICHEND - C:\Program Files\WinRAR\Uninstall.exe
+BEREITS_AUSREICHEND - C:\Program Files\WinRAR\UnRAR.exe
+BEREITS_AUSREICHEND - C:\Program Files\WinRAR\WinRAR.exe
+BEREITS_AUSREICHEND - C:\Program Files\WinZip\WINZIP32.EXE
+BEREITS_AUSREICHEND - C:\Program Files\WinZip\WZQKPICK.EXE
+BEREITS_AUSREICHEND - C:\Program Files\WinZip\WZSEPE32.EXE
+BEREITS_AUSREICHEND - C:\Program Files\XnView\unins000.exe
+BEREITS_AUSREICHEND - C:\Program Files\XnView\xnview.exe
+BEREITS_AUSREICHEND - C:\Program Files\XnView\PlugIns\slide.exe
+
+================ AUSWERTUNG ================
+Gefundene EXE-Dateien: 441
+RX bereits vorhanden: 413
+DENY uebersprungen: 0
+Ungeklaerte Identitaeten uebersprungen: 0
+Wuerde RX ergaenzen: 0
+Aenderungen gespeichert: 26
+Fehler Lesen: 0
+Fehler Setzen: 2
+Fehler Verifikation: 0
+Fehler Suche: 0
+Registry-Lesefehler: 0
+Inventur-Suchfehler: 0
+Ende: 11/24/2026 10:51:10
